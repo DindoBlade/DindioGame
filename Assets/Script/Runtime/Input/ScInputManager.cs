@@ -44,6 +44,11 @@ namespace Dindio.Input {
             InvokeInputEvent(ctx, OnScrollEvent);
         }
         
+        /// <summary>
+        /// Invokes the input event based on the state of the callback context
+        /// </summary>
+        /// <param name="ctx">context of the input</param>
+        /// <param name="inputEvent">event to invoke</param>
         private void InvokeInputEvent(InputAction.CallbackContext ctx, StInputEvent inputEvent) {
             if (ctx.started) {
                 inputEvent.Started?.Invoke();
