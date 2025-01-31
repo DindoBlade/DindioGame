@@ -407,6 +407,7 @@ GameObject:
   - component: {fileID: 5877010080002887798}
   - component: {fileID: 8962619809737057488}
   - component: {fileID: 2190008662681127781}
+  - component: {fileID: 4474288822488362587}
   m_Layer: 0
   m_Name: player test
   m_TagString: Untagged
@@ -470,7 +471,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
   _visuals: {fileID: 5186440847221387570}
-  Speed: 5
+  _speed: 5
   _cam: {fileID: 3245304256261012031}
 --- !u!114 &5877010080002887798
 MonoBehaviour:
@@ -552,6 +553,19 @@ MonoBehaviour:
   UseRigidBodyForMotion: 1
   AutoUpdateKinematicState: 1
   AutoSetKinematicOnDespawn: 1
+--- !u!114 &4474288822488362587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8784767103132281594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a32e7036e581d3478069ce4228032d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _detectionRadius: 2
 --- !u!1 &9052924058287668020
 GameObject:
   m_ObjectHideFlags: 0
