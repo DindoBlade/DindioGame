@@ -1,21 +1,22 @@
+using Dindio.Runtime.ItemInventory;
+using Unity.Netcode;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Networking;
 
 namespace Dindio.Runtime.Interactable {
-    public class ScTestInteractable : MonoBehaviour , IInteractable
+    public class ScInteractable : NetworkBehaviour
     {
-        void Start()
+        public SoInventoryItem Item; 
+        public void Interact(ScPlayerInventory playerInventory)
         {
-            
-        }
-        void Update()
-        {
-            
+            if (Item != null)
+            {
+                Item.Collect(playerInventory);
+            }
         }
 
-        public void Interact()
-        {
-            Debug.Log("interacting");
-        }
+        
 
     }
 
