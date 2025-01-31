@@ -8,6 +8,7 @@ namespace Dindio.Runtime.Player {
         ScInputManager _inputManager => ScInputManager.Instance;
         [SerializeField] private float _detectionRadius;
         ScPlayerInventory _playerInventory;
+
         void Start() {
             _inputManager.OnInteractEvent.Performed.AddListener(TryInteract);
             _playerInventory = GetComponent<ScPlayerInventory>();
@@ -19,21 +20,18 @@ namespace Dindio.Runtime.Player {
                 if (!collider.gameObject.TryGetComponent(out ScInteractable interactable)) continue;
                 interactable.Interact(_playerInventory);
                 DespawnObjectServerRpc(collider.gameObject.GetComponent<NetworkObject>());
+                
+                Destroy(collider.gameObject);
                 break;
             }
         }
 
         [ServerRpc(RequireOwnership = false)]
         private void DespawnObjectServerRpc(NetworkObjectReference objectRef) {
-            DespawnObjectClientRpc(objectRef);
-        }
-
-        [ClientRpc]
-        private void DespawnObjectClientRpc(NetworkObjectReference objectRef) {
             if (objectRef.TryGet(out NetworkObject obj)) {
                 obj.Despawn();
             }
         }
+        
     }
-
 }
