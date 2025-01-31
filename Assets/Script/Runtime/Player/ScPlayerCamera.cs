@@ -2,7 +2,7 @@ using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.Networking;
 
-namespace Dodio.Runtime.Player {
+namespace Dindio.Runtime.Player {
     public class ScPlayerCamera : NetworkBehaviour {
 
         public override void OnNetworkSpawn() {

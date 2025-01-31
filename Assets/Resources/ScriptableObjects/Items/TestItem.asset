@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: TestItem
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Test
+  <Prefab>k__BackingField: {fileID: 1906481813027959435, guid: e1240a38892d3504fb6b31260ae32a84, type: 3}

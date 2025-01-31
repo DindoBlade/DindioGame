@@ -4,7 +4,6 @@ using Dindio.Runtime.Interactable;
 using Unity.Netcode;
 
 namespace Dindio.Runtime.Player {
-
     public class ScPlayerInteraction : NetworkBehaviour {
         ScInputManager _inputManager => ScInputManager.Instance;
         [SerializeField] private float _detectionRadius;
@@ -25,13 +24,13 @@ namespace Dindio.Runtime.Player {
         }
 
         [ServerRpc(RequireOwnership = false)]
-        private void DespawnObjectServerRpc(NetworkObjectReference objref) {
-            DespawnObjectClientRpc(objref);
+        private void DespawnObjectServerRpc(NetworkObjectReference objectRef) {
+            DespawnObjectClientRpc(objectRef);
         }
 
         [ClientRpc]
-        private void DespawnObjectClientRpc(NetworkObjectReference objref) {
-            if (objref.TryGet(out NetworkObject obj)) {
+        private void DespawnObjectClientRpc(NetworkObjectReference objectRef) {
+            if (objectRef.TryGet(out NetworkObject obj)) {
                 obj.Despawn();
             }
         }
