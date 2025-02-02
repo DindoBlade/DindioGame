@@ -13,11 +13,15 @@ namespace Dindio.Runtime.Player {
             }
 
             if (_items[_itemIDSelected]) {
-                Debug.Log(_items[_itemIDSelected].Name);
+                DropInventory(_items[_itemIDSelected]);
             }
 
             _items[_itemIDSelected] = item;
         }
 
+        public void DropInventory(SoInventoryItem item)
+        {
+            //spawn la prefab
+        }
     }
 }

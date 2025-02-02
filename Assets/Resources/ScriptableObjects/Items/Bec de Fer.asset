@@ -10,7 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1f7554b85cf56f74e8243873bcad797f, type: 3}
-  m_Name: TestItem
+  m_Name: Bec de Fer
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: Test
-  <Prefab>k__BackingField: {fileID: 1906481813027959435, guid: e1240a38892d3504fb6b31260ae32a84, type: 3}
+  <Name>k__BackingField: Bec de Fer
+  <Prefab>k__BackingField: {fileID: 1906481813027959435, guid: 5ae40032d43e84c47a628d9ca355c4a7, type: 3}
+  <Sprite>k__BackingField: {fileID: 0}

@@ -9,6 +9,7 @@ namespace Dindio.Runtime.Interactable.Inventory {
     public class SoInventoryItem : ScriptableObject , IInventoryItem {
         [field : SerializeField] public string Name {get ; set;}
         [field : SerializeField] public GameObject Prefab { get; set; }
+        [field : SerializeField] public Sprite Sprite { get; set; }
 
         public void Collect(ScPlayerInventory playerInventory) {
             playerInventory.AddToInventory(this);

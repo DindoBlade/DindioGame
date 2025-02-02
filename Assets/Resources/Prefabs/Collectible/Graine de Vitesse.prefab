@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 511048018806929232}
   - component: {fileID: 1330438192710812230}
   m_Layer: 0
-  m_Name: item
+  m_Name: Graine de Vitesse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
