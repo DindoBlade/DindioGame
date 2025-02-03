@@ -581,12 +581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  _items:
-  - {fileID: 11400000, guid: cfe2097a41df18d41b9a63d963104c92, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  _inventoryDatabase: {fileID: 11400000, guid: 340a43cb64a2c3e468e3b443562181b8, type: 2}
 --- !u!1 &9052924058287668020
 GameObject:
   m_ObjectHideFlags: 0
