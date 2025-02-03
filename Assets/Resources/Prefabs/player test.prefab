@@ -566,6 +566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a32e7036e581d3478069ce4228032d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
   _detectionRadius: 2
 --- !u!114 &1624614733480601272
 MonoBehaviour:
@@ -579,6 +580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34838b33dada4bf4fa43b436a25c2b92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
   _items:
   - {fileID: 11400000, guid: cfe2097a41df18d41b9a63d963104c92, type: 2}
   - {fileID: 0}
