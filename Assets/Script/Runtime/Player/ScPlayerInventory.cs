@@ -31,6 +31,7 @@ namespace Dindio.Runtime.Player {
                 DropInventoryServerRpc();
             }
             AddToInventoryServerRpc(itemID, _currentSlot);
+            Debug.Log("Added item " + _inventoryDatabase.GetNameByID(itemID) + " to slot " + _currentSlot);
         }
 
         [ServerRpc(RequireOwnership = false)]
