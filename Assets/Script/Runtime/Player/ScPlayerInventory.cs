@@ -1,55 +1,55 @@
 using System.Collections.Generic;
 using Dindio.Runtime.Interactable.Inventory;
-using Unity.VisualScripting;
 using UnityEngine;
 using Unity.Netcode;
-using JetBrains.Annotations;
-using UnityEditor.Search;
-using UnityEngine.UIElements;
+using UnityEngine.Serialization;
 
 namespace Dindio.Runtime.Player {
     public class ScPlayerInventory : NetworkBehaviour {
-        [SerializeField] NetworkList<StInventoryItem> _items;
-        private int _itemIDSelected;
+        NetworkList<int> _itemsID;
+        private int _currentSlot;
+        [SerializeField] SoInventoryDatabase _inventoryDatabase;
+        
 
         private void Awake() {
-            _items = new ();
+            _itemsID = new ();
         }
 
-        public override void OnNetworkSpawn()
-        {
-            if (IsServer)
-            {
-                for(int i = 0 ; i < 5; i++)
-                {
-                    _items.Add(new ());
+        public override void OnNetworkSpawn() {
+            if (IsServer) {
+                for(int i = 0 ; i < 5; i++) {
+                    _itemsID.Add(-1);
                 }
             }
-            _items.OnListChanged += (NetworkListEvent<StInventoryItem> ChangeEvent) => {
-                Debug.Log($"Inventaire changed : {ChangeEvent.Type}");
-            };
         }
-        public void AddToInventory(SoInventoryItem item) {
-            if (_itemIDSelected < 0 || _itemIDSelected >= _items.Count) {
+        public void AddToInventory(int itemID) {
+            if (_currentSlot < 0 || _currentSlot >= _itemsID.Count) {
                 return;
             }
-            if (_items[_itemIDSelected].Name != null || _items[_itemIDSelected].PrefabID != null || _items[_itemIDSelected].SpriteID != null) 
-            { DropInventoryServerRpc(); }
-            AddToInventoryServerRpc(item.GetValue(), _itemIDSelected);
+
+            if (_itemsID[_currentSlot]> 0) {
+                DropInventoryServerRpc();
+            }
+            AddToInventoryServerRpc(itemID, _currentSlot);
         }
 
         [ServerRpc(RequireOwnership = false)]
-        private void AddToInventoryServerRpc(StInventoryItem item, int slotIndex) {
-            _items[slotIndex] = item;
+        private void AddToInventoryServerRpc(int itemID, int slotIndex) {
+            _itemsID[slotIndex] = itemID;
         }
+        
         [ServerRpc(RequireOwnership = false)]
         public void DropInventoryServerRpc() {
-            if (_itemIDSelected < 0 || _itemIDSelected >= _items.Count) return;
-            GameObject newObject = Instantiate(_items[_itemIDSelected].Prefab, transform.position, Quaternion.identity);
-            if (newObject.TryGetComponent(out NetworkObject obj)) {
-                obj.Spawn();
+            if (_currentSlot < 0 || _currentSlot >= _itemsID.Count) return;
+            
+            GameObject prefab = _inventoryDatabase.GetPrefabByID(_itemsID[_currentSlot]);
+            if (prefab != null) {
+                GameObject newObject = Instantiate(prefab, transform.position, Quaternion.identity);
+                if (newObject.TryGetComponent(out NetworkObject obj)) {
+                    obj.Spawn();
+                }
             }
-            _items[_itemIDSelected] = new StInventoryItem();
+            _itemsID[_currentSlot] = -1;
         }
     }
 }

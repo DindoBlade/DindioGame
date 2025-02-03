@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using AYellowpaper.SerializedCollections;
 using UnityEngine;
 
@@ -6,39 +6,21 @@ using UnityEngine;
 namespace Dindio.Runtime.Interactable.Inventory {
     [CreateAssetMenu(fileName = "InventoryDatabase",  menuName = "Scriptable Objects/Inventory/InventoryDatabase")]
     public class SoInventoryDatabase : ScriptableObject {
-        public List<StItemData> Items = new List<StItemData>();
+        public SerializedDictionary<int, SoInventoryItemData> Items = new();
 
-        [SerializeField] private SerializedDictionary<int, GameObject> _prefabDictionary;
-        [SerializeField] private SerializedDictionary<int, Sprite> _spriteDictionary;
-
-        public void Initialize() {
-            _prefabDictionary = new SerializedDictionary<int, GameObject>();
-            _spriteDictionary = new SerializedDictionary<int, Sprite>();
-
-            foreach (var item in Items) {
-                if (!_prefabDictionary.ContainsKey(item.ID)) {
-                    _prefabDictionary[item.ID] = item.Prefab;
-                }
-                if (!_spriteDictionary.ContainsKey(item.ID)) {
-                    _spriteDictionary[item.ID] = item.Sprite;
-                }
-            }
+        public SoInventoryItemData GetItemByID(int id) {
+            return Items.GetValueOrDefault(id);
         }
-
+        
+        public string GetNameByID(int id) {
+            return Items.TryGetValue(id, out SoInventoryItemData data) ? data.Name : null;
+        }
         public GameObject GetPrefabByID(int id) {
-            return _prefabDictionary.TryGetValue(id, out var prefab) ? prefab : null;
+            return Items.TryGetValue(id, out SoInventoryItemData data) ? data.Prefab : null;
         }
-
         public Sprite GetSpriteByID(int id) {
-            return _spriteDictionary.TryGetValue(id, out var sprite) ? sprite : null;
+            return Items.TryGetValue(id, out SoInventoryItemData data) ? data.Sprite : null;
         }
-
-
-        [System.Serializable]
-        public struct StItemData {
-            public int ID;
-            public GameObject Prefab;
-            public Sprite Sprite;
-        }
+        
     }
 }

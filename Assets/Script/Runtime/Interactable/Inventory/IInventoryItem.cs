@@ -5,9 +5,8 @@ namespace Dindio.Runtime.Interactable.Inventory {
 
     public interface IInventoryItem {
         public string Name {get ; set ;}
-        public int PrefabID {get ; set ;}
-        public int SpriteID {get ; set;}
-        public void Collect(ScPlayerInventory playerInventory);
+        public GameObject Prefab {get ; set ;}
+        public Sprite Sprite {get ; set;}
         
     }
 }
