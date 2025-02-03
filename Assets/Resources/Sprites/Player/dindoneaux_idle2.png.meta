@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 1854eb9d1838439459c1ac61aa10cf2f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9065546622328833343
+    second: dindoneaux_idle2_0
+  - first:
+      213: -7860944463509780705
+    second: dindoneaux_idle2_1
+  - first:
+      213: -7189221844103463762
+    second: dindoneaux_idle2_2
+  - first:
+      213: 2029653477157881024
+    second: dindoneaux_idle2_3
+  - first:
+      213: -8608028133229804743
+    second: dindoneaux_idle2_4
+  - first:
+      213: -5466319201813597582
+    second: dindoneaux_idle2_5
+  - first:
+      213: -2391717979437101843
+    second: dindoneaux_idle2_6
+  - first:
+      213: -6129858268978870135
+    second: dindoneaux_idle2_7
+  - first:
+      213: 2071761546328519549
+    second: dindoneaux_idle2_8
+  - first:
+      213: -966212440026080053
+    second: dindoneaux_idle2_9
+  - first:
+      213: 2879951804330114382
+    second: dindoneaux_idle2_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dindoneaux_idle2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 943
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6976e29409e41f949bc92f5c19c98d27
+      internalID: -947671598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dindoneaux_idle2_1
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 0
+        width: 943
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dac56266d59fc42b62b7efaa0382ed
+      internalID: 1357845918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dindoneaux_idle2_2
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 0
+        width: 943
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc5955e8951fb642ac9a4bb53de86c8
+      internalID: 1021352664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dindoneaux_idle2_3
+      rect:
+        serializedVersion: 2
+        x: 2829
+        y: 0
+        width: 943
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ebb9baf5aeada4cbaaae241d3f885a
+      internalID: -1589425749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dindoneaux_idle2_4
+      rect:
+        serializedVersion: 2
+        x: 3772
+        y: 0
+        width: 943
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27405df3743c2d54b91e8397454eddd7
+      internalID: -1116170786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dindoneaux_idle2_5
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 0
+        width: 943
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594038229c142ed4ebcfe83f64af7b2b
+      internalID: 2079204040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dindoneaux_idle2_6
+      rect:
+        serializedVersion: 2
+        x: 5658
+        y: 0
+        width: 943
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b53787ea82e81849b67570b43e3af06
+      internalID: -1660503219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dindoneaux_idle2_7
+      rect:
+        serializedVersion: 2
+        x: 6601
+        y: 0
+        width: 943
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99d54709128fdf4bb4bb05f00ed30a2
+      internalID: -1822029537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dindoneaux_idle2_8
+      rect:
+        serializedVersion: 2
+        x: 7544
+        y: 0
+        width: 943
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce567649c838a9441aea6ac8095758cf
+      internalID: 1989265357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dindoneaux_idle2_9
+      rect:
+        serializedVersion: 2
+        x: 8487
+        y: 0
+        width: 943
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2b028680b27c5479df3ae5fc934673
+      internalID: -380592222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dindoneaux_idle2_10
+      rect:
+        serializedVersion: 2
+        x: 9430
+        y: 0
+        width: 943
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c679aff47c190429768c2775f6873f
+      internalID: -913621323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5b9bf91a7bcc4c246b66af0aaea04b82
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dindoneaux_idle2_0: -947671598
+      dindoneaux_idle2_1: 1357845918
+      dindoneaux_idle2_10: -913621323
+      dindoneaux_idle2_2: 1021352664
+      dindoneaux_idle2_3: -1589425749
+      dindoneaux_idle2_4: -1116170786
+      dindoneaux_idle2_5: 2079204040
+      dindoneaux_idle2_6: -1660503219
+      dindoneaux_idle2_7: -1822029537
+      dindoneaux_idle2_8: 1989265357
+      dindoneaux_idle2_9: -380592222
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
