@@ -1,10 +1,10 @@
 using UnityEngine;
-using Dindio.Runtime;
+using static Dindio.Runtime.ScEnums;
 
 namespace Dindio.Runtime.Interactable.Collectible {
     public class ScWeapon : MonoBehaviour
     {
-        public ScEnums.EAttackType WeaponType;
+        public EAttackType WeaponType;
         void Start()
         {
             
