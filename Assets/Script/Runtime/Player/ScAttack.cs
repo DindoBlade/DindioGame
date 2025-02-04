@@ -70,52 +70,34 @@ namespace Dindio.Runtime.Player {
         public void AttackOnAnim() {
             switch (_currentAttackType) {
                 case EAttackType.Beak:
-                    Collider2D[] beakColliders = Physics2D.OverlapBoxAll(_beakCenter.position, _size, 0);
-
-                    foreach (Collider2D collider in beakColliders) {
-                        if (IsMyself(collider.transform, transform)) {
-                            continue;
-                        }
-
-                        if (!collider.gameObject.TryGetComponent(out IHealth healthComponent)) {
-                            continue;
-                        }
-                        
-                        switch (healthComponent) {
-                            case ScPlayerHealth playerHealth:
-                                Debug.Log($"Player :{playerHealth.gameObject.name} is Taking Damage  : {_currentDamage}");
-                                break;
-                            case ScCrateHealth crateHealth:
-                                Debug.Log("player open the crate");
-                                break;
-                        }
-                    }
+                    AttackColliders(Physics2D.OverlapBoxAll(_beakCenter.position, _size, 0));
                     break;
 
                 case EAttackType.Wings:
-                    Collider2D[] wingsColliders = Physics2D.OverlapCircleAll(_wingsCenter.position, _radius);
-                    foreach (Collider2D collider in wingsColliders) {
-                        if (IsMyself(collider.transform, transform)) {
-                            continue;
-                        }
-
-                        if (!collider.gameObject.TryGetComponent(out IHealth healthComponent)) {
-                            continue;
-                        }
-                        
-                        switch (healthComponent) {
-                            case ScPlayerHealth playerHealth:
-                                Debug.Log($"Player :{playerHealth.gameObject.name} is Taking Damage  : {_currentDamage}");
-                                break;
-                            case ScCrateHealth crateHealth:
-                                Debug.Log("player open the crate");
-                                break;
-                        }
-                    }
+                    AttackColliders(Physics2D.OverlapCircleAll(_wingsCenter.position, _radius));
                     break;
             }
         }
 
+        private void AttackColliders(Collider2D[] colliders) {
+            foreach (Collider2D collider in colliders) {
+                if (IsMyself(collider.transform, transform)) {
+                    continue;
+                }
 
+                if (!collider.gameObject.TryGetComponent(out IHealth healthComponent)) {
+                    continue;
+                }
+                        
+                switch (healthComponent) {
+                    case ScPlayerHealth playerHealth:
+                        Debug.Log($"Player :{playerHealth.gameObject.name} is Taking Damage  : {_currentDamage}");
+                        break;
+                    case ScCrateHealth crateHealth:
+                        Debug.Log("player open the crate");
+                        break;
+                }
+            }
+        }
     }
 }
