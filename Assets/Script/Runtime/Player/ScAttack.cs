@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using Dindio.Runtime.Input;
 using Dindio.Runtime.Interactable;
@@ -100,6 +101,12 @@ namespace Dindio.Runtime.Player {
             }
         }
 
-        
+        private void OnDrawGizmos() {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireCube(_beakCenter.position, _size);
+            
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireSphere(_wingsCenter.position, _radius);
+        }
     }
 }
