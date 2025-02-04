@@ -22,6 +22,8 @@ namespace Dindio.Runtime.Player {
                 }
             }
         }
+        public int GetCurrentItem() => _itemsID[_currentSlot]; // function return
+
         public void AddToInventory(int itemID) {
             if (_currentSlot < 0 || _currentSlot >= _itemsID.Count) {
                 return;
