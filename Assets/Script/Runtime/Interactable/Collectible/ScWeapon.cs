@@ -7,6 +7,8 @@ namespace Dindio.Runtime.Interactable.Collectible {
         public EAttackType WeaponType;
         public int Damage;
 
-        public ECollectibleType CollectibleType = ECollectibleType.Weapon;
+        public ECollectibleType CollectibleType {
+            get => ECollectibleType.Weapon;
+        }
     }
 }
