@@ -8,7 +8,7 @@ namespace Dindio.Runtime.Player {
     public class ScPlayerInventory : NetworkBehaviour {
         NetworkList<int> _itemsID;
         private int _currentSlot;
-        [SerializeField] SoInventoryDatabase _inventoryDatabase;
+        [SerializeField] public SoInventoryDatabase InventoryDatabase;
         
 
         private void Awake() {
@@ -33,7 +33,7 @@ namespace Dindio.Runtime.Player {
                 DropInventoryServerRpc();
             }
             AddToInventoryServerRpc(itemID, _currentSlot);
-            Debug.Log("Added item " + _inventoryDatabase.GetNameByID(itemID) + " to slot " + _currentSlot);
+            Debug.Log("Added item " + InventoryDatabase.GetNameByID(itemID) + " to slot " + _currentSlot);
         }
 
         [ServerRpc(RequireOwnership = false)]
@@ -45,7 +45,7 @@ namespace Dindio.Runtime.Player {
         public void DropInventoryServerRpc() {
             if (_currentSlot < 0 || _currentSlot >= _itemsID.Count) return;
             
-            GameObject prefab = _inventoryDatabase.GetPrefabByID(_itemsID[_currentSlot]);
+            GameObject prefab = InventoryDatabase.GetPrefabByID(_itemsID[_currentSlot]);
             if (prefab != null) {
                 GameObject newObject = Instantiate(prefab, transform.position, Quaternion.identity);
                 if (newObject.TryGetComponent(out NetworkObject obj)) {

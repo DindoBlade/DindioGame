@@ -1,5 +1,8 @@
 using UnityEngine;
 using Dindio.Runtime.Input;
+using static Dindio.Runtime.ScEnums;
+using NUnit.Framework.Interfaces;
+using Dindio.Runtime.Interactable.Inventory;
 
 namespace Dindio.Runtime.Player {
 
@@ -8,8 +11,7 @@ namespace Dindio.Runtime.Player {
     {
         ScPlayerInventory _inventory;
         ScInputManager _inputManager => ScInputManager.Instance;
-
-
+        EAttackType _currentAttackType;
         void Awake() 
         {
             _inventory = GetComponent<ScPlayerInventory>();
@@ -18,17 +20,10 @@ namespace Dindio.Runtime.Player {
         {
             _inputManager.OnAttackEvent.Performed.AddListener(Attack);
         }
-
-        void Update()
-        {
-            
-        }
-
         void Attack()
         {
-            
+            if(_inventory.InventoryDatabase.GetPrefabByID(_inventory.GetCurrentItem()).TryGetComponent(out ICollectible))
         }
- 
     }
 
 

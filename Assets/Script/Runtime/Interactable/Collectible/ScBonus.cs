@@ -1,13 +1,9 @@
 using UnityEngine;
+using static Dindio.Runtime.ScEnums;
 
-public class ScBonus : MonoBehaviour
-{
-    void Start()
+namespace Dindio.Runtime.Interactable.Collectible {
+    public class ScBonus : MonoBehaviour , ICollectible
     {
-        
-    }
-    void Update()
-    {
-        
+        public ECollectibleType CollectibleType = ECollectibleType.Bonus;
     }
 }

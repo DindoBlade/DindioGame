@@ -9,5 +9,10 @@ namespace Dindio.Runtime {
             Beak,
             Wings
         }
+
+        public enum ECollectibleType{
+            Bonus,
+            Weapon
+        }
     }
 }

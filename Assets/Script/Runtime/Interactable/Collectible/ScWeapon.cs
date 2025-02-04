@@ -2,17 +2,11 @@ using UnityEngine;
 using static Dindio.Runtime.ScEnums;
 
 namespace Dindio.Runtime.Interactable.Collectible {
-    public class ScWeapon : MonoBehaviour
+    public class ScWeapon : MonoBehaviour , ICollectible
     {
         public EAttackType WeaponType;
-        void Start()
-        {
-            
-        }
+        public int Damage;
 
-        void Update()
-        {
-            
-        }
+        public ECollectibleType CollectibleType = ECollectibleType.Weapon;
     }
 }
