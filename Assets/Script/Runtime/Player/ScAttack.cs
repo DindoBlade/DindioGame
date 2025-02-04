@@ -1,20 +1,24 @@
 using UnityEngine;
 using Dindio.Runtime.Input;
+using Dindio.Runtime.Interactable;
 using Dindio.Runtime.Interactable.Collectible;
 using static Dindio.Runtime.ScEnums;
-using NUnit.Framework.Interfaces;
-using Dindio.Runtime.Interactable.Inventory;
+using Dindio.Runtime.Interfaces;
 using Unity.Netcode;
+using static Dindio.Runtime.ScUtils;
 
 namespace Dindio.Runtime.Player {
     public class ScAttack : NetworkBehaviour {
         ScPlayerInventory _inventory;
         ScInputManager _inputManager => ScInputManager.Instance;
         Animator _animator;
+        
         EAttackType _currentAttackType;
         [SerializeField] EAttackType _baseAttackType;
-        [SerializeField] private int _baseDamage;
+        
         private int _currentDamage;
+        [SerializeField] private int _baseDamage;
+
 
         [Header("Beak")]
         [SerializeField] private Vector2 _size;
@@ -27,28 +31,28 @@ namespace Dindio.Runtime.Player {
             _inventory = GetComponent<ScPlayerInventory>();
             _animator = GetComponent<Animator>();
         }
+        
         void Start() {
             _inputManager.OnAttackEvent.Performed.AddListener(Attack);
         }
-        void Attack()
-        {
+        
+        void Attack() {
             if (!IsOwner) return;
 
-            if (_inventory.GetCurrentItem() < 0) // do base attack 
-            {
+            if (_inventory.GetCurrentItem() < 0){// do base attack
                 Debug.Log("Base Attack");
                 StartAnimAttack(_baseAttackType, _baseDamage);
                 return;
             }
 
             if (_inventory.GetCurrentItemPrefab().TryGetComponent(out ICollectible collectible)) { // check if the item if it's a weapon or a bonus
-                switch (collectible.CollectibleType)
-                {
+                switch (collectible.CollectibleType) {
                     case ECollectibleType.Weapon:
                         ScWeapon weapon = collectible as ScWeapon;
-                        StartAnimAttack(weapon.WeaponType, weapon.Damage);
-                    break;
-
+                        if (weapon != null) {
+                            StartAnimAttack(weapon.WeaponType, weapon.Damage);
+                        }
+                        break;
                     case ECollectibleType.Bonus:
                         Debug.Log("Is a Bonus");
                     break;
@@ -56,47 +60,59 @@ namespace Dindio.Runtime.Player {
             }
         }
 
-        void StartAnimAttack(EAttackType attackType, int damage)
-        {
+        void StartAnimAttack(EAttackType attackType, int damage) {
             _currentAttackType = attackType;
             _currentDamage = damage;
             _animator.Play("test");
             Debug.Log($"Attack with : {attackType} and do : {damage}");
         }
-        public void AttackOnAnim()
-        {
-            switch (_currentAttackType)
-            {
+        
+        public void AttackOnAnim() {
+            switch (_currentAttackType) {
                 case EAttackType.Beak:
                     Collider2D[] beakColliders = Physics2D.OverlapBoxAll(_beakCenter.position, _size, 0);
-                    foreach (Collider2D collider in beakColliders)
-                    {
-                        if (collider.gameObject.TryGetComponent(out IHealth healthComponent))
-                        {
-                            if (healthComponent is ScPlayerHealth)
-                            {
-                                ScPlayerHealth playerHealth = healthComponent as ScPlayerHealth;
-                                Debug.Log("Player is Taking Damage");
-                            }
+
+                    foreach (Collider2D collider in beakColliders) {
+                        if (IsMyself(collider.transform, transform)) {
+                            continue;
+                        }
+
+                        if (!collider.gameObject.TryGetComponent(out IHealth healthComponent)) {
+                            continue;
+                        }
+                        
+                        switch (healthComponent) {
+                            case ScPlayerHealth playerHealth:
+                                Debug.Log($"Player :{playerHealth.gameObject.name} is Taking Damage  : {_currentDamage}");
+                                break;
+                            case ScCrateHealth crateHealth:
+                                Debug.Log("player open the crate");
+                                break;
                         }
                     }
-                break;
+                    break;
 
                 case EAttackType.Wings:
-                    Collider2D[] wingsColliders = Physics2D.OverlapCircleAll(_wingsCenter.position, _radius, 0);
-                    foreach (Collider2D collider in wingsColliders)
-                    {
-                        if (collider.gameObject.TryGetComponent(out IHealth healthComponent))
-                        {
-                            if (healthComponent is ScPlayerHealth)
-                            {
-                                ScPlayerHealth playerHealth = healthComponent as ScPlayerHealth;
-                                Debug.Log("Player is Taking Damage");
-                            }
+                    Collider2D[] wingsColliders = Physics2D.OverlapCircleAll(_wingsCenter.position, _radius);
+                    foreach (Collider2D collider in wingsColliders) {
+                        if (IsMyself(collider.transform, transform)) {
+                            continue;
+                        }
+
+                        if (!collider.gameObject.TryGetComponent(out IHealth healthComponent)) {
+                            continue;
+                        }
+                        
+                        switch (healthComponent) {
+                            case ScPlayerHealth playerHealth:
+                                Debug.Log($"Player :{playerHealth.gameObject.name} is Taking Damage  : {_currentDamage}");
+                                break;
+                            case ScCrateHealth crateHealth:
+                                Debug.Log("player open the crate");
+                                break;
                         }
                     }
-                break;
-
+                    break;
             }
         }
 
