@@ -69,6 +69,7 @@ namespace Dindio.Runtime.Player {
         }
         
         public void AttackOnAnim() {
+            Debug.Log("Attack");
             switch (_currentAttackType) {
                 case EAttackType.Beak:
                     AttackColliders(Physics2D.OverlapBoxAll(_beakCenter.position, _size, 0));
@@ -93,9 +94,11 @@ namespace Dindio.Runtime.Player {
                 switch (healthComponent) {
                     case ScPlayerHealth playerHealth:
                         Debug.Log($"Player :{playerHealth.gameObject.name} is Taking Damage  : {_currentDamage}");
+                        playerHealth.TakeDamage(_currentDamage);
                         break;
                     case ScCrateHealth crateHealth:
                         Debug.Log("player open the crate");
+                        crateHealth.TakeDamage(0);
                         break;
                 }
             }
