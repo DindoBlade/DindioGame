@@ -371,6 +371,7 @@ GameObject:
   - component: {fileID: 4474288822488362587}
   - component: {fileID: 1624614733480601272}
   - component: {fileID: 4043533284805120288}
+  - component: {fileID: 2008597098263976833}
   - component: {fileID: 2328098016453334447}
   - component: {fileID: 8690449666542174070}
   m_Layer: 0
@@ -561,6 +562,22 @@ MonoBehaviour:
   ShowTopMostFoldoutHeaderGroup: 1
   _baseAttackType: 0
   _baseDamage: 20
+  _size: {x: 0, y: 0}
+  _beakCenter: {fileID: 0}
+  _radius: 0
+  _wingsCenter: {fileID: 0}
+--- !u!114 &2008597098263976833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8784767103132281594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30a4eb788a5d8aa479ffb16951e979a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!95 &2328098016453334447
 Animator:
   serializedVersion: 7

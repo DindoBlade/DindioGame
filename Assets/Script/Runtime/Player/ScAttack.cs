@@ -16,6 +16,13 @@ namespace Dindio.Runtime.Player {
         [SerializeField] private int _baseDamage;
         private int _currentDamage;
 
+        [Header("Beak")]
+        [SerializeField] private Vector2 _size;
+        [SerializeField] private Transform _beakCenter;
+
+        [Header("Wings")]
+        [SerializeField] private float _radius;
+        [SerializeField] private Transform _wingsCenter;
         void Awake() {
             _inventory = GetComponent<ScPlayerInventory>();
             _animator = GetComponent<Animator>();
@@ -38,7 +45,8 @@ namespace Dindio.Runtime.Player {
                 switch (collectible.CollectibleType)
                 {
                     case ECollectibleType.Weapon:
-                        Debug.Log("Is a Weapon");
+                        ScWeapon weapon = collectible as ScWeapon;
+                        StartAnimAttack(weapon.WeaponType, weapon.Damage);
                     break;
 
                     case ECollectibleType.Bonus:
@@ -53,10 +61,43 @@ namespace Dindio.Runtime.Player {
             _currentAttackType = attackType;
             _currentDamage = damage;
             _animator.Play("test");
+            Debug.Log($"Attack with : {attackType} and do : {damage}");
         }
         public void AttackOnAnim()
         {
-            Debug.Log("Check for Damage");
+            switch (_currentAttackType)
+            {
+                case EAttackType.Beak:
+                    Collider2D[] beakColliders = Physics2D.OverlapBoxAll(_beakCenter.position, _size, 0);
+                    foreach (Collider2D collider in beakColliders)
+                    {
+                        if (collider.gameObject.TryGetComponent(out IHealth healthComponent))
+                        {
+                            if (healthComponent is ScPlayerHealth)
+                            {
+                                ScPlayerHealth playerHealth = healthComponent as ScPlayerHealth;
+                                Debug.Log("Player is Taking Damage");
+                            }
+                        }
+                    }
+                break;
+
+                case EAttackType.Wings:
+                    Collider2D[] wingsColliders = Physics2D.OverlapCircleAll(_wingsCenter.position, _radius, 0);
+                    foreach (Collider2D collider in wingsColliders)
+                    {
+                        if (collider.gameObject.TryGetComponent(out IHealth healthComponent))
+                        {
+                            if (healthComponent is ScPlayerHealth)
+                            {
+                                ScPlayerHealth playerHealth = healthComponent as ScPlayerHealth;
+                                Debug.Log("Player is Taking Damage");
+                            }
+                        }
+                    }
+                break;
+
+            }
         }
 
 
