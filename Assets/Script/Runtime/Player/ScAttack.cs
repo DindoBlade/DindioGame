@@ -82,11 +82,11 @@ namespace Dindio.Runtime.Player {
 
         private void AttackColliders(Collider2D[] colliders) {
             foreach (Collider2D collider in colliders) {
-                if (IsMyself(collider.transform, transform)) {
+                if (IsMyself(collider.transform.parent, transform)) {
                     continue;
                 }
 
-                if (!collider.gameObject.TryGetComponent(out IHealth healthComponent)) {
+                if (!collider.transform.parent.TryGetComponent(out IHealth healthComponent)) {
                     continue;
                 }
                         
