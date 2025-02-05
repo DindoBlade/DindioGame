@@ -93,11 +93,9 @@ namespace Dindio.Runtime.Player {
                         
                 switch (healthComponent) {
                     case ScPlayerHealth playerHealth:
-                        Debug.Log($"Player :{playerHealth.gameObject.name} is Taking Damage  : {_currentDamage}");
                         playerHealth.TakeDamage(_currentDamage);
                         break;
                     case ScCrateHealth crateHealth:
-                        Debug.Log("player open the crate");
                         crateHealth.TakeDamage(0);
                         break;
                 }

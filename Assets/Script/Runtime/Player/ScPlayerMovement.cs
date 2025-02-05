@@ -23,9 +23,7 @@ namespace Dindio.Runtime.Player {
         }
 
         void FixedUpdate() {
-            if (!IsOwner) {
-                return;
-            }
+            if (!IsOwner) return;
     
             Move();  
             Rotate();
