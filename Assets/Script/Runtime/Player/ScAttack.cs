@@ -28,6 +28,7 @@ namespace Dindio.Runtime.Player {
         [Header("Wings")]
         [SerializeField] private float _radius;
         [SerializeField] private Transform _wingsCenter;
+        
         void Awake() {
             _inventory = GetComponent<ScPlayerInventory>();
             _animator = GetComponent<Animator>();
@@ -40,13 +41,15 @@ namespace Dindio.Runtime.Player {
         void Attack() {
             if (!IsOwner) return;
 
-            if (_inventory.GetCurrentItem() < 0){// do base attack
+            if (_inventory.GetCurrentItem() < 0)
+            {
                 Debug.Log("Base Attack");
                 StartAnimAttack(_baseAttackType, _baseDamage);
                 return;
             }
 
-            if (_inventory.GetCurrentItemPrefab().TryGetComponent(out ICollectible collectible)) { // check if the item if it's a weapon or a bonus
+            if (_inventory.GetCurrentItemPrefab().TryGetComponent(out ICollectible collectible))
+            {
                 switch (collectible.CollectibleType) {
                     case ECollectibleType.Weapon:
                         ScWeapon weapon = collectible as ScWeapon;
@@ -83,7 +86,9 @@ namespace Dindio.Runtime.Player {
 
         private void AttackColliders(Collider2D[] colliders) {
             foreach (Collider2D collider in colliders) {
-                if (IsMyself(collider.transform.parent, transform)) {
+                if(collider.transform.parent == null) continue;
+                
+                if (collider.transform.parent && IsMyself(collider.transform.parent, transform)) {
                     continue;
                 }
 
