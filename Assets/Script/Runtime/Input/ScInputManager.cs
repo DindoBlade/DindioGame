@@ -18,11 +18,12 @@ namespace Dindio.Runtime.Input {
         public float ScrollValue;
         
         private void Awake() {
-            if (Instance == null) {
-                Instance = this;
-            } else {
-                Destroy(this);
+            if (Instance != null)
+            {
+                Destroy(gameObject);
+                return;
             }
+            Instance = this;
             DontDestroyOnLoad(transform.root);
         }
 

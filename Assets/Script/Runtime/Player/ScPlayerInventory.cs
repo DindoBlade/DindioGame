@@ -3,21 +3,28 @@ using Dindio.Runtime.Interactable.Inventory;
 using UnityEngine;
 using Unity.Netcode;
 using UnityEngine.Serialization;
+using Dindio.Runtime.Input;
 
 namespace Dindio.Runtime.Player {
     public class ScPlayerInventory : NetworkBehaviour {
         NetworkList<int> _itemsID;
         private int _currentSlot;
         [SerializeField] public SoInventoryDatabase InventoryDatabase;
+        ScInputManager _inputManager => ScInputManager.Instance;
         
+        public const int inventorySlots = 5; 
 
         private void Awake() {
             _itemsID = new ();
         }
 
+        void Start() {
+            _inputManager.OnScrollEvent.Performed.AddListener(Scroll);
+        }
+
         public override void OnNetworkSpawn() {
             if (IsServer) {
-                for(int i = 0 ; i < 5; i++) {
+                for(int i = 0 ; i < inventorySlots; i++) {
                     _itemsID.Add(-1);
                 }
             }
@@ -55,6 +62,23 @@ namespace Dindio.Runtime.Player {
                 }
             }
             _itemsID[_currentSlot] = -1;
+        }
+
+        private void Scroll()
+        {
+            int direction = (int) Mathf.Sign(_inputManager.ScrollValue);
+            _currentSlot += direction;
+
+            if (_currentSlot < 0)
+                _currentSlot = inventorySlots - 1;
+            else if (_currentSlot > inventorySlots - 1)
+                _currentSlot = 0;
+            
+            Debug.Log("Current slot: " + _currentSlot);
+            for (int i = 0; i < inventorySlots; i++)
+                Debug.Log($"Item in slot {i}: {InventoryDatabase.GetNameByID(_itemsID[i])}");
+        
+            // Debug.Log($"Item in slot: {InventoryDatabase.GetNameByID(_itemsID[_currentSlot])}");
         }
     }
 }

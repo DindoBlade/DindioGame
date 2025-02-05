@@ -42,7 +42,7 @@ namespace Dindio.Runtime.Player {
 
         private void Update() {
             if (IsOwner) {
-                Debug.Log($"[{OwnerClientId}] Current Health: {CurrentHp.Value}");
+                // Debug.Log($"[{OwnerClientId}] Current Health: {CurrentHp.Value}");
             }
             
         }
