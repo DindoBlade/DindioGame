@@ -2,11 +2,13 @@ using System;
 using Dindio.Runtime.Interfaces;
 using Unity.Netcode;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Dindio.Runtime.Player {
     public class ScPlayerHealth : NetworkBehaviour, IHealth {
         [field: SerializeField] public int MaxHp { get; set; }
         public NetworkVariable<int> CurrentHp { get; set; } = new ();
+        [SerializeField] Image _hpBar;
 
         private void Start() {
             if (!IsOwner) return;
@@ -15,6 +17,7 @@ namespace Dindio.Runtime.Player {
         public void TakeDamage(int amount) {
             Debug.Log($"Take Damage : {amount}");
             TakeDamageServerRpc(amount);
+            _hpBar.fillAmount = (float)CurrentHp.Value / (float)MaxHp;
         }
 
         [ServerRpc(RequireOwnership = false)]
