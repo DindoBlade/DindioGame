@@ -15,20 +15,23 @@ namespace Dindio.Runtime.Player {
         }
 
         void TryInteract() {
+            if (!IsOwner) {
+                return;
+            }
+
             Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, _detectionRadius);
             foreach (Collider2D collider in colliders) {
                 if (!collider.gameObject.TryGetComponent(out ScInteractable interactable)) continue;
+        
                 interactable.Interact(_playerInventory);
                 DespawnObjectServerRpc(collider.gameObject.GetComponent<NetworkObject>());
-                
-                Destroy(collider.gameObject);
                 break;
             }
         }
 
         [ServerRpc(RequireOwnership = false)]
         private void DespawnObjectServerRpc(NetworkObjectReference objectRef) {
-            if (objectRef.TryGet(out NetworkObject obj)) {
+            if (objectRef.TryGet(out NetworkObject obj) && obj.IsSpawned) {
                 obj.Despawn();
             }
         }

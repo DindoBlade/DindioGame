@@ -83,6 +83,8 @@ namespace Dindio.Runtime.Player {
 
         private void AttackColliders(Collider2D[] colliders) {
             foreach (Collider2D collider in colliders) {
+                if(collider.transform.parent == null) continue;
+                
                 if (collider.transform.parent && IsMyself(collider.transform.parent, transform)) {
                     continue;
                 }
