@@ -218,7 +218,6 @@ GameObject:
   - component: {fileID: 231975768}
   - component: {fileID: 231975769}
   - component: {fileID: 231975770}
-  - component: {fileID: 231975771}
   m_Layer: 0
   m_Name: '[Managers]'
   m_TagString: Untagged
@@ -307,9 +306,9 @@ MonoBehaviour:
   m_MaxConnectAttempts: 60
   m_DisconnectTimeoutMS: 30000
   ConnectionData:
-    Address: 127.0.0.1
+    Address: 0.0.0.0
     Port: 7777
-    ServerListenAddress: 0.0.0.0
+    ServerListenAddress: 192.168.1.235
   DebugSimulator:
     PacketDelayMS: 0
     PacketJitterMS: 0
@@ -323,19 +322,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 231975766}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe312348df1b7c547bbdc843b2dad603, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &231975771
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231975766}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4327e6d4cdf430d47bdc53b1be51e7b3, type: 3}
+  m_Script: {fileID: 11500000, guid: 6131957dad340a94e98714a1ea07396b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &272098722
