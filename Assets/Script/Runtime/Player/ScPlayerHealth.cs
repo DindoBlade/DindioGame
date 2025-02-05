@@ -2,6 +2,7 @@ using System;
 using Dindio.Runtime.Interfaces;
 using Unity.Netcode;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace Dindio.Runtime.Player {
@@ -12,11 +13,8 @@ namespace Dindio.Runtime.Player {
 
         private void Start() {
             if (!IsOwner) return;
-
             InitializeHealthServerRpc();
-
             CurrentHp.OnValueChanged += OnHpChanged;
-                    
         }
         private void OnHpChanged(int previousValue, int newValue)
         {
@@ -52,5 +50,10 @@ namespace Dindio.Runtime.Player {
                 obj.Despawn();
             }
         }
+        private void OnDestroy() {
+            if(IsOwner)
+            SceneManager.LoadScene(0);
+        }
+        
     }
 }
