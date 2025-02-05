@@ -1225,6 +1225,10 @@ PrefabInstance:
       value: HP Bar
       objectReference: {fileID: 0}
     - target: {fileID: 5645107633558391838, guid: 15d13075dacfa2d44abd81a85745c615, type: 3}
+      propertyPath: m_Value
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645107633558391838, guid: 15d13075dacfa2d44abd81a85745c615, type: 3}
       propertyPath: m_Interactable
       value: 0
       objectReference: {fileID: 0}

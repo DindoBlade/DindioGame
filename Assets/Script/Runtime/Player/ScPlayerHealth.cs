@@ -12,12 +12,22 @@ namespace Dindio.Runtime.Player {
 
         private void Start() {
             if (!IsOwner) return;
+
             InitializeHealthServerRpc();
+
+            CurrentHp.OnValueChanged += OnHpChanged;
+                    
+        }
+        private void OnHpChanged(int previousValue, int newValue)
+        {
+            if (IsOwner) {
+                Debug.Log($"[{OwnerClientId}] Current Health: {CurrentHp.Value}");
+                _hpBar.value = CurrentHp.Value;
+            }
         }
         public void TakeDamage(int amount) {
             Debug.Log($"Take Damage : {amount}");
             TakeDamageServerRpc(amount);
-            _hpBar.value = CurrentHp.Value;
         }
 
         [ServerRpc(RequireOwnership = false)]
@@ -41,13 +51,6 @@ namespace Dindio.Runtime.Player {
             if (transform.TryGetComponent(out NetworkObject obj)) {
                 obj.Despawn();
             }
-        }
-
-        private void Update() {
-            if (IsOwner) {
-                Debug.Log($"[{OwnerClientId}] Current Health: {CurrentHp.Value}");
-            }
-            
         }
     }
 }
