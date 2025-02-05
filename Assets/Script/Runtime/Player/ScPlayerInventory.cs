@@ -71,6 +71,8 @@ namespace Dindio.Runtime.Player {
 
         private void Scroll()
         {
+            if (!IsOwner) return;
+
             int direction = (int) Mathf.Sign(_inputManager.ScrollValue);
             _currentSlot += direction;
 
