@@ -10,5 +10,7 @@ namespace Dindio.Runtime.Interactable.Collectible {
         public EBuffType BuffType;
         public int Amount;
         public float Time;
+        
+        public Color ParticleColor;
     }
 }

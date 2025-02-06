@@ -1,10 +1,6 @@
 using System.Collections.Generic;
-using System.Transactions;
 using UnityEngine;
-using Unity.Netcode;
-using UnityEngine.UI;
 using Dindio.Runtime.Player;
-using UnityEngine.Serialization;
 
 namespace Dindio.Runtime.UI {
     public class ScInventoryHotBar : MonoBehaviour {
@@ -31,7 +27,7 @@ namespace Dindio.Runtime.UI {
 
         public void SelectSlot(int slot) {
             _slots[_currentSlot].Select(false);
-            _slots[slot].Select(true);
+            _slots[slot].Select();
             _currentSlot = slot;
         }
         
