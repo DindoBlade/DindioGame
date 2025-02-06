@@ -1,13 +1,12 @@
-using System;
 using System.Collections;
 using UnityEngine;
+using Unity.Netcode;
 using Dindio.Runtime.Input;
 using Dindio.Runtime.Interactable;
-using Dindio.Runtime.Interactable.Collectible;
-using static Dindio.Runtime.ScEnums;
 using Dindio.Runtime.Interfaces;
-using Unity.Netcode;
-using static Dindio.Runtime.ScUtils;
+using Dindio.Runtime.Interactable.Collectible;
+using static Dindio.Runtime.Others.ScEnums;
+using static Dindio.Runtime.Others.ScUtils;
 
 namespace Dindio.Runtime.Player {
     public class ScPlayerAction : NetworkBehaviour {

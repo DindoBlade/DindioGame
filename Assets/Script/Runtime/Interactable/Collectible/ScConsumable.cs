@@ -1,6 +1,5 @@
-﻿using Dindio.Runtime.Interfaces;
-using Unity.Netcode;
-using static Dindio.Runtime.ScEnums;
+﻿using Unity.Netcode;
+using static Dindio.Runtime.Others.ScEnums;
 
 namespace Dindio.Runtime.Interactable.Collectible {
     public class ScConsumable : NetworkBehaviour, ICollectible {

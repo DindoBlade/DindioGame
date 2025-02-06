@@ -4,6 +4,8 @@ using UnityEngine;
 using Unity.Netcode;
 using UnityEngine.Serialization;
 using Dindio.Runtime.Input;
+using Dindio.Runtime.UI;
+using Unity.VisualScripting;
 
 namespace Dindio.Runtime.Player {
     public class ScPlayerInventory : NetworkBehaviour {
@@ -12,10 +14,11 @@ namespace Dindio.Runtime.Player {
         [SerializeField] public SoInventoryDatabase InventoryDatabase;
         ScInputManager _inputManager => ScInputManager.Instance;
         
-        public const int inventorySlots = 5; 
+        public const int inventorySlots = 5;
 
-        public int        GetCurrentItem()       => _itemsID[_currentSlot];
-        public GameObject GetCurrentItemPrefab() => InventoryDatabase.GetPrefabByID(_itemsID[_currentSlot]);
+        [SerializeField] private GameObject _hotBar;
+        ScInventoryHotBar _hotBarComponent => _hotBar.GetComponent<ScInventoryHotBar>();
+        
 
         void Start() {
             _inputManager.OnScrollEvent.Performed.AddListener(Scroll);
@@ -38,9 +41,8 @@ namespace Dindio.Runtime.Player {
             if (_itemsID[_currentSlot] != -1) {
                 DropInventoryServerRpc(_currentSlot);
             }
-            
+            _hotBarComponent.UpdateSprite(_currentSlot, InventoryDatabase.GetSpriteByID(itemID), false);
             AddToInventoryServerRpc(itemID, _currentSlot);
-            /*PrintInventory();*/
         }
 
         [ServerRpc(RequireOwnership = false)]
@@ -76,6 +78,7 @@ namespace Dindio.Runtime.Player {
             }
             
             PrintInventory();
+            _hotBar.GetComponent<ScInventoryHotBar>().SelectSlot(_currentSlot);
         }
 
         private void PrintInventory() {
@@ -84,5 +87,9 @@ namespace Dindio.Runtime.Player {
                 Debug.Log($"Item in slot {i}: {InventoryDatabase.GetNameByID(_itemsID[i])}");
             }
         }
+        
+        public int GetCurrentItem() => _itemsID[_currentSlot];
+        public GameObject GetCurrentItemPrefab() => InventoryDatabase.GetPrefabByID(_itemsID[_currentSlot]);
+
     }
 }

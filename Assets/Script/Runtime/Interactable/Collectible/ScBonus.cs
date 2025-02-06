@@ -1,5 +1,5 @@
 using UnityEngine;
-using static Dindio.Runtime.ScEnums;
+using static Dindio.Runtime.Others.ScEnums;
 
 namespace Dindio.Runtime.Interactable.Collectible {
     public class ScBonus : MonoBehaviour , ICollectible {

@@ -1,4 +1,4 @@
-namespace Dindio.Runtime {
+namespace Dindio.Runtime.Others {
     public static class ScEnums {
         public enum EAttackType {
             Beak,

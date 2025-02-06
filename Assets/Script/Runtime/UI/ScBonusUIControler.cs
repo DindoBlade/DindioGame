@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ScBonusUIControler : MonoBehaviour
+public class ScBonusUIController : MonoBehaviour
 { 
     [SerializeField] private Image radialIndicatorUI;
     
