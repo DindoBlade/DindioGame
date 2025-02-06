@@ -143,7 +143,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  _items: []
+  _items:
+  - {fileID: 1906481813027959435, guid: d9ded9f34a5d9e842ac708037281d41b, type: 3}
+  - {fileID: 1906481813027959435, guid: 5ae40032d43e84c47a628d9ca355c4a7, type: 3}
+  - {fileID: 1906481813027959435, guid: 69edb094809ed9b42a293de339c9f468, type: 3}
+  - {fileID: 1906481813027959435, guid: e1240a38892d3504fb6b31260ae32a84, type: 3}
+  - {fileID: 1906481813027959435, guid: a5d1bcf483bf3074fa018f712ca22170, type: 3}
 --- !u!1 &1823441554413195823
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,14 +1,16 @@
 using System;
+using System.Collections;
 using Dindio.Runtime.Input;
 using UnityEngine;
 using Unity.Netcode;
 using Unity.Netcode.Components;
+using UnityEngine.Serialization;
 
 
 namespace Dindio.Runtime.Player {
     public class ScPlayerMovement : NetworkBehaviour {
         [SerializeField] NetworkTransform _visuals;
-        [SerializeField] private float _speed;
+        public float Speed;
         [SerializeField] Camera _cam;
         ScInputManager _inputManager => ScInputManager.Instance;
         private Rigidbody2D _body;
@@ -35,7 +37,7 @@ namespace Dindio.Runtime.Player {
     
         void Move() {
             Vector3 moveDirection = _inputManager.MoveValue;
-            _body.linearVelocity = moveDirection * _speed;
+            _body.linearVelocity = moveDirection * Speed;
         }
         
         /// <summary>
@@ -51,9 +53,17 @@ namespace Dindio.Runtime.Player {
         /// <summary>
         /// Give a new value to Speed
         /// </summary>
-        void ChangeSpeed(float newSpeed)
-        {
-            _speed = newSpeed;
+        public void BoostSpeed(float newSpeed, float time) {
+            StartCoroutine(BoostDamageOverTime(newSpeed, time));
+        }
+
+        private IEnumerator BoostDamageOverTime(float newSpeed, float time) {
+            float baseSpeed = Speed;
+            Speed = newSpeed;
+
+            yield return new WaitForSeconds(time);
+
+            Speed = baseSpeed;
         }
     }
 }
