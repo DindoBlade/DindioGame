@@ -1,10 +1,5 @@
-using System;
-using UnityEngine;
-
-
 namespace Dindio.Runtime {
-    public class ScEnums 
-    {
+    public static class ScEnums {
         public enum EAttackType {
             Beak,
             Wings
@@ -13,6 +8,12 @@ namespace Dindio.Runtime {
         public enum ECollectibleType{
             Bonus,
             Weapon
+        }
+
+        public enum EBonusType {
+            Damage,
+            Speed,
+            Health
         }
     }
 }

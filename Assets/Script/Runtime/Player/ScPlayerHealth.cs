@@ -18,36 +18,47 @@ namespace Dindio.Runtime.Player {
             CurrentHp.OnValueChanged += OnHpChanged;
                     
         }
-        private void OnHpChanged(int previousValue, int newValue)
-        {
+        
+        private void OnHpChanged(int previousValue, int newValue) {
             if (IsOwner) {
-                Debug.Log($"[{OwnerClientId}] Current Health: {CurrentHp.Value}");
                 _hpBar.value = CurrentHp.Value;
             }
         }
+        
         public void TakeDamage(int amount) {
-            Debug.Log($"Take Damage : {amount}");
             TakeDamageServerRpc(amount);
         }
 
         [ServerRpc(RequireOwnership = false)]
-        public void TakeDamageServerRpc(int amount) {
+        private void TakeDamageServerRpc(int amount) {
             CurrentHp.Value -= amount;
             if (CurrentHp.Value <= 0) {
-                Debug.Log("Die non");
                 DeathServerRpc();
                 Destroy(gameObject);
             }
         }
+        
+        public void Heal(int amount) {
+            HealServerRpc(amount);
+        }
 
         [ServerRpc(RequireOwnership = false)]
-        public void InitializeHealthServerRpc() {
+        private void HealServerRpc(int amount) {
+            if (CurrentHp.Value + amount < MaxHp) {
+                CurrentHp.Value += amount;
+            }
+            else {
+                CurrentHp.Value = MaxHp;
+            }
+        }
+
+        [ServerRpc(RequireOwnership = false)]
+        private void InitializeHealthServerRpc() {
             CurrentHp.Value = MaxHp;
         }
         
         [ServerRpc(RequireOwnership = false)]
         private void DeathServerRpc() {
-            Debug.Log("DEATH");
             if (transform.TryGetComponent(out NetworkObject obj)) {
                 obj.Despawn();
             }

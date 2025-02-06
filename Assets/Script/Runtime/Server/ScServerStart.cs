@@ -2,7 +2,7 @@ using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
 using UnityEngine;
 
-namespace Dodio.Runtime.Server {
+namespace Dindio.Runtime.Server {
     public class ScServerStart : MonoBehaviour {
         private void Start() {
             StartServer();

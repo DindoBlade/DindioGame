@@ -9,7 +9,7 @@ using Unity.Netcode;
 using static Dindio.Runtime.ScUtils;
 
 namespace Dindio.Runtime.Player {
-    public class ScAttack : NetworkBehaviour {
+    public class ScPlayerAction : NetworkBehaviour {
         ScPlayerInventory _inventory;
         ScInputManager _inputManager => ScInputManager.Instance;
         Animator _animator;
@@ -41,15 +41,12 @@ namespace Dindio.Runtime.Player {
         void Attack() {
             if (!IsOwner) return;
 
-            if (_inventory.GetCurrentItem() < 0)
-            {
-                Debug.Log("Base Attack");
+            if (_inventory.GetCurrentItem() < 0) {
                 StartAnimAttack(_baseAttackType, _baseDamage);
                 return;
             }
 
-            if (_inventory.GetCurrentItemPrefab().TryGetComponent(out ICollectible collectible))
-            {
+            if (_inventory.GetCurrentItemPrefab().TryGetComponent(out ICollectible collectible)) {
                 switch (collectible.CollectibleType) {
                     case ECollectibleType.Weapon:
                         ScWeapon weapon = collectible as ScWeapon;
@@ -58,8 +55,13 @@ namespace Dindio.Runtime.Player {
                         }
                         break;
                     case ECollectibleType.Bonus:
-                        Debug.Log("Is a Bonus");
-                    break;
+                        ScBonus bonus = collectible as ScBonus;
+                        if (bonus != null) {
+                            UseBonus(bonus.BonusType, bonus.Amount);
+                        }
+                        break;
+                    default:
+                        break;
                 }
             }
         }
@@ -68,11 +70,9 @@ namespace Dindio.Runtime.Player {
             _currentAttackType = attackType;
             _currentDamage = damage;
             _animator.Play("test");
-            Debug.Log($"Attack with : {attackType} and do : {damage}");
         }
         
         public void AttackOnAnim() {
-            Debug.Log("Attack");
             switch (_currentAttackType) {
                 case EAttackType.Beak:
                     AttackColliders(Physics2D.OverlapBoxAll(_beakCenter.position, _size, 0));
@@ -81,12 +81,16 @@ namespace Dindio.Runtime.Player {
                 case EAttackType.Wings:
                     AttackColliders(Physics2D.OverlapCircleAll(_wingsCenter.position, _radius));
                     break;
+                default:
+                    break;
             }
         }
 
         private void AttackColliders(Collider2D[] colliders) {
             foreach (Collider2D collider in colliders) {
-                if(collider.transform.parent == null) continue;
+                if (collider.transform.parent == null) {
+                    continue;
+                }
                 
                 if (collider.transform.parent && IsMyself(collider.transform.parent, transform)) {
                     continue;
@@ -107,6 +111,18 @@ namespace Dindio.Runtime.Player {
             }
         }
 
+        void UseBonus(EBonusType bonusType, int amount) {
+            switch (bonusType) {
+                case EBonusType.Health:
+                    GetComponent<ScPlayerHealth>().Heal(amount);
+                    break;
+                case EBonusType.Damage:
+                    break;
+                case EBonusType.Speed:
+                    break;
+            }
+        }
+        
         private void OnDrawGizmos() {
             Gizmos.color = Color.red;
             Gizmos.DrawWireCube(_beakCenter.position, _size);

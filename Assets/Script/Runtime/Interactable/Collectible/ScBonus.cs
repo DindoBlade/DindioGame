@@ -6,5 +6,8 @@ namespace Dindio.Runtime.Interactable.Collectible {
         public ECollectibleType CollectibleType {
             get => ECollectibleType.Bonus;
         }
+
+        public EBonusType BonusType;
+        public int Amount;
     }
 }
