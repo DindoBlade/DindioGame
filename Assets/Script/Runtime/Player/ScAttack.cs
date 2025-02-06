@@ -66,11 +66,12 @@ namespace Dindio.Runtime.Player {
 
                         if (bonus != null)
                         {
+                            _bonusParticleSystem.Stop();
+
                             var main = _bonusParticleSystem.main;
                             main.startColor = bonus.color;
 
                             _bonusParticleSystem.Play();
-
                         }
                         break;
                 }

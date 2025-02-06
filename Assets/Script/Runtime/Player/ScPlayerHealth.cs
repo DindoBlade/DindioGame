@@ -9,6 +9,7 @@ namespace Dindio.Runtime.Player {
         [field: SerializeField] public int MaxHp { get; set; }
         public NetworkVariable<int> CurrentHp { get; set; } = new ();
         [SerializeField] Slider _hpBar;
+        [SerializeField] private ParticleSystem _bloodParticleSystem;
 
         private void Start() {
             if (!IsOwner) return;
@@ -27,6 +28,8 @@ namespace Dindio.Runtime.Player {
         }
         public void TakeDamage(int amount) {
             Debug.Log($"Take Damage : {amount}");
+            _bloodParticleSystem.Stop();
+            _bloodParticleSystem.Play();
             TakeDamageServerRpc(amount);
         }
 
