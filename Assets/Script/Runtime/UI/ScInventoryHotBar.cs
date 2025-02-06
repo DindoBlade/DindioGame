@@ -13,24 +13,6 @@ namespace Dindio.Runtime.UI {
         private int _currentSlot;
         private Transform _myTransform;
         [SerializeField] private List<ScInventorySlot> _slots;
-        
-    
-        private void Awake() {
-            /*ScCallbacks.OnItemPickedUp.AddListener(
-                (slot, item) => {
-                    Debug.Log(item.Sprite);
-    
-                    Sprite newSprite = (item != null) ? item.Sprite : null;
-                    Color  newColor  = (newSprite != null) ? Color.white : new Color(1, 1, 1, 0);
-    
-                    for (int i = 0; i < 2; i++) {
-                        Image img = _myTransform.GetChild(slot * 2 + i).GetComponent<Image>();
-                        img.sprite = newSprite;
-                        img.color  = newColor;
-                    }
-                }
-            );*/
-        }
     
         void Start() {
             _myTransform = transform;
