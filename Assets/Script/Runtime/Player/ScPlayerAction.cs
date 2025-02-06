@@ -11,6 +11,8 @@ using static Dindio.Runtime.ScUtils;
 namespace Dindio.Runtime.Player {
     public class ScPlayerAction : NetworkBehaviour {
         ScPlayerInventory _inventory;
+        ScPlayerMovement _playerMovement;
+        ScPlayerHealth _playerHealth;
         ScInputManager _inputManager => ScInputManager.Instance;
         Animator _animator;
         
@@ -32,6 +34,8 @@ namespace Dindio.Runtime.Player {
         void Awake() {
             _inventory = GetComponent<ScPlayerInventory>();
             _animator = GetComponent<Animator>();
+            _playerMovement = GetComponent<ScPlayerMovement>();
+            _playerHealth = GetComponent<ScPlayerHealth>();
         }
         
         void Start() {
@@ -57,7 +61,13 @@ namespace Dindio.Runtime.Player {
                     case ECollectibleType.Bonus:
                         ScBonus bonus = collectible as ScBonus;
                         if (bonus != null) {
-                            UseBonus(bonus.BonusType, bonus.Amount);
+                            UseBonus(bonus);
+                        }
+                        break;
+                    case ECollectibleType.Consumable:
+                        ScConsumable consumable = collectible as ScConsumable;
+                        if (consumable != null) {
+                            UseConsumable(consumable);
                         }
                         break;
                     default:
@@ -111,14 +121,38 @@ namespace Dindio.Runtime.Player {
             }
         }
 
-        void UseBonus(EBonusType bonusType, int amount) {
-            switch (bonusType) {
-                case EBonusType.Health:
-                    GetComponent<ScPlayerHealth>().Heal(amount);
-                    break;
+        void UseBonus(ScBonus bonus) {
+            switch (bonus.BonusType) {
                 case EBonusType.Damage:
+                    BoostDamage( Mathf.FloorToInt(GetBuffEffect(EBuffType.Additive, _currentDamage, bonus.Amount)), bonus.Time );
                     break;
                 case EBonusType.Speed:
+                    _playerMovement.Speed = GetBuffEffect(EBuffType.Multiplicative, _playerMovement.Speed, bonus.Amount);
+                    break;
+            }
+        }
+        
+        void BoostDamage(int newDamage, float time) {
+            
+        }
+
+        float GetBuffEffect(EBuffType buffType, float value, float amount) {
+            switch (buffType) {
+                case EBuffType.Additive:
+                    return value + amount;
+                case EBuffType.Multiplicative:
+                    return value * amount;
+                default:
+                    return value;
+            }
+        }
+
+        void UseConsumable(ScConsumable consumable) {
+            switch (consumable.ConsumableType) {
+                case EConsumableType.Health:
+                    _playerHealth.Heal(consumable.Amount, consumable.Time);
+                    break;
+                default:
                     break;
             }
         }

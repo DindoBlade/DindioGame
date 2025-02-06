@@ -7,13 +7,22 @@ namespace Dindio.Runtime {
 
         public enum ECollectibleType{
             Bonus,
-            Weapon
+            Weapon,
+            Consumable
         }
 
         public enum EBonusType {
             Damage,
             Speed,
-            Health
+        }
+
+        public enum EBuffType {
+            Additive,
+            Multiplicative
+        }
+        
+        public enum EConsumableType {
+            Health,
         }
     }
 }

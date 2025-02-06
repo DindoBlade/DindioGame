@@ -1,4 +1,4 @@
-using System;
+using System.Collections;
 using Dindio.Runtime.Interfaces;
 using Unity.Netcode;
 using UnityEngine;
@@ -38,17 +38,24 @@ namespace Dindio.Runtime.Player {
             }
         }
         
-        public void Heal(int amount) {
-            HealServerRpc(amount);
+        public void Heal(int amount, float time) {
+            HealServerRpc(amount, time);
         }
 
         [ServerRpc(RequireOwnership = false)]
-        private void HealServerRpc(int amount) {
-            if (CurrentHp.Value + amount < MaxHp) {
-                CurrentHp.Value += amount;
-            }
-            else {
-                CurrentHp.Value = MaxHp;
+        private void HealServerRpc(int amount, float time) {
+            StartCoroutine(HealOverTime(amount, time));
+        }
+
+        private IEnumerator HealOverTime(int amount, float time) {
+            float elapsedTime = 0f;
+            int healPerSecond = Mathf.CeilToInt(amount / time);
+        
+            while (elapsedTime < time) {
+                yield return new WaitForSeconds(1f);
+                elapsedTime += 1f;
+            
+                CurrentHp.Value = Mathf.Min(CurrentHp.Value + healPerSecond, MaxHp);
             }
         }
 
