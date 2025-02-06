@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Dindio.Runtime {
+namespace Dindio.Runtime.Others {
     public static class ScUtils {
         /// <summary>
         /// Check if the other transform is the same as the self or a child of the self

@@ -1,4 +1,4 @@
-using System;
+using System.Collections;
 using Dindio.Runtime.Interfaces;
 using Unity.Netcode;
 using UnityEngine;
@@ -18,36 +18,54 @@ namespace Dindio.Runtime.Player {
             CurrentHp.OnValueChanged += OnHpChanged;
                     
         }
-        private void OnHpChanged(int previousValue, int newValue)
-        {
+        
+        private void OnHpChanged(int previousValue, int newValue) {
             if (IsOwner) {
-                Debug.Log($"[{OwnerClientId}] Current Health: {CurrentHp.Value}");
                 _hpBar.value = CurrentHp.Value;
             }
         }
+        
         public void TakeDamage(int amount) {
-            Debug.Log($"Take Damage : {amount}");
             TakeDamageServerRpc(amount);
         }
 
         [ServerRpc(RequireOwnership = false)]
-        public void TakeDamageServerRpc(int amount) {
+        private void TakeDamageServerRpc(int amount) {
             CurrentHp.Value -= amount;
             if (CurrentHp.Value <= 0) {
-                Debug.Log("Die non");
                 DeathServerRpc();
                 Destroy(gameObject);
             }
         }
+        
+        public void Heal(int amount, float time) {
+            HealServerRpc(amount, time);
+        }
 
         [ServerRpc(RequireOwnership = false)]
-        public void InitializeHealthServerRpc() {
+        private void HealServerRpc(int amount, float time) {
+            StartCoroutine(HealOverTime(amount, time));
+        }
+
+        private IEnumerator HealOverTime(int amount, float time) {
+            float elapsedTime = 0f;
+            int healPerSecond = Mathf.CeilToInt(amount / time);
+        
+            while (elapsedTime < time) {
+                yield return new WaitForSeconds(1f);
+                elapsedTime += 1f;
+            
+                CurrentHp.Value = Mathf.Min(CurrentHp.Value + healPerSecond, MaxHp);
+            }
+        }
+
+        [ServerRpc(RequireOwnership = false)]
+        private void InitializeHealthServerRpc() {
             CurrentHp.Value = MaxHp;
         }
         
         [ServerRpc(RequireOwnership = false)]
         private void DeathServerRpc() {
-            Debug.Log("DEATH");
             if (transform.TryGetComponent(out NetworkObject obj)) {
                 obj.Despawn();
             }

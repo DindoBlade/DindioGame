@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Rendering;
 
-namespace Dodio.Runtime.Server {
+namespace Dindio.Runtime.Server {
     public class ScNetworkBootstrap : MonoBehaviour {
         private void Start() {
             if (SystemInfo.graphicsDeviceType == GraphicsDeviceType.Null) {

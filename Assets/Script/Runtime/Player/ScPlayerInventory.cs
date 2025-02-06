@@ -4,6 +4,8 @@ using UnityEngine;
 using Unity.Netcode;
 using UnityEngine.Serialization;
 using Dindio.Runtime.Input;
+using Dindio.Runtime.UI;
+using Unity.VisualScripting;
 
 namespace Dindio.Runtime.Player {
     public class ScPlayerInventory : NetworkBehaviour {
@@ -12,10 +14,11 @@ namespace Dindio.Runtime.Player {
         [SerializeField] public SoInventoryDatabase InventoryDatabase;
         ScInputManager _inputManager => ScInputManager.Instance;
         
-        public static int inventorySlots = 5; 
+        public const int inventorySlots = 5;
 
-        public int        GetCurrentItem()       => _itemsID[_currentSlot];
-        public GameObject GetCurrentItemPrefab() => InventoryDatabase.GetPrefabByID(_itemsID[_currentSlot]);
+        [SerializeField] private GameObject _hotBar;
+        ScInventoryHotBar _hotBarComponent => _hotBar.GetComponent<ScInventoryHotBar>();
+        
 
         void Start() {
             _inputManager.OnScrollEvent.Performed.AddListener(Scroll);
@@ -23,24 +26,22 @@ namespace Dindio.Runtime.Player {
 
         public override void OnNetworkSpawn() {
             if (IsClient) {
-                for (int i = 0; i < inventorySlots; i++) {
-                    _itemsID.Add(-1);
-                }
-
-                ScCallbacks.OnInventorySlotSelected.AddListener((int slot) => Debug.Log($"Current item in slot {slot}: {InventoryDatabase.GetNameByID(_itemsID[slot])}"));
-
                 _itemsID.OnListChanged += (NetworkListEvent<int> changeEvent) => {
                     PrintInventory();
-                    ScCallbacks.OnItemPickedUp.Invoke(changeEvent.Index, InventoryDatabase.GetItemByID(changeEvent.Value));
                 };
-            }            
+            }
+            
+            if (!IsServer) return;
+            for(int i = 0 ; i < inventorySlots; i++) {
+                _itemsID.Add(-1);
+            }
         }
         
         public void AddToInventory(int itemID) {
             if (_itemsID[_currentSlot] != -1) {
                 DropInventoryServerRpc(_currentSlot);
             }
-            
+            _hotBarComponent.UpdateSprite(_currentSlot, InventoryDatabase.GetSpriteByID(itemID), false);
             AddToInventoryServerRpc(itemID, _currentSlot);
         }
 
@@ -63,8 +64,7 @@ namespace Dindio.Runtime.Player {
             _itemsID[slot] = -1;
         }
 
-        private void Scroll()
-        {
+        private void Scroll() {
             if (!IsOwner) return;
 
             int direction = (int) Mathf.Sign(_inputManager.ScrollValue);
@@ -76,8 +76,9 @@ namespace Dindio.Runtime.Player {
             else if (_currentSlot > inventorySlots - 1) {
                 _currentSlot = 0;
             }
-
-            ScCallbacks.OnInventorySlotSelected.Invoke(_currentSlot);
+            
+            PrintInventory();
+            _hotBar.GetComponent<ScInventoryHotBar>().SelectSlot(_currentSlot);
         }
 
         private void PrintInventory() {
@@ -86,5 +87,9 @@ namespace Dindio.Runtime.Player {
                 Debug.Log($"Item in slot {i}: {InventoryDatabase.GetNameByID(_itemsID[i])}");
             }
         }
+        
+        public int GetCurrentItem() => _itemsID[_currentSlot];
+        public GameObject GetCurrentItemPrefab() => InventoryDatabase.GetPrefabByID(_itemsID[_currentSlot]);
+
     }
 }
