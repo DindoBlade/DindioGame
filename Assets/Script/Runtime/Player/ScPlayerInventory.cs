@@ -12,7 +12,7 @@ namespace Dindio.Runtime.Player {
         [SerializeField] public SoInventoryDatabase InventoryDatabase;
         ScInputManager _inputManager => ScInputManager.Instance;
         
-        public const int inventorySlots = 5; 
+        public static int inventorySlots = 5; 
 
         public int        GetCurrentItem()       => _itemsID[_currentSlot];
         public GameObject GetCurrentItemPrefab() => InventoryDatabase.GetPrefabByID(_itemsID[_currentSlot]);
@@ -23,15 +23,17 @@ namespace Dindio.Runtime.Player {
 
         public override void OnNetworkSpawn() {
             if (IsClient) {
+                for (int i = 0; i < inventorySlots; i++) {
+                    _itemsID.Add(-1);
+                }
+
+                ScCallbacks.OnInventorySlotSelected.AddListener((int slot) => Debug.Log($"Current item in slot {slot}: {InventoryDatabase.GetNameByID(_itemsID[slot])}"));
+
                 _itemsID.OnListChanged += (NetworkListEvent<int> changeEvent) => {
                     PrintInventory();
+                    ScCallbacks.OnItemPickedUp.Invoke(changeEvent.Index, InventoryDatabase.GetItemByID(changeEvent.Value));
                 };
-            }
-            
-            if (!IsServer) return;
-            for(int i = 0 ; i < inventorySlots; i++) {
-                _itemsID.Add(-1);
-            }
+            }            
         }
         
         public void AddToInventory(int itemID) {
@@ -40,7 +42,6 @@ namespace Dindio.Runtime.Player {
             }
             
             AddToInventoryServerRpc(itemID, _currentSlot);
-            /*PrintInventory();*/
         }
 
         [ServerRpc(RequireOwnership = false)]
@@ -75,8 +76,8 @@ namespace Dindio.Runtime.Player {
             else if (_currentSlot > inventorySlots - 1) {
                 _currentSlot = 0;
             }
-            
-            PrintInventory();
+
+            ScCallbacks.OnInventorySlotSelected.Invoke(_currentSlot);
         }
 
         private void PrintInventory() {
