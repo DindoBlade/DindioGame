@@ -13,6 +13,9 @@ namespace Dindio.Runtime.Player {
         ScPlayerInventory _inventory;
         ScInputManager _inputManager => ScInputManager.Instance;
         Animator _animator;
+
+
+        [SerializeField] private ParticleSystem _bonusParticleSystem;
         
         EAttackType _currentAttackType;
         [SerializeField] EAttackType _baseAttackType;
@@ -59,7 +62,17 @@ namespace Dindio.Runtime.Player {
                         break;
                     case ECollectibleType.Bonus:
                         Debug.Log("Is a Bonus");
-                    break;
+                        ScBonus bonus = collectible as ScBonus;
+
+                        if (bonus != null)
+                        {
+                            var main = _bonusParticleSystem.main;
+                            main.startColor = bonus.color;
+
+                            _bonusParticleSystem.Play();
+
+                        }
+                        break;
                 }
             }
         }
