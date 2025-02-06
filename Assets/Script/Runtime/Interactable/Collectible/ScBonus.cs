@@ -4,6 +4,7 @@ using static Dindio.Runtime.Others.ScEnums;
 namespace Dindio.Runtime.Interactable.Collectible {
     public class ScBonus : MonoBehaviour , ICollectible {
         public ECollectibleType CollectibleType { get; set; } = ECollectibleType.Bonus;
+       
 
 
         public EBonusType BonusType;
@@ -11,6 +12,8 @@ namespace Dindio.Runtime.Interactable.Collectible {
         public int Amount;
         public float Time;
         
+        [Header("Particle")]
         public Color ParticleColor;
+        public Material ParticleMaterial;
     }
 }

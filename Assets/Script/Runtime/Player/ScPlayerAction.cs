@@ -133,7 +133,7 @@ namespace Dindio.Runtime.Player {
                     _playerMovement.BoostSpeed(GetBuffEffect(bonus.BuffType, _playerMovement.Speed, bonus.Amount), bonus.Time);
                     break;
             }
-            PlayParticle(bonus.ParticleColor, bonus.Time, IsBoost: true);
+            PlayParticle(bonus.ParticleColor, bonus.ParticleMaterial, bonus.Time, IsBoost: true);
         }
         
         void BoostDamage(int newDamage, float time) {
@@ -168,14 +168,18 @@ namespace Dindio.Runtime.Player {
                 default:
                     break;
             }
-            PlayParticle(consumable.ParticleColor, consumable.Time);
+            PlayParticle(consumable.ParticleColor, consumable.ParticleMaterial, consumable.Time);
         }
         
-        void PlayParticle(Color particleColor, float particleDuration, bool IsBoost = false) {
+        void PlayParticle(Color particleColor, Material particleMaterial, float particleDuration, bool IsBoost = false) {
             ParticleSystem particleSystem = IsBoost? _boostParticleSystem : _consumableParticleSystem;
             ParticleSystem.MainModule main = particleSystem.main;
             main.startColor = particleColor;
             main.duration = particleDuration;
+            
+            ParticleSystemRenderer particleRenderer = particleSystem.GetComponent<ParticleSystemRenderer>();
+            particleRenderer.material.color = particleColor;
+            particleRenderer.material = particleMaterial;
             
             particleSystem.Play();
         }

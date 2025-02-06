@@ -11,6 +11,8 @@ namespace Dindio.Runtime.Interactable.Collectible {
         public float Time;
         public int Amount;
         
+        [Header("Particle")]
         public Color ParticleColor;
+        public Material ParticleMaterial;
     }
 }
