@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ITEM AILES ACIER_0: -9069032369122093337
+      ITEM AILES ACIER_1: -7597324354802646537
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

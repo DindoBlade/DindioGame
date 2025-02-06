@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ITEM Bec acier_0: 4475139630823848314
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
