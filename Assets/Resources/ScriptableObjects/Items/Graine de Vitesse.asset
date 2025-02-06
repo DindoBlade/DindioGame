@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Graine de Vitesse
   <Prefab>k__BackingField: {fileID: 1906481813027959435, guid: a5d1bcf483bf3074fa018f712ca22170, type: 3}
-  <Sprite>k__BackingField: {fileID: 0}
+  <Sprite>k__BackingField: {fileID: 21300000, guid: 47f1ab0619ec3854b8db7eaadfa8ff76, type: 3}
