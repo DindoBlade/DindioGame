@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using Dindio.Runtime.Input;
 using Dindio.Runtime.Interactable;
@@ -127,15 +128,24 @@ namespace Dindio.Runtime.Player {
                     BoostDamage( Mathf.FloorToInt(GetBuffEffect(EBuffType.Additive, _currentDamage, bonus.Amount)), bonus.Time );
                     break;
                 case EBonusType.Speed:
-                    _playerMovement.Speed = GetBuffEffect(EBuffType.Multiplicative, _playerMovement.Speed, bonus.Amount);
+                    _playerMovement.BoostSpeed(GetBuffEffect(EBuffType.Multiplicative, _playerMovement.Speed, bonus.Amount), bonus.Time);
                     break;
             }
         }
         
         void BoostDamage(int newDamage, float time) {
-            
+            StartCoroutine(BoostDamageOverTime(newDamage, time));
         }
 
+        private IEnumerator BoostDamageOverTime(int newDamage, float time) {
+            int originalDamage = _currentDamage;
+            _currentDamage = newDamage;
+
+            yield return new WaitForSeconds(time);
+
+            _currentDamage = originalDamage;
+        }
+        
         float GetBuffEffect(EBuffType buffType, float value, float amount) {
             switch (buffType) {
                 case EBuffType.Additive:

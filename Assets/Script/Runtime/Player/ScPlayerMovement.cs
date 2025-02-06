@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Dindio.Runtime.Input;
 using UnityEngine;
 using Unity.Netcode;
@@ -52,9 +53,17 @@ namespace Dindio.Runtime.Player {
         /// <summary>
         /// Give a new value to Speed
         /// </summary>
-        void ChangeSpeed(float newSpeed)
-        {
+        public void BoostSpeed(float newSpeed, float time) {
+            StartCoroutine(BoostDamageOverTime(newSpeed, time));
+        }
+
+        private IEnumerator BoostDamageOverTime(float newSpeed, float time) {
+            float baseSpeed = Speed;
             Speed = newSpeed;
+
+            yield return new WaitForSeconds(time);
+
+            Speed = baseSpeed;
         }
     }
 }
