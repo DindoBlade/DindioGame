@@ -125,7 +125,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BonusType: 1
-  Amount: 0
+  BuffType: 1
+  Amount: 2
+  Time: 45
 --- !u!1 &7526129433461362017
 GameObject:
   m_ObjectHideFlags: 0

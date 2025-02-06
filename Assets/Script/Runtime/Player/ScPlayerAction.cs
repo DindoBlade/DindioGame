@@ -125,10 +125,10 @@ namespace Dindio.Runtime.Player {
         void UseBonus(ScBonus bonus) {
             switch (bonus.BonusType) {
                 case EBonusType.Damage:
-                    BoostDamage( Mathf.FloorToInt(GetBuffEffect(EBuffType.Additive, _currentDamage, bonus.Amount)), bonus.Time );
+                    BoostDamage( Mathf.FloorToInt(GetBuffEffect(bonus.BuffType, _currentDamage, bonus.Amount)), bonus.Time );
                     break;
                 case EBonusType.Speed:
-                    _playerMovement.BoostSpeed(GetBuffEffect(EBuffType.Multiplicative, _playerMovement.Speed, bonus.Amount), bonus.Time);
+                    _playerMovement.BoostSpeed(GetBuffEffect(bonus.BuffType, _playerMovement.Speed, bonus.Amount), bonus.Time);
                     break;
             }
         }
