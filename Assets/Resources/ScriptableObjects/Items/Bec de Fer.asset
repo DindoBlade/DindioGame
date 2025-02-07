@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c1bfcd753854bcf9307caebae9545f0, type: 3}
+  m_Name: Bec de Fer
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Bec de Fer
+  <Prefab>k__BackingField: {fileID: 1906481813027959435, guid: 5ae40032d43e84c47a628d9ca355c4a7, type: 3}
+  <Sprite>k__BackingField: {fileID: 21300000, guid: 69f5ebd38b2bd7a4a9a1f1a6355a3fa1, type: 3}

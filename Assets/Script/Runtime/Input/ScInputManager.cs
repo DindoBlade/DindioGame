@@ -3,7 +3,7 @@ using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 
-namespace Dindio.Input {
+namespace Dindio.Runtime.Input {
     public class ScInputManager : MonoBehaviour {
         public static ScInputManager Instance { get; private set; }
     
@@ -18,12 +18,15 @@ namespace Dindio.Input {
         public float ScrollValue;
         
         private void Awake() {
-            if (Instance == null) {
-                Instance = this;
-            } else {
-                Destroy(this);
+            if (Instance != null)
+            {
+                Destroy(gameObject);
+                return;
             }
+            Instance = this;
             DontDestroyOnLoad(transform.root);
+
+            OnMoveEvent.Started.AddListener(() => Debug.Log("kms"));
         }
 
         public void OnMove(InputAction.CallbackContext ctx) {
