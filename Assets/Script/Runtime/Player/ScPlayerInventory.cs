@@ -26,15 +26,14 @@ namespace Dindio.Runtime.Player {
 
         public override void OnNetworkSpawn() {
             if (IsClient) {
+                for(int i = 0 ; i < inventorySlots; i++) {
+                    _itemsID.Add(-1);
+                }
+
                 _itemsID.OnListChanged += (NetworkListEvent<int> changeEvent) => {
                     PrintInventory();
                 };
-            }
-            
-            if (!IsServer) return;
-            for(int i = 0 ; i < inventorySlots; i++) {
-                _itemsID.Add(-1);
-            }
+            }            
         }
         
         public void AddToInventory(int itemID) {
@@ -82,10 +81,10 @@ namespace Dindio.Runtime.Player {
         }
 
         private void PrintInventory() {
-            Debug.Log("Current slot: " + _currentSlot);
-            for (int i = 0; i < inventorySlots; i++) {
-                Debug.Log($"Item in slot {i}: {InventoryDatabase.GetNameByID(_itemsID[i])}");
-            }
+            // Debug.Log("Current slot: " + _currentSlot);
+            // for (int i = 0; i < inventorySlots; i++) {
+            //     Debug.Log($"Item in slot {i}: {InventoryDatabase.GetNameByID(_itemsID[i])}");
+            // }
         }
         
         public int GetCurrentItem() => _itemsID[_currentSlot];

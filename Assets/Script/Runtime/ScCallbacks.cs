@@ -8,4 +8,6 @@ public static class ScCallbacks
     public static UnityEvent<int> OnInventorySlotSelected = new UnityEvent<int>();
 
     public static UnityEvent<int, SoInventoryItemData> OnItemPickedUp = new UnityEvent<int, SoInventoryItemData>();
+
+    public static UnityEvent<float, float> OnDeathZoneUpdate = new UnityEvent<float, float>();
 }

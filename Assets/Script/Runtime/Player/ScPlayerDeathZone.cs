@@ -1,3 +1,4 @@
+using System.Collections;
 using Unity.Netcode;
 using UnityEngine;
 
@@ -6,13 +7,14 @@ namespace Dindio.Runtime.Player {
 
 
 public class ScPlayerDeathZone : NetworkBehaviour {
-    private bool _inDeathZone = false;
-
     [SerializeField] private float _deathTimerTime  = 10f;
     [SerializeField] private float _emptyTimerAfter = 10f;
 
     [SerializeField] private float _inDeathZoneTime    = 0f;
     [SerializeField] private float _outOfDeathZoneTime = 0f;
+
+    private Coroutine _inDeathZoneCoroutine = null;
+    private Coroutine _outOfDeathZoneCoroutine = null;
 
     public override void OnNetworkSpawn() {
         if (!IsOwner) {
@@ -20,10 +22,31 @@ public class ScPlayerDeathZone : NetworkBehaviour {
         }
     }
 
-    private void Update()
+    public void InDeathZone()
     {
-        if (_inDeathZone)
+        _outOfDeathZoneTime = 0f;
+
+        if (_inDeathZoneTime < 0f)
+            _inDeathZoneTime = 0f;
+        
+        StopCoroutine(_outOfDeathZoneCoroutine);
+        _outOfDeathZoneCoroutine = null;
+        _inDeathZoneCoroutine = StartCoroutine(InDeathZoneCoroutine());
+    }
+
+    public void OutOfDeathZone()
+    {
+        StopCoroutine(_inDeathZoneCoroutine);
+        _inDeathZoneCoroutine = null;
+        _outOfDeathZoneCoroutine = StartCoroutine(OutOfDeathZoneCoroutine());
+    }
+
+    private IEnumerator InDeathZoneCoroutine()
+    {
+        while (true)
         {
+            yield return new WaitForEndOfFrame();
+
             if ((_inDeathZoneTime += Time.deltaTime) >= _deathTimerTime)
             {
                 ScPlayerHealth health = gameObject.GetComponent<ScPlayerHealth>();
@@ -31,27 +54,26 @@ public class ScPlayerDeathZone : NetworkBehaviour {
                 OutOfDeathZone();
             }
         }
-        else
+    }
+
+    private IEnumerator OutOfDeathZoneCoroutine()
+    {
+        float dt;
+
+        while (true)
         {
-            if ((_outOfDeathZoneTime += Time.deltaTime) >= _emptyTimerAfter)
+            yield return new WaitForEndOfFrame();
+            dt = Time.deltaTime;
+
+            if ((_outOfDeathZoneTime += dt) >= _emptyTimerAfter)
             {
-                _inDeathZoneTime -= Time.deltaTime;
+                if ((_inDeathZoneTime -= dt) <= 0f)
+                {
+                    _inDeathZoneTime = 0f;
+                    StopCoroutine(_outOfDeathZoneCoroutine);
+                }
             }
         }
-    }
-
-    public void InDeathZone()
-    {
-        _inDeathZone = true;
-        _outOfDeathZoneTime = 0f;
-
-        if (_inDeathZoneTime < 0f)
-            _inDeathZoneTime = 0f;
-    }
-
-    public void OutOfDeathZone()
-    {
-        _inDeathZone = false;
     }
 
 }

@@ -11,4 +11,12 @@ public class ScDeathZone: NetworkBehaviour
         
         playerDeathZone.InDeathZone();
     }
+
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (!collider.gameObject.TryGetComponent(out ScPlayerDeathZone playerDeathZone))
+            return;
+        
+        playerDeathZone.OutOfDeathZone();
+    }
 }
