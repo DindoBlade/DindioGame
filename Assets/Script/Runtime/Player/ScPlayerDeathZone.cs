@@ -29,14 +29,17 @@ public class ScPlayerDeathZone : NetworkBehaviour {
         if (_inDeathZoneTime < 0f)
             _inDeathZoneTime = 0f;
         
-        StopCoroutine(_outOfDeathZoneCoroutine);
+        if (_outOfDeathZoneCoroutine != null)
+            StopCoroutine(_outOfDeathZoneCoroutine);
         _outOfDeathZoneCoroutine = null;
         _inDeathZoneCoroutine = StartCoroutine(InDeathZoneCoroutine());
     }
 
     public void OutOfDeathZone()
     {
-        StopCoroutine(_inDeathZoneCoroutine);
+
+        if (_inDeathZoneCoroutine != null)
+            StopCoroutine(_inDeathZoneCoroutine);
         _inDeathZoneCoroutine = null;
         _outOfDeathZoneCoroutine = StartCoroutine(OutOfDeathZoneCoroutine());
     }
@@ -47,10 +50,15 @@ public class ScPlayerDeathZone : NetworkBehaviour {
         {
             yield return new WaitForEndOfFrame();
 
-            if ((_inDeathZoneTime += Time.deltaTime) >= _deathTimerTime)
+
+            _inDeathZoneTime += Time.deltaTime;
+            ScCallbacks.OnUpdateDeathZone.Invoke(_inDeathZoneTime, _deathTimerTime);
+
+            if (_inDeathZoneTime >= _deathTimerTime)
             {
                 ScPlayerHealth health = gameObject.GetComponent<ScPlayerHealth>();
                 health.TakeDamage(health.MaxHp);
+                // Debug.Log("dead");
                 OutOfDeathZone();
             }
         }
@@ -66,18 +74,19 @@ public class ScPlayerDeathZone : NetworkBehaviour {
             dt = Time.deltaTime;
 
             if ((_outOfDeathZoneTime += dt) >= _emptyTimerAfter)
-            {
+            {              
                 if ((_inDeathZoneTime -= dt) <= 0f)
                 {
                     _inDeathZoneTime = 0f;
                     StopCoroutine(_outOfDeathZoneCoroutine);
                 }
             }
+            ScCallbacks.OnUpdateDeathZone.Invoke(_inDeathZoneTime, _deathTimerTime);
         }
     }
 
 }
 
 
-
 }
+
