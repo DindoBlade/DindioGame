@@ -37,7 +37,6 @@ public class ScPlayerDeathZone : NetworkBehaviour {
 
     public void OutOfDeathZone()
     {
-
         if (_inDeathZoneCoroutine != null)
             StopCoroutine(_inDeathZoneCoroutine);
         _inDeathZoneCoroutine = null;
@@ -50,7 +49,6 @@ public class ScPlayerDeathZone : NetworkBehaviour {
         {
             yield return new WaitForEndOfFrame();
 
-
             _inDeathZoneTime += Time.deltaTime;
             ScCallbacks.OnUpdateDeathZone.Invoke(_inDeathZoneTime, _deathTimerTime);
 
@@ -58,7 +56,6 @@ public class ScPlayerDeathZone : NetworkBehaviour {
             {
                 ScPlayerHealth health = gameObject.GetComponent<ScPlayerHealth>();
                 health.TakeDamage(health.MaxHp);
-                // Debug.Log("dead");
                 OutOfDeathZone();
             }
         }
