@@ -25,6 +25,8 @@ namespace Dindio.Runtime.Input {
             }
             Instance = this;
             DontDestroyOnLoad(transform.root);
+
+            OnMoveEvent.Started.AddListener(() => Debug.Log("kms"));
         }
 
         public void OnMove(InputAction.CallbackContext ctx) {

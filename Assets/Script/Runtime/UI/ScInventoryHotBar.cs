@@ -48,9 +48,9 @@ namespace Dindio.Runtime.UI {
         }
 
         public void SelectSlot(int slot) {
-            _slots[_currentSlot].Select(false);
-            _slots[slot].Select(true);
-            _currentSlot = slot;
+            // _slots[_currentSlot].Select(false);
+            // _slots[slot].Select(true);
+            // _currentSlot = slot;
         }
         
         
