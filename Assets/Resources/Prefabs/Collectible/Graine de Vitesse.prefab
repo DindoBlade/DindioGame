@@ -130,7 +130,8 @@ MonoBehaviour:
   BuffType: 1
   Amount: 2
   Time: 45
-  ParticleColor: {r: 0, g: 0, b: 0, a: 0}
+  <ParticleColor>k__BackingField: {r: 0, g: 0.62352943, b: 0.6156863, a: 1}
+  <ParticleMaterial>k__BackingField: {fileID: 2100000, guid: 102f70951cf637240b453460110ccbdd, type: 2}
 --- !u!1 &2025727747393966930
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,10 +2,8 @@ using UnityEngine;
 using static Dindio.Runtime.Others.ScEnums;
 
 namespace Dindio.Runtime.Interactable.Collectible {
-    public class ScBonus : MonoBehaviour , ICollectible {
+    public class ScBonus : MonoBehaviour , ICollectible, ICollectibleParticle {
         public ECollectibleType CollectibleType { get; set; } = ECollectibleType.Bonus;
-       
-
 
         public EBonusType BonusType;
         public EBuffType BuffType;
@@ -13,7 +11,6 @@ namespace Dindio.Runtime.Interactable.Collectible {
         public float Time;
         
         [Header("Particle")]
-        public Color ParticleColor;
-        public Material ParticleMaterial;
+        [field:SerializeField] public Color ParticleColor { get; set; }
     }
 }

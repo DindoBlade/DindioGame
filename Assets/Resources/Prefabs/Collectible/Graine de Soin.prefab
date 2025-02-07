@@ -217,7 +217,8 @@ MonoBehaviour:
   ConsumableType: 0
   Time: 3
   Amount: 25
-  ParticleColor: {r: 0, g: 0, b: 0, a: 0}
+  <ParticleColor>k__BackingField: {r: 0.10980393, g: 0.83921576, b: 0, a: 1}
+  <ParticleMaterial>k__BackingField: {fileID: 2100000, guid: 102f70951cf637240b453460110ccbdd, type: 2}
 --- !u!1 &2492163166907920210
 GameObject:
   m_ObjectHideFlags: 0

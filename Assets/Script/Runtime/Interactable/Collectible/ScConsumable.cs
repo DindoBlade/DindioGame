@@ -4,7 +4,7 @@ using static Dindio.Runtime.Others.ScEnums;
 
 namespace Dindio.Runtime.Interactable.Collectible {
     public class 
-        ScConsumable : NetworkBehaviour, ICollectible {
+        ScConsumable : NetworkBehaviour, ICollectible, ICollectibleParticle {
         public ECollectibleType CollectibleType { get; set; } = ECollectibleType.Consumable;
 
         public EConsumableType ConsumableType;
@@ -12,7 +12,6 @@ namespace Dindio.Runtime.Interactable.Collectible {
         public int Amount;
         
         [Header("Particle")]
-        public Color ParticleColor;
-        public Material ParticleMaterial;
+        [field:SerializeField] public Color ParticleColor { get; set; }
     }
 }

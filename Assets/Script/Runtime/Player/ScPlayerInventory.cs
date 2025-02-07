@@ -50,8 +50,20 @@ namespace Dindio.Runtime.Player {
             _itemsID[slotIndex] = itemID;
         }
         
+        public void RemoveFromInventory(int slot) {
+            if (_itemsID[slot] != -1) {
+                _hotBarComponent.UpdateSprite(_currentSlot, null, true);
+                RemoveFromInventoryServerRpc(slot);
+            }
+        }
+        
         [ServerRpc(RequireOwnership = false)]
-        public void DropInventoryServerRpc(int slot) {            
+        void RemoveFromInventoryServerRpc(int slot) {
+            _itemsID[slot] = -1;
+        }
+        
+        [ServerRpc(RequireOwnership = false)]
+        void DropInventoryServerRpc(int slot) {            
             GameObject prefab = InventoryDatabase.GetPrefabByID(_itemsID[slot]);
 
             if (prefab != null) {
@@ -78,17 +90,18 @@ namespace Dindio.Runtime.Player {
             }
             
             PrintInventory();
-            _hotBar.GetComponent<ScInventoryHotBar>().SelectSlot(_currentSlot);
+            _hotBarComponent.SelectSlot(_currentSlot);
         }
 
         private void PrintInventory() {
-            Debug.Log("Current slot: " + _currentSlot);
+            /*Debug.Log("Current slot: " + _currentSlot);
             for (int i = 0; i < inventorySlots; i++) {
                 Debug.Log($"Item in slot {i}: {InventoryDatabase.GetNameByID(_itemsID[i])}");
-            }
+            }*/
         }
         
-        public int GetCurrentItem() => _itemsID[_currentSlot];
+        public int GetCurrentItemID() => _itemsID[_currentSlot];
+        public int GetCurrentSlot() => _currentSlot;
         public GameObject GetCurrentItemPrefab() => InventoryDatabase.GetPrefabByID(_itemsID[_currentSlot]);
 
     }
