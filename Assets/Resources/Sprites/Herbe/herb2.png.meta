@@ -1,0 +1,2340 @@
+fileFormatVersion: 2
+guid: 790b493fcc0bfd546bf119b870a1c7cb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -411902904614373401
+    second: herb2_0
+  - first:
+      213: -7103616737957107858
+    second: herb2_1
+  - first:
+      213: 3869425894753166908
+    second: herb2_2
+  - first:
+      213: 3660531999639956167
+    second: herb2_3
+  - first:
+      213: -7724551888125933127
+    second: herb2_4
+  - first:
+      213: -121538060995581513
+    second: herb2_5
+  - first:
+      213: 5923142017560613036
+    second: herb2_6
+  - first:
+      213: -3316926495157742267
+    second: herb2_7
+  - first:
+      213: 6859807726442906418
+    second: herb2_8
+  - first:
+      213: 6853310581559906823
+    second: herb2_9
+  - first:
+      213: 4483280147898247838
+    second: herb2_10
+  - first:
+      213: 5102746540768826085
+    second: herb2_11
+  - first:
+      213: 419431519587074896
+    second: herb2_12
+  - first:
+      213: 2936623025199039719
+    second: herb2_13
+  - first:
+      213: 863140550743293945
+    second: herb2_14
+  - first:
+      213: -3261096663528226804
+    second: herb2_15
+  - first:
+      213: 335214289875280353
+    second: herb2_16
+  - first:
+      213: 4351287289492824140
+    second: herb2_17
+  - first:
+      213: -561961398103458753
+    second: herb2_18
+  - first:
+      213: -8241439988648713226
+    second: herb2_19
+  - first:
+      213: -6303767083454086171
+    second: herb2_20
+  - first:
+      213: -3873120048297774912
+    second: herb2_21
+  - first:
+      213: -3435524065734398246
+    second: herb2_22
+  - first:
+      213: 1274957587893266602
+    second: herb2_23
+  - first:
+      213: -3903556453266699055
+    second: herb2_24
+  - first:
+      213: -5089238946403143001
+    second: herb2_25
+  - first:
+      213: 6435104788164781795
+    second: herb2_26
+  - first:
+      213: 213650969800445154
+    second: herb2_27
+  - first:
+      213: -1770737464195174552
+    second: herb2_28
+  - first:
+      213: -5526479982486340979
+    second: herb2_29
+  - first:
+      213: -7374288409253113238
+    second: herb2_30
+  - first:
+      213: -605792404860192096
+    second: herb2_31
+  - first:
+      213: -4350252989640000414
+    second: herb2_32
+  - first:
+      213: -1104354649772701118
+    second: herb2_33
+  - first:
+      213: 1108391746460473759
+    second: herb2_34
+  - first:
+      213: 8140870879678086602
+    second: herb2_35
+  - first:
+      213: -2242476237004372151
+    second: herb2_36
+  - first:
+      213: -7986862633235831983
+    second: herb2_37
+  - first:
+      213: -4220485282259772856
+    second: herb2_38
+  - first:
+      213: 1848663025436183294
+    second: herb2_39
+  - first:
+      213: -5978973300878209956
+    second: herb2_40
+  - first:
+      213: -4439191337263763707
+    second: herb2_41
+  - first:
+      213: 6525273195503026060
+    second: herb2_42
+  - first:
+      213: 1020184296567826594
+    second: herb2_43
+  - first:
+      213: -9172738770763569072
+    second: herb2_44
+  - first:
+      213: 7194927522455194705
+    second: herb2_45
+  - first:
+      213: 4971598157990904190
+    second: herb2_46
+  - first:
+      213: 4195454536824276153
+    second: herb2_47
+  - first:
+      213: 1112004290810084195
+    second: herb2_48
+  - first:
+      213: -5026551319158602102
+    second: herb2_49
+  - first:
+      213: 2952248329298416475
+    second: herb2_50
+  - first:
+      213: -3180810398315130737
+    second: herb2_51
+  - first:
+      213: -5137848430152491979
+    second: herb2_52
+  - first:
+      213: -8163541993779897283
+    second: herb2_53
+  - first:
+      213: 8823847522481809472
+    second: herb2_54
+  - first:
+      213: 8084405539033691042
+    second: herb2_55
+  - first:
+      213: 4764679819041945798
+    second: herb2_56
+  - first:
+      213: -4437742205605656509
+    second: herb2_57
+  - first:
+      213: -7330340720420283063
+    second: herb2_58
+  - first:
+      213: 2595116002678572115
+    second: herb2_59
+  - first:
+      213: 7742523788373317755
+    second: herb2_60
+  - first:
+      213: 5337916268890502151
+    second: herb2_61
+  - first:
+      213: 2844813534843327706
+    second: herb2_62
+  - first:
+      213: 2126868297244318955
+    second: herb2_63
+  - first:
+      213: 2433615408324579556
+    second: herb2_64
+  - first:
+      213: 2434174386063915585
+    second: herb2_65
+  - first:
+      213: -4083580238344110303
+    second: herb2_66
+  - first:
+      213: -4512886558030010637
+    second: herb2_67
+  - first:
+      213: 5396260519461276126
+    second: herb2_68
+  - first:
+      213: 3603531923375757673
+    second: herb2_69
+  - first:
+      213: -2054553273742356408
+    second: herb2_70
+  - first:
+      213: -3193829366305303514
+    second: herb2_71
+  - first:
+      213: 7968233141619754410
+    second: herb2_72
+  - first:
+      213: -4686622262492503711
+    second: herb2_73
+  - first:
+      213: -658803079227188841
+    second: herb2_74
+  - first:
+      213: -3831731563999215113
+    second: herb2_75
+  - first:
+      213: -6184380462965580540
+    second: herb2_76
+  - first:
+      213: 4901910071496747910
+    second: herb2_77
+  - first:
+      213: 1524940245542266041
+    second: herb2_78
+  - first:
+      213: -143015400796187739
+    second: herb2_79
+  - first:
+      213: 5310399042557347492
+    second: herb2_80
+  - first:
+      213: -2807553765988617516
+    second: herb2_81
+  - first:
+      213: 9066532963164964433
+    second: herb2_82
+  - first:
+      213: 5610810246754091965
+    second: herb2_83
+  - first:
+      213: -8814646634455918305
+    second: herb2_84
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: herb2_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 934
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e732889d70a84af0800000000000000
+      internalID: -411902904614373401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_1
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 945
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e672c81a632ea6d90800000000000000
+      internalID: -7103616737957107858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_2
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 894
+        width: 21
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36e575a956f2b530800000000000000
+      internalID: 3869425894753166908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_3
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 926
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca6d779572dcc230800000000000000
+      internalID: 3660531999639956167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_4
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 884
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b94e23fbf0ecc490800000000000000
+      internalID: -7724551888125933127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_5
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 873
+        width: 16
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b92ba707c5305ef0800000000000000
+      internalID: -121538060995581513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_6
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 884
+        width: 15
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca014e6684a333250800000000000000
+      internalID: 5923142017560613036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 880
+        width: 15
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5459a0e2de8e7f1d0800000000000000
+      internalID: -3316926495157742267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_8
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 912
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2330c1a48cee23f50800000000000000
+      internalID: 6859807726442906418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_9
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 869
+        width: 18
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702dd4dd9a9db1f50800000000000000
+      internalID: 6853310581559906823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_10
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 870
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a29048a8fc73e30800000000000000
+      internalID: 4483280147898247838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_11
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 856
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2116d71f890d640800000000000000
+      internalID: 5102746540768826085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_12
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 856
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053079caebe12d500800000000000000
+      internalID: 419431519587074896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_13
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 876
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4c830251bf0c820800000000000000
+      internalID: 2936623025199039719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_14
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 873
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fff94ef1cd7afb00800000000000000
+      internalID: 863140550743293945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_15
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 872
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c004030dcd14eb2d0800000000000000
+      internalID: -3261096663528226804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_16
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 804
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1a6afde9be6a400800000000000000
+      internalID: 335214289875280353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_17
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 803
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4064e55cb0e26c30800000000000000
+      internalID: 4351287289492824140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_18
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 756
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3cbf88f5138338f0800000000000000
+      internalID: -561961398103458753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_19
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 770
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3e4eecef580ad80800000000000000
+      internalID: -8241439988648713226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 739
+        width: 17
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e34be38c358488a0800000000000000
+      internalID: -6303767083454086171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_21
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 767
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c074c436d9ef3ac0800000000000000
+      internalID: -3873120048297774912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_22
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 718
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade689c70119250d0800000000000000
+      internalID: -3435524065734398246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_23
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 740
+        width: 19
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa82112db2f81b110800000000000000
+      internalID: 1274957587893266602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_24
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 740
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dcca527618c3d9c0800000000000000
+      internalID: -3903556453266699055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_25
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 714
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2be8664246f59b0800000000000000
+      internalID: -5089238946403143001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_26
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 732
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e62afec5b51e4950800000000000000
+      internalID: 6435104788164781795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 640
+        width: 17
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec8fd0dc6a07f200800000000000000
+      internalID: 213650969800445154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_28
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 637
+        width: 27
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fab2878a31d67e0800000000000000
+      internalID: -1770737464195174552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_29
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 601
+        width: 15
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a38998cbffd43b0800000000000000
+      internalID: -5526479982486340979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_30
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 654
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62103f23c349a990800000000000000
+      internalID: -7374288409253113238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_31
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 627
+        width: 14
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aabda4740bc797f0800000000000000
+      internalID: -605792404860192096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_32
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 613
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c3d6d54fbc0a3c0800000000000000
+      internalID: -4350252989640000414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_33
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 604
+        width: 17
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a4f321c4b8ca0f0800000000000000
+      internalID: -1104354649772701118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_34
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 588
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9950cfbb6cc16f00800000000000000
+      internalID: 1108391746460473759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_35
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 601
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdb881deee2af070800000000000000
+      internalID: 8140870879678086602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_36
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 604
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947891c5ebf11e0e0800000000000000
+      internalID: -2242476237004372151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_37
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 601
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153232450c6f82190800000000000000
+      internalID: -7986862633235831983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_38
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 613
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a54233ff2dd65c0800000000000000
+      internalID: -4220485282259772856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_39
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 597
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efac58c1a35c7a910800000000000000
+      internalID: 1848663025436183294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_40
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 513
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c0c97f57b660da0800000000000000
+      internalID: -5978973300878209956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_41
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 510
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fe664aff2d462c0800000000000000
+      internalID: -4439191337263763707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_42
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 513
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ff550266d6e8a50800000000000000
+      internalID: 6525273195503026060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_43
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 506
+        width: 21
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a86b5a663c682e00800000000000000
+      internalID: 1020184296567826594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_44
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 503
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0582f2fefa2e3b080800000000000000
+      internalID: -9172738770763569072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_45
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 513
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c8f98167489d360800000000000000
+      internalID: 7194927522455194705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_46
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 523
+        width: 19
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71c80d1f2aaef440800000000000000
+      internalID: 4971598157990904190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_47
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 471
+        width: 19
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b446ba3caf393a30800000000000000
+      internalID: 4195454536824276153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_48
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 445
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36bf176c202ae6f00800000000000000
+      internalID: 1112004290810084195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_49
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 470
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86c740053a1e3ab0800000000000000
+      internalID: -5026551319158602102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_50
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 381
+        width: 25
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53929cb63e78f820800000000000000
+      internalID: 2952248329298416475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_51
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 430
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80de8e9bcd7bd3d0800000000000000
+      internalID: -3180810398315130737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_52
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 372
+        width: 17
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c56f20312b2b8b0800000000000000
+      internalID: -5137848430152491979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_53
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 356
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cd3c71fc545be80800000000000000
+      internalID: -8163541993779897283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_54
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 350
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0482db9229a947a70800000000000000
+      internalID: 8823847522481809472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_55
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 333
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3bd463104913070800000000000000
+      internalID: 8084405539033691042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_56
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 329
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8b7721d0b8f1240800000000000000
+      internalID: 4764679819041945798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_57
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 362
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348cd16e9f8f962c0800000000000000
+      internalID: -4437742205605656509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_58
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 361
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d94ccd3f5654a90800000000000000
+      internalID: -7330340720420283063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_59
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 318
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35486924144b30420800000000000000
+      internalID: 2595116002678572115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_60
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 313
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78d0072d58f27b60800000000000000
+      internalID: 7742523788373317755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_61
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 223
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7043ff7a096141a40800000000000000
+      internalID: 5337916268890502151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_62
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 244
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad45f8466deca7720800000000000000
+      internalID: 2844813534843327706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_63
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 208
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec994d9277248d10800000000000000
+      internalID: 2126868297244318955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_64
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 151
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e09a1de150f5c120800000000000000
+      internalID: 2433615408324579556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_65
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 184
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ab1b215bce7c120800000000000000
+      internalID: 2434174386063915585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_66
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 175
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12fb1b1b8653457c0800000000000000
+      internalID: -4083580238344110303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_67
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 185
+        width: 15
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f66cf4f5910f51c0800000000000000
+      internalID: -4512886558030010637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_68
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 184
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed944f11a5e53ea40800000000000000
+      internalID: 5396260519461276126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_69
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 199
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96997952131520230800000000000000
+      internalID: 3603531923375757673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_70
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 184
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840987adea2cc73e0800000000000000
+      internalID: -2054553273742356408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_71
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 133
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624592cec1d3da3d0800000000000000
+      internalID: -3193829366305303514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_72
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 146
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa58db523d9d49e60800000000000000
+      internalID: 7968233141619754410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_73
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 167
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16162bf02e5c5feb0800000000000000
+      internalID: -4686622262492503711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_74
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 131
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799dab507167bd6f0800000000000000
+      internalID: -658803079227188841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_75
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 58
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1cc25a174f2dac0800000000000000
+      internalID: -3831731563999215113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_76
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 42
+        width: 15
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d12153cbaac2aa0800000000000000
+      internalID: -6184380462965580540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_77
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 42
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b29741d35170440800000000000000
+      internalID: 4901910071496747910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_78
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 50
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b46e37e21da92510800000000000000
+      internalID: 1524940245542266041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_79
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 61
+        width: 24
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3122e2048e30ef0800000000000000
+      internalID: -143015400796187739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_80
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 56
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a684332bc352b940800000000000000
+      internalID: 5310399042557347492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_81
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 53
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2307299b09909d0800000000000000
+      internalID: -2807553765988617516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_82
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 52
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15641d581bbc2dd70800000000000000
+      internalID: 9066532963164964433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_83
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 49
+        width: 24
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db346eb213a9ddd40800000000000000
+      internalID: 5610810246754091965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herb2_84
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 47
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1999a486951ca580800000000000000
+      internalID: -8814646634455918305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      herb2_0: -411902904614373401
+      herb2_1: -7103616737957107858
+      herb2_10: 4483280147898247838
+      herb2_11: 5102746540768826085
+      herb2_12: 419431519587074896
+      herb2_13: 2936623025199039719
+      herb2_14: 863140550743293945
+      herb2_15: -3261096663528226804
+      herb2_16: 335214289875280353
+      herb2_17: 4351287289492824140
+      herb2_18: -561961398103458753
+      herb2_19: -8241439988648713226
+      herb2_2: 3869425894753166908
+      herb2_20: -6303767083454086171
+      herb2_21: -3873120048297774912
+      herb2_22: -3435524065734398246
+      herb2_23: 1274957587893266602
+      herb2_24: -3903556453266699055
+      herb2_25: -5089238946403143001
+      herb2_26: 6435104788164781795
+      herb2_27: 213650969800445154
+      herb2_28: -1770737464195174552
+      herb2_29: -5526479982486340979
+      herb2_3: 3660531999639956167
+      herb2_30: -7374288409253113238
+      herb2_31: -605792404860192096
+      herb2_32: -4350252989640000414
+      herb2_33: -1104354649772701118
+      herb2_34: 1108391746460473759
+      herb2_35: 8140870879678086602
+      herb2_36: -2242476237004372151
+      herb2_37: -7986862633235831983
+      herb2_38: -4220485282259772856
+      herb2_39: 1848663025436183294
+      herb2_4: -7724551888125933127
+      herb2_40: -5978973300878209956
+      herb2_41: -4439191337263763707
+      herb2_42: 6525273195503026060
+      herb2_43: 1020184296567826594
+      herb2_44: -9172738770763569072
+      herb2_45: 7194927522455194705
+      herb2_46: 4971598157990904190
+      herb2_47: 4195454536824276153
+      herb2_48: 1112004290810084195
+      herb2_49: -5026551319158602102
+      herb2_5: -121538060995581513
+      herb2_50: 2952248329298416475
+      herb2_51: -3180810398315130737
+      herb2_52: -5137848430152491979
+      herb2_53: -8163541993779897283
+      herb2_54: 8823847522481809472
+      herb2_55: 8084405539033691042
+      herb2_56: 4764679819041945798
+      herb2_57: -4437742205605656509
+      herb2_58: -7330340720420283063
+      herb2_59: 2595116002678572115
+      herb2_6: 5923142017560613036
+      herb2_60: 7742523788373317755
+      herb2_61: 5337916268890502151
+      herb2_62: 2844813534843327706
+      herb2_63: 2126868297244318955
+      herb2_64: 2433615408324579556
+      herb2_65: 2434174386063915585
+      herb2_66: -4083580238344110303
+      herb2_67: -4512886558030010637
+      herb2_68: 5396260519461276126
+      herb2_69: 3603531923375757673
+      herb2_7: -3316926495157742267
+      herb2_70: -2054553273742356408
+      herb2_71: -3193829366305303514
+      herb2_72: 7968233141619754410
+      herb2_73: -4686622262492503711
+      herb2_74: -658803079227188841
+      herb2_75: -3831731563999215113
+      herb2_76: -6184380462965580540
+      herb2_77: 4901910071496747910
+      herb2_78: 1524940245542266041
+      herb2_79: -143015400796187739
+      herb2_8: 6859807726442906418
+      herb2_80: 5310399042557347492
+      herb2_81: -2807553765988617516
+      herb2_82: 9066532963164964433
+      herb2_83: 5610810246754091965
+      herb2_84: -8814646634455918305
+      herb2_9: 6853310581559906823
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
