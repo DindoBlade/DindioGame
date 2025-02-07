@@ -10439,7 +10439,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
   _visuals: {fileID: 6430121356142680418}
-  _speed: 5
+  Speed: 5
   _cam: {fileID: 3245304256261012031}
 --- !u!114 &5877010080002887798
 MonoBehaviour:
@@ -10522,6 +10522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
   InventoryDatabase: {fileID: 11400000, guid: 340a43cb64a2c3e468e3b443562181b8, type: 2}
+  _hotBar: {fileID: 0}
 --- !u!114 &4043533284805120288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10535,7 +10536,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  _bonusParticleSystem: {fileID: 7788316515197532710}
   _baseAttackType: 0
   _baseDamage: 20
   _size: {x: 1, y: 1}
