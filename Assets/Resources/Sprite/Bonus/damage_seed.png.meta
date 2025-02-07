@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 69f5ebd38b2bd7a4a9a1f1a6355a3fa1
+guid: 6babf985d7c3c1d42bee3a506be48c13
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4475139630823848314
-    second: ITEM Bec acier_0
+      213: 4297249431055302944
+    second: damage_seed_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ITEM Bec acier_0
+      name: damage_seed_0
       rect:
         serializedVersion: 2
-        x: 391
-        y: 9
-        width: 1266
-        height: 2019
+        x: 3
+        y: 172
+        width: 2029
+        height: 1700
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a79378fa8c3ea1e30800000000000000
-      internalID: 4475139630823848314
+      spriteID: 0210d49f695e2ab30800000000000000
+      internalID: 4297249431055302944
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ITEM Bec acier_0: 4475139630823848314
+      damage_seed_0: 4297249431055302944
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

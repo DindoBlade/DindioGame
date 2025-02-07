@@ -12,7 +12,7 @@ namespace Dindio.Runtime.UI {
             _item.color = new Color(1, 1, 1, 0);
         }
 
-        public void Select(bool IsSelected) {
+        public void Select(bool IsSelected = true) {
             _border.enabled = IsSelected;
         }
 

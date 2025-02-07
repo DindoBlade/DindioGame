@@ -15,14 +15,17 @@ namespace Dindio.Runtime.Player {
         ScPlayerHealth _playerHealth;
         ScInputManager _inputManager => ScInputManager.Instance;
         Animator _animator;
+        ScPlayerParticle _playerParticle;
         
-        EAttackType _currentAttackType;
+        [Header("Attack")]
+        [SerializeField] EAttackType _currentAttackType;
         [SerializeField] EAttackType _baseAttackType;
+        [SerializeField] int _currentWeaponDurability;
         
-        private int _currentDamage;
+        [Header("Damage")]
+        [SerializeField] private int _currentDamage;
         [SerializeField] private int _baseDamage;
-
-
+        
         [Header("Beak")]
         [SerializeField] private Vector2 _size;
         [SerializeField] private Transform _beakCenter;
@@ -36,6 +39,7 @@ namespace Dindio.Runtime.Player {
             _animator = GetComponent<Animator>();
             _playerMovement = GetComponent<ScPlayerMovement>();
             _playerHealth = GetComponent<ScPlayerHealth>();
+            _playerParticle = GetComponent<ScPlayerParticle>();
         }
         
         void Start() {
@@ -45,7 +49,7 @@ namespace Dindio.Runtime.Player {
         void Attack() {
             if (!IsOwner) return;
 
-            if (_inventory.GetCurrentItem() < 0) {
+            if (_inventory.GetCurrentItemID() < 0) {
                 StartAnimAttack(_baseAttackType, _baseDamage);
                 return;
             }
@@ -130,6 +134,8 @@ namespace Dindio.Runtime.Player {
                     _playerMovement.BoostSpeed(GetBuffEffect(bonus.BuffType, _playerMovement.Speed, bonus.Amount), bonus.Time);
                     break;
             }
+            _playerParticle.StartParticle(bonus.ParticleColor, bonus.Time, isBoost: true);
+            _inventory.RemoveFromInventory(_inventory.GetCurrentSlot());
         }
         
         void BoostDamage(int newDamage, float time) {
@@ -164,7 +170,11 @@ namespace Dindio.Runtime.Player {
                 default:
                     break;
             }
+            _playerParticle.StartParticle(consumable.ParticleColor, consumable.Time);
+            _inventory.RemoveFromInventory(_inventory.GetCurrentSlot());
         }
+        
+
         
         private void OnDrawGizmos() {
             Gizmos.color = Color.red;

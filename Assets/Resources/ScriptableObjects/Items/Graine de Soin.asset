@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Graine de Soin
   <Prefab>k__BackingField: {fileID: 1906481813027959435, guid: e1240a38892d3504fb6b31260ae32a84, type: 3}
-  <Sprite>k__BackingField: {fileID: 0}
+  <Sprite>k__BackingField: {fileID: 21300000, guid: 831fd4275aec09e4ea70c3fc4560a288, type: 3}

@@ -1,10 +1,6 @@
 using System.Collections.Generic;
-using System.Transactions;
 using UnityEngine;
-using Unity.Netcode;
-using UnityEngine.UI;
 using Dindio.Runtime.Player;
-using UnityEngine.Serialization;
 
 namespace Dindio.Runtime.UI {
     public class ScInventoryHotBar : MonoBehaviour {
@@ -13,24 +9,6 @@ namespace Dindio.Runtime.UI {
         private int _currentSlot;
         private Transform _myTransform;
         [SerializeField] private List<ScInventorySlot> _slots;
-        
-    
-        private void Awake() {
-            /*ScCallbacks.OnItemPickedUp.AddListener(
-                (slot, item) => {
-                    Debug.Log(item.Sprite);
-    
-                    Sprite newSprite = (item != null) ? item.Sprite : null;
-                    Color  newColor  = (newSprite != null) ? Color.white : new Color(1, 1, 1, 0);
-    
-                    for (int i = 0; i < 2; i++) {
-                        Image img = _myTransform.GetChild(slot * 2 + i).GetComponent<Image>();
-                        img.sprite = newSprite;
-                        img.color  = newColor;
-                    }
-                }
-            );*/
-        }
     
         void Start() {
             _myTransform = transform;
@@ -48,9 +26,9 @@ namespace Dindio.Runtime.UI {
         }
 
         public void SelectSlot(int slot) {
-            // _slots[_currentSlot].Select(false);
-            // _slots[slot].Select(true);
-            // _currentSlot = slot;
+            _slots[_currentSlot].Select(false);
+            _slots[slot].Select();
+            _currentSlot = slot;
         }
         
         

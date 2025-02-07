@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Bec de Fer
   <Prefab>k__BackingField: {fileID: 1906481813027959435, guid: 5ae40032d43e84c47a628d9ca355c4a7, type: 3}
-  <Sprite>k__BackingField: {fileID: 4475139630823848314, guid: 69f5ebd38b2bd7a4a9a1f1a6355a3fa1, type: 3}
+  <Sprite>k__BackingField: {fileID: 21300000, guid: 69f5ebd38b2bd7a4a9a1f1a6355a3fa1, type: 3}
