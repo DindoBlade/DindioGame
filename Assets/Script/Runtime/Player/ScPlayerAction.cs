@@ -13,9 +13,10 @@ namespace Dindio.Runtime.Player {
         ScPlayerInventory _inventory;
         ScPlayerMovement _playerMovement;
         ScPlayerHealth _playerHealth;
-        ScInputManager _inputManager => ScInputManager.Instance;
         Animator _animator;
         ScPlayerParticle _playerParticle;
+        
+        ScInputManager _inputManager => ScInputManager.Instance;
         
         [Header("Attack")]
         [SerializeField] EAttackType _currentAttackType;
@@ -23,16 +24,18 @@ namespace Dindio.Runtime.Player {
         [SerializeField] int _currentWeaponDurability;
         
         [Header("Damage")]
-        [SerializeField] private int _currentDamage;
-        [SerializeField] private int _baseDamage;
+        [SerializeField] int _currentDamage;
+        [SerializeField] int _baseDamage;
+        [SerializeField] int _buffedDamage;
+        [SerializeField] bool _isBoosted;
         
         [Header("Beak")]
-        [SerializeField] private Vector2 _size;
-        [SerializeField] private Transform _beakCenter;
+        [SerializeField] Vector2 _size;
+        [SerializeField] Transform _beakCenter;
 
         [Header("Wings")]
-        [SerializeField] private float _radius;
-        [SerializeField] private Transform _wingsCenter;
+        [SerializeField] float _radius;
+        [SerializeField] Transform _wingsCenter;
         
         void Awake() {
             _inventory = GetComponent<ScPlayerInventory>();
@@ -116,7 +119,7 @@ namespace Dindio.Runtime.Player {
                         
                 switch (healthComponent) {
                     case ScPlayerHealth playerHealth:
-                        playerHealth.TakeDamage(_currentDamage);
+                        playerHealth.TakeDamage( _isBoosted ? _buffedDamage : _currentDamage);
                         break;
                     case ScCrateHealth crateHealth:
                         crateHealth.TakeDamage(0);
@@ -128,7 +131,9 @@ namespace Dindio.Runtime.Player {
         void UseBonus(ScBonus bonus) {
             switch (bonus.BonusType) {
                 case EBonusType.Damage:
-                    BoostDamage( Mathf.FloorToInt(GetBuffEffect(bonus.BuffType, _currentDamage, bonus.Amount)), bonus.Time );
+                    StartCoroutine(BoostDamageOverTime(bonus.Time));
+                    StartCoroutine(GettingBuffEffect(bonus));
+                    
                     break;
                 case EBonusType.Speed:
                     _playerMovement.BoostSpeed(GetBuffEffect(bonus.BuffType, _playerMovement.Speed, bonus.Amount), bonus.Time);
@@ -138,17 +143,19 @@ namespace Dindio.Runtime.Player {
             _inventory.RemoveFromInventory(_inventory.GetCurrentSlot());
         }
         
-        void BoostDamage(int newDamage, float time) {
-            StartCoroutine(BoostDamageOverTime(newDamage, time));
+        private IEnumerator BoostDamageOverTime(float time) {
+            _isBoosted = true;
+            yield return new WaitForSeconds(time);
+            _isBoosted = false;
         }
 
-        private IEnumerator BoostDamageOverTime(int newDamage, float time) {
-            int originalDamage = _currentDamage;
-            _currentDamage = newDamage;
+        private IEnumerator GettingBuffEffect(ScBonus bonus) {
+            while (_isBoosted) {
+                _buffedDamage = Mathf.FloorToInt(GetBuffEffect(bonus.BuffType, _currentDamage, bonus.Amount));
+                yield return null;
+            }
 
-            yield return new WaitForSeconds(time);
-
-            _currentDamage = originalDamage;
+            yield return null;
         }
         
         float GetBuffEffect(EBuffType buffType, float value, float amount) {
