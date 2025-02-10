@@ -614,8 +614,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6881958965527461781}
-  - component: {fileID: 8962619809737057488}
   - component: {fileID: 4346832385328126732}
+  - component: {fileID: -1726783740914217458}
   - component: {fileID: 7785467642611282981}
   - component: {fileID: 5877010080002887798}
   - component: {fileID: 2190008662681127781}
@@ -625,6 +625,7 @@ GameObject:
   - component: {fileID: 2008597098263976833}
   - component: {fileID: 2328098016453334447}
   - component: {fileID: 8690449666542174070}
+  - component: {fileID: 8962619809737057488}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -651,33 +652,6 @@ Transform:
   - {fileID: 49796583153974697}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &8962619809737057488
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8784767103132281594}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!114 &4346832385328126732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -703,6 +677,19 @@ MonoBehaviour:
   AutoObjectParentSync: 1
   SyncOwnerTransformWhenParented: 1
   AllowOwnerToParent: 0
+--- !u!114 &-1726783740914217458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8784767103132281594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb023b07cad07d4f8581cfcfba0c173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
 --- !u!114 &7785467642611282981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -816,6 +803,7 @@ MonoBehaviour:
   ShowTopMostFoldoutHeaderGroup: 1
   _baseAttackType: 0
   _baseDamage: 20
+  _particleSystem: {fileID: 0}
   _size: {x: 1, y: 1}
   _beakCenter: {fileID: 3120055055540262632}
   _radius: 0.5
@@ -872,6 +860,33 @@ MonoBehaviour:
   ShowTopMostFoldoutHeaderGroup: 1
   TransitionStateInfoList: []
   m_Animator: {fileID: 2328098016453334447}
+--- !u!50 &8962619809737057488
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8784767103132281594}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &9052924058287668020
 GameObject:
   m_ObjectHideFlags: 0

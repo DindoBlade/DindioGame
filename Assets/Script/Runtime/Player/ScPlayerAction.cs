@@ -22,7 +22,8 @@ namespace Dindio.Runtime.Player {
         private int _currentDamage;
         [SerializeField] private int _baseDamage;
 
-
+        [SerializeField] ParticleSystem _particleSystem;
+        
         [Header("Beak")]
         [SerializeField] private Vector2 _size;
         [SerializeField] private Transform _beakCenter;
@@ -130,6 +131,7 @@ namespace Dindio.Runtime.Player {
                     _playerMovement.BoostSpeed(GetBuffEffect(bonus.BuffType, _playerMovement.Speed, bonus.Amount), bonus.Time);
                     break;
             }
+
         }
         
         void BoostDamage(int newDamage, float time) {
@@ -164,6 +166,14 @@ namespace Dindio.Runtime.Player {
                 default:
                     break;
             }
+        }
+        
+        void PlayParticle(Color particleColor, float particleDuration) {
+            ParticleSystem.MainModule main = _particleSystem.main;
+            main.startColor = particleColor;
+            main.duration = particleDuration;
+            
+            _particleSystem.Play();
         }
         
         private void OnDrawGizmos() {
