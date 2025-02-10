@@ -170,8 +170,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 1827291119
-  InScenePlacedSourceGlobalObjectIdHash: 0
+  GlobalObjectIdHash: 2081659761
+  InScenePlacedSourceGlobalObjectIdHash: 1827291119
   DeferredDespawnTick: 0
   Ownership: 1
   AlwaysReplicateAsRoot: 0
@@ -196,9 +196,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  _spawnPoints: []
+  _spawnPoints:
+  - {fileID: 6464647501045733564}
+  - {fileID: 2301256141493364861}
   _requiredPlayers: 2
-  _isPlayer: 0
 --- !u!1 &5224155250717622599
 GameObject:
   m_ObjectHideFlags: 0

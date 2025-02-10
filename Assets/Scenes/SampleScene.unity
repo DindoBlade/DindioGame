@@ -176,16 +176,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa9b4a5eb9d722a4990029fc883c2b68, type: 3}
---- !u!4 &637268180 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6464647501045733564, guid: 31a17842724b229428fc89397dbedbb4, type: 3}
-  m_PrefabInstance: {fileID: 6942510444102946552}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1187292597 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2301256141493364861, guid: 31a17842724b229428fc89397dbedbb4, type: 3}
-  m_PrefabInstance: {fileID: 6942510444102946552}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1347601713
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,10 +332,6 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 2081659761
       objectReference: {fileID: 0}
-    - target: {fileID: 502786506105129993, guid: 31a17842724b229428fc89397dbedbb4, type: 3}
-      propertyPath: InScenePlacedSourceGlobalObjectIdHash
-      value: 1827291119
-      objectReference: {fileID: 0}
     - target: {fileID: 2152802764398514751, guid: 31a17842724b229428fc89397dbedbb4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -390,18 +376,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnManager
       objectReference: {fileID: 0}
-    - target: {fileID: 5290535039889309870, guid: 31a17842724b229428fc89397dbedbb4, type: 3}
-      propertyPath: _spawnPoints.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5290535039889309870, guid: 31a17842724b229428fc89397dbedbb4, type: 3}
-      propertyPath: '_spawnPoints.Array.data[0]'
-      value: 
-      objectReference: {fileID: 637268180}
-    - target: {fileID: 5290535039889309870, guid: 31a17842724b229428fc89397dbedbb4, type: 3}
-      propertyPath: '_spawnPoints.Array.data[1]'
-      value: 
-      objectReference: {fileID: 1187292597}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
