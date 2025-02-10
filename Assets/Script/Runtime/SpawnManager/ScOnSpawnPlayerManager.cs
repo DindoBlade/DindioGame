@@ -2,6 +2,7 @@ using Unity.Netcode;
 using UnityEngine;
 using System.Collections.Generic;
 using Dindio.Runtime.Player;
+using System.Collections;
 
 
 namespace Dindio.Runtime.SpawnManager {
@@ -9,6 +10,7 @@ namespace Dindio.Runtime.SpawnManager {
     {
         [SerializeField] private Transform[] _spawnPoints; // Positions de téléportation
         [SerializeField] private int _requiredPlayers = 2; // Nombre de joueurs requis avant la téléportation
+        [SerializeField] private int _delayBeforeSpawn = 5;
         private static List<NetworkObject> _waitingPlayers = new(); // Liste des joueurs en attente
         private static bool _teleportationTriggered = false; // Empêche de re-téléporter sans condition
 
@@ -30,7 +32,7 @@ namespace Dindio.Runtime.SpawnManager {
 
             if (_waitingPlayers.Count >= _requiredPlayers && !_teleportationTriggered)
             {
-                TeleportAllPlayers();
+                StartCoroutine(DelayBeforeSpawn());
             }
         }
 
@@ -49,6 +51,13 @@ namespace Dindio.Runtime.SpawnManager {
 
             _waitingPlayers.Clear();
             _teleportationTriggered = false;
+        }
+
+        private IEnumerator DelayBeforeSpawn()
+        {
+            yield return new WaitForSeconds(_delayBeforeSpawn);
+            TeleportAllPlayers();
+            //reset zone
         }
     }
 }

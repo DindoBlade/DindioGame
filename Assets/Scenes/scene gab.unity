@@ -232,6 +232,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnManager
       objectReference: {fileID: 0}
+    - target: {fileID: 5290535039889309870, guid: 31a17842724b229428fc89397dbedbb4, type: 3}
+      propertyPath: _requiredPlayers
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290535039889309870, guid: 31a17842724b229428fc89397dbedbb4, type: 3}
+      propertyPath: _spawnPoints.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290535039889309870, guid: 31a17842724b229428fc89397dbedbb4, type: 3}
+      propertyPath: '_spawnPoints.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1598118496}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -316,6 +328,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1598118496 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6520047625680478711, guid: 31a17842724b229428fc89397dbedbb4, type: 3}
+  m_PrefabInstance: {fileID: 413745384}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1729007304
 PrefabInstance:
   m_ObjectHideFlags: 0

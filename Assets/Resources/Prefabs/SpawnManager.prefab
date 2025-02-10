@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 2081659761
+  GlobalObjectIdHash: 1481832003
   InScenePlacedSourceGlobalObjectIdHash: 1827291119
   DeferredDespawnTick: 0
   Ownership: 1
@@ -200,6 +200,7 @@ MonoBehaviour:
   - {fileID: 6464647501045733564}
   - {fileID: 2301256141493364861}
   _requiredPlayers: 2
+  _delayBeforeSpawn: 10
 --- !u!1 &5224155250717622599
 GameObject:
   m_ObjectHideFlags: 0

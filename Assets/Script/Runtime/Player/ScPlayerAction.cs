@@ -18,10 +18,8 @@ namespace Dindio.Runtime.Player {
         
         EAttackType _currentAttackType;
         [SerializeField] EAttackType _baseAttackType;
-        
         private int _currentDamage;
         [SerializeField] private int _baseDamage;
-
         [SerializeField] ParticleSystem _particleSystem;
         
         [Header("Beak")]
@@ -84,6 +82,7 @@ namespace Dindio.Runtime.Player {
         }
         
         public void AttackOnAnim() {
+
             switch (_currentAttackType) {
                 case EAttackType.Beak:
                     AttackColliders(Physics2D.OverlapBoxAll(_beakCenter.position, _size, 0));
@@ -131,7 +130,6 @@ namespace Dindio.Runtime.Player {
                     _playerMovement.BoostSpeed(GetBuffEffect(bonus.BuffType, _playerMovement.Speed, bonus.Amount), bonus.Time);
                     break;
             }
-
         }
         
         void BoostDamage(int newDamage, float time) {

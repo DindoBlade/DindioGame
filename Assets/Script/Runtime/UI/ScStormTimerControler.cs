@@ -4,28 +4,50 @@ using UnityEngine;
 
 public class ScStormTimerControler : MonoBehaviour
 {
-    public bool isCountdown;
+    public bool _isCountdown;
+    [SerializeField] private float _timeCounter;
+    [SerializeField] private float _countdownTimer; 
+    [SerializeField] private TextMeshProUGUI _timerText;
     
-    [SerializeField] private float timeCounter;
-    [SerializeField] private float countdownTimer; 
-    [SerializeField] private TextMeshProUGUI timerText;
-    
-    private int minutes;
-    private int seconds;
+    private int _minutes;
+    private int _seconds;
+    private float _initialTimer;
+
+    public static ScStormTimerControler Instance;
+
+    private void Awake() {
+        _initialTimer = _countdownTimer;
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+    }
 
     private void Update()
     {
-        if (isCountdown && countdownTimer > 0)
+        if (_isCountdown && _countdownTimer > 0)
         {
-            countdownTimer -= Time.deltaTime;
-            minutes = Mathf.FloorToInt(countdownTimer / 60);
-            seconds = Mathf.FloorToInt(countdownTimer - minutes * 60);
-        } else if (!isCountdown)
+            _countdownTimer -= Time.deltaTime;
+            _minutes = Mathf.FloorToInt(_countdownTimer / 60);
+            _seconds = Mathf.FloorToInt(_countdownTimer - _minutes * 60);
+
+        } else if (!_isCountdown)
         {
-            timeCounter += Time.deltaTime;
-            minutes = Mathf.FloorToInt(timeCounter / 60);
-            seconds = Mathf.FloorToInt(timeCounter - minutes * 60);
+            _timeCounter += Time.deltaTime;
+            _minutes = Mathf.FloorToInt(_timeCounter / 60);
+            _seconds = Mathf.FloorToInt(_timeCounter - _minutes * 60);
         }
-        timerText.text = $"{minutes:00}:{seconds:00}";
-    }
+
+        if (_isCountdown && _countdownTimer <= 0 )
+        ResetTimer();
+        // reduce zone if possible
+
+        _timerText.text = $"{_minutes:00}:{_seconds:00}";
+    }   
+
+    public void ResetTimer()
+    {
+        _countdownTimer = _initialTimer;
+    } 
 }
