@@ -5,6 +5,7 @@ using Dindio.Runtime.Input;
 using Dindio.Runtime.Interactable;
 using Dindio.Runtime.Interfaces;
 using Dindio.Runtime.Interactable.Collectible;
+using Dindio.Runtime.Player.Anim;
 using static Dindio.Runtime.Others.ScEnums;
 using static Dindio.Runtime.Others.ScUtils;
 
@@ -13,8 +14,8 @@ namespace Dindio.Runtime.Player {
         ScPlayerInventory _inventory;
         ScPlayerMovement _playerMovement;
         ScPlayerHealth _playerHealth;
-        Animator _animator;
         ScPlayerParticle _playerParticle;
+        ScPlayerAnim _playerAnim;
         
         ScInputManager _inputManager => ScInputManager.Instance;
         
@@ -39,10 +40,10 @@ namespace Dindio.Runtime.Player {
         
         void Awake() {
             _inventory = GetComponent<ScPlayerInventory>();
-            _animator = GetComponent<Animator>();
             _playerMovement = GetComponent<ScPlayerMovement>();
             _playerHealth = GetComponent<ScPlayerHealth>();
             _playerParticle = GetComponent<ScPlayerParticle>();
+            _playerAnim = GetComponent<ScPlayerAnim>();
         }
         
         void Start() {
@@ -86,7 +87,17 @@ namespace Dindio.Runtime.Player {
         void StartAnimAttack(EAttackType attackType, int damage) {
             _currentAttackType = attackType;
             _currentDamage = damage;
-            _animator.Play("test");
+            _inputManager.CanAttack = false;
+            switch (attackType) {
+                case EAttackType.Beak:
+                    _playerAnim.PlayAttackBeak();
+                    break;
+                case EAttackType.Wings:
+                    _playerAnim.PlayAttackWings();
+                    break;
+                default:
+                    break;
+            }
         }
         
         public void AttackOnAnim() {
@@ -120,6 +131,7 @@ namespace Dindio.Runtime.Player {
                 switch (healthComponent) {
                     case ScPlayerHealth playerHealth:
                         playerHealth.TakeDamage( _isBoosted ? _buffedDamage : _currentDamage);
+                        collider.GetComponentInParent<ScPlayerAnim>().PlayHit();
                         break;
                     case ScCrateHealth crateHealth:
                         crateHealth.TakeDamage(0);

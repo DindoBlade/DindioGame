@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using Dindio.Runtime.Input;
+using Dindio.Runtime.Player.Anim;
 using UnityEngine;
 using Unity.Netcode;
 using Unity.Netcode.Components;
@@ -15,8 +16,11 @@ namespace Dindio.Runtime.Player {
         ScInputManager _inputManager => ScInputManager.Instance;
         private Rigidbody2D _body;
 
+        private ScPlayerAnim _playerAnim;
+
         private void Start() {
             _body = GetComponent<Rigidbody2D>();
+            _playerAnim = GetComponent<ScPlayerAnim>();
         }
 
         public override void OnNetworkSpawn() {
@@ -29,6 +33,7 @@ namespace Dindio.Runtime.Player {
     
             Move();  
             Rotate();
+            _playerAnim.SetSpeed(_body.linearVelocity.magnitude);
         }
 
         /// <summary>

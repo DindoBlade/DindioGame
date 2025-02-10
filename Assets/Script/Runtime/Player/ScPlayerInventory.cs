@@ -22,6 +22,7 @@ namespace Dindio.Runtime.Player {
 
         void Start() {
             _inputManager.OnScrollEvent.Performed.AddListener(Scroll);
+            _inputManager.CanAttack = true;
         }
 
         public override void OnNetworkSpawn() {
