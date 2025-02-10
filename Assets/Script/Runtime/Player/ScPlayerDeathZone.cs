@@ -52,7 +52,7 @@ public class ScPlayerDeathZone : NetworkBehaviour {
 
 
             _inDeathZoneTime += Time.deltaTime;
-            ScCallbacks.OnUpdateDeathZone.Invoke(_inDeathZoneTime, _deathTimerTime);
+            // ScCallbacks.OnUpdateDeathZone.Invoke(_inDeathZoneTime, _deathTimerTime);
 
             if (_inDeathZoneTime >= _deathTimerTime)
             {
@@ -81,7 +81,7 @@ public class ScPlayerDeathZone : NetworkBehaviour {
                     StopCoroutine(_outOfDeathZoneCoroutine);
                 }
             }
-            ScCallbacks.OnUpdateDeathZone.Invoke(_inDeathZoneTime, _deathTimerTime);
+            // ScCallbacks.OnUpdateDeathZone.Invoke(_inDeathZoneTime, _deathTimerTime);
         }
     }
 
