@@ -37,6 +37,10 @@ namespace Dindio.Runtime.Player {
         [Header("Wings")]
         [SerializeField] float _radius;
         [SerializeField] Transform _wingsCenter;
+        [SerializeField] GameObject _windBallPrefab;
+        NetworkObject _windBallObj;
+        
+        Coroutine _coWindBallDespawn;
         
         void Awake() {
             _inventory = GetComponent<ScPlayerInventory>();
@@ -103,11 +107,15 @@ namespace Dindio.Runtime.Player {
         public void AttackOnAnim() {
             switch (_currentAttackType) {
                 case EAttackType.Beak:
-                    AttackColliders(Physics2D.OverlapBoxAll(_beakCenter.position, _size, 0));
+                        AttackColliders(Physics2D.OverlapBoxAll(_beakCenter.position, _size, 0));
                     break;
 
                 case EAttackType.Wings:
-                    AttackColliders(Physics2D.OverlapCircleAll(_wingsCenter.position, _radius));
+                    if (_coWindBallDespawn != null) {
+                        StopCoroutine(_coWindBallDespawn);
+                    }
+                    SpawnWindBallServerRpc();
+                    _coWindBallDespawn = StartCoroutine(DespawnWindBall());
                     break;
                 default:
                     break;
@@ -194,7 +202,34 @@ namespace Dindio.Runtime.Player {
         }
         
 
+        [ServerRpc(RequireOwnership = false)]
+        void SpawnWindBallServerRpc(ServerRpcParams rpcParams = default) {
+            if (_windBallPrefab == null) return;
+            if (_windBallObj != null) {
+                _windBallObj.Despawn();
+            }
+            GameObject newWindBall = Instantiate(_windBallPrefab, _wingsCenter.position, Quaternion.identity);
+            Debug.Log(rpcParams.Receive.SenderClientId);
+
+            if (newWindBall.TryGetComponent(out ScWindBall windBallScript)) {
+                windBallScript.Initialize(rpcParams.Receive.SenderClientId, 5);
+            }
+            if (newWindBall.TryGetComponent(out _windBallObj)) {
+                _windBallObj.Spawn();
+            }
+
+        }
         
+        IEnumerator DespawnWindBall() {
+            yield return new WaitForSeconds(2f);
+            DespawnWindBallServerRpc();
+        }
+
+        [ServerRpc(RequireOwnership = false)]
+        private void DespawnWindBallServerRpc() {
+            _windBallObj.Despawn();
+        }
+
         private void OnDrawGizmos() {
             Gizmos.color = Color.red;
             Gizmos.DrawWireCube(_beakCenter.position, _size);

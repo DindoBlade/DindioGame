@@ -9,6 +9,7 @@ namespace Dindio.Runtime.UI {
         private int _currentSlot;
         private Transform _myTransform;
         [SerializeField] private List<ScInventorySlot> _slots;
+        public int SlotCount;
     
         void Start() {
             _myTransform = transform;
@@ -17,7 +18,7 @@ namespace Dindio.Runtime.UI {
         }
 
         private void CreateHotBar() {
-            for (int i = 0; i < ScPlayerInventory.inventorySlots; i++) {
+            for (int i = 0; i < SlotCount; i++) {
                 GameObject newSlot = Instantiate(_slotPrefab, _myTransform, false);
                 ScInventorySlot slot = newSlot.GetComponent<ScInventorySlot>();
                 slot.Select(false);
