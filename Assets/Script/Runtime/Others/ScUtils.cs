@@ -11,5 +11,18 @@ namespace Dindio.Runtime.Others {
         public static bool IsMyself(Transform other, Transform self) {
             return other == self || other.IsChildOf(self.transform);
         }
+
+        public static (string, string) SplitString(string input, string separator)
+        {
+            int separatorIndex = input.IndexOf(separator);
+            
+            if (separatorIndex == -1)
+                return (input, string.Empty);
+            
+            string beforeSeparator = input[..separatorIndex];
+            string afterSeparator = input[(separatorIndex + separator.Length)..];
+            
+            return (beforeSeparator, afterSeparator);
+        }
     }
 }
