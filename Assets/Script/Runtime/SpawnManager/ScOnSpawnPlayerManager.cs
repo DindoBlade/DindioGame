@@ -57,7 +57,8 @@ namespace Dindio.Runtime.SpawnManager {
         {
             yield return new WaitForSeconds(_delayBeforeSpawn);
             TeleportAllPlayers();
-            //reset zone
+            // reset zone
+            // lance le timer sur le serv pour le server
         }
     }
 }

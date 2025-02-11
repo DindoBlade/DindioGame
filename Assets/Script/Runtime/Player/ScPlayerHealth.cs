@@ -20,9 +20,9 @@ namespace Dindio.Runtime.Player {
                     
         }
 
-        public void ActiveDamage()
+        public void ActiveDamage(bool value)
         {
-            _canTakeDamage = true;
+            _canTakeDamage = value;
         }
         
         private void OnHpChanged(int previousValue, int newValue) {
@@ -32,7 +32,7 @@ namespace Dindio.Runtime.Player {
         }
         
         public void TakeDamage(int amount) {
-            if (_canTakeDamage)
+            if (!_canTakeDamage) return;
             TakeDamageServerRpc(amount);
         }
 

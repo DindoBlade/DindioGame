@@ -7,28 +7,20 @@ namespace Dindio.Runtime.Player {
     public class ScOnPlayerSpawn : NetworkBehaviour
     {
         ScOnSpawnPlayerManager _spawnManager => ScOnSpawnPlayerManager.Instance;
-        ScStormTimerControler _timer => ScStormTimerControler.Instance;
-        private ScPlayerHealth _playerHealth;
-
         private void Start() {
-            if (!IsServer || !IsOwner) return;
+            if (!IsServer) return;
 
             _spawnManager.AddPlayerToWaitingList(GetComponent<NetworkObject>());
-            _playerHealth = GetComponent<ScPlayerHealth>();
         }
 
         [ClientRpc]
         public void TeleportClientRpc(Vector3 newPosition)
         {
+            //reset death zone
             transform.position = newPosition;
             Debug.Log($"Téléporté à {newPosition}");
 
-            //reset timer
-            _timer.ResetTimer();
-            //reset zone
-            
-            //activer les degats
-            _playerHealth.ActiveDamage();
+            Debug.Log($" {gameObject} est entrer dans la TeleportClientRpc");
         }
     }
 }

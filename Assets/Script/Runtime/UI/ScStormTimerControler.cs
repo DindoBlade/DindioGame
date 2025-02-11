@@ -13,19 +13,16 @@ public class ScStormTimerControler : MonoBehaviour
     private int _seconds;
     private float _initialTimer;
 
-    public static ScStormTimerControler Instance;
+    private bool _isTimerActive = true;
 
     private void Awake() {
         _initialTimer = _countdownTimer;
-        if (Instance != null)
-        {
-            Destroy(gameObject);
-            return;
-        }
     }
 
     private void Update()
-    {
+    {   
+        if (!_isTimerActive) return;
+
         if (_isCountdown && _countdownTimer > 0)
         {
             _countdownTimer -= Time.deltaTime;
@@ -41,7 +38,6 @@ public class ScStormTimerControler : MonoBehaviour
 
         if (_isCountdown && _countdownTimer <= 0 )
         ResetTimer();
-        // reduce zone if possible
 
         _timerText.text = $"{_minutes:00}:{_seconds:00}";
     }   
@@ -50,4 +46,9 @@ public class ScStormTimerControler : MonoBehaviour
     {
         _countdownTimer = _initialTimer;
     } 
+
+    public void ActiveTimer(bool value)
+    {
+        _isTimerActive = value;
+    }
 }

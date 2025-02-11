@@ -198,7 +198,7 @@ MonoBehaviour:
   ShowTopMostFoldoutHeaderGroup: 1
   _spawnPoints:
   - {fileID: 6464647501045733564}
-  - {fileID: 2301256141493364861}
+  - {fileID: 6520047625680478711}
   _requiredPlayers: 2
   _delayBeforeSpawn: 10
 --- !u!1 &5224155250717622599
