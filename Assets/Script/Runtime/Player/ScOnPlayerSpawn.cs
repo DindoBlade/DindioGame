@@ -22,5 +22,11 @@ namespace Dindio.Runtime.Player {
 
             Debug.Log($" {gameObject} est entrer dans la TeleportClientRpc");
         }
+
+        private void OnDestroy() {
+            if (!IsServer) return;
+            _spawnManager.RemovePlayerFromWaitingList(GetComponent<NetworkObject>());
+        }
     }
+        
 }

@@ -28,18 +28,29 @@ namespace Dindio.Runtime.SpawnManager {
         public void AddPlayerToWaitingList(NetworkObject player)
         {
             _waitingPlayers.Add(player);
+            
             Debug.Log($"Joueur en attente : {_waitingPlayers.Count}/{_requiredPlayers}");
 
             if (_waitingPlayers.Count >= _requiredPlayers && !_teleportationTriggered)
             {
+                _teleportationTriggered = true;
                 StartCoroutine(DelayBeforeSpawn());
             }
+        }
+        public void RemovePlayerFromWaitingList(NetworkObject player)
+        {
+            _waitingPlayers.Remove(player);
+            if (_waitingPlayers.Count < _requiredPlayers)
+            {
+                _teleportationTriggered = false;
+            }
+            
+            Debug.Log($"Joueur en attente : {_waitingPlayers.Count}/{_requiredPlayers}");
         }
 
         private void TeleportAllPlayers()
         {
             Debug.Log("Téléportation de tous les joueurs !");
-            _teleportationTriggered = true;
 
             for (int i = 0; i < _waitingPlayers.Count; i++)
             {
@@ -55,10 +66,18 @@ namespace Dindio.Runtime.SpawnManager {
 
         private IEnumerator DelayBeforeSpawn()
         {
+
             yield return new WaitForSeconds(_delayBeforeSpawn);
-            TeleportAllPlayers();
-            // reset zone
-            // lance le timer sur le serv pour le server
+            if (_teleportationTriggered) // si pendant l'attente
+            {
+                TeleportAllPlayers();
+                // reset zone
+                // lance le timer sur le serv pour le server
+            }
+            else
+            {
+                Debug.Log("not enough player");
+            }
         }
     }
 }
