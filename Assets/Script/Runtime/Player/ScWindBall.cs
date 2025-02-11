@@ -16,7 +16,6 @@ namespace Dindio.Runtime.Player {
         public void Initialize(ulong ownerClientId, int damage) {
             _ownerClientId.Value = ownerClientId;
             _damage.Value = damage;
-            _colliders.Clear();
         }
 
         private void OnTriggerEnter2D(Collider2D other) {
