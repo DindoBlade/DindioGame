@@ -1,4 +1,6 @@
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Dindio.Runtime.Player.Anim {
     public class ScPlayerAnim : MonoBehaviour {
@@ -8,6 +10,8 @@ namespace Dindio.Runtime.Player.Anim {
         private static readonly int Speed = Animator.StringToHash("Speed");
         
         [SerializeField] private Animator _animator;
+        
+        [SerializeField] List<RuntimeAnimatorController> _skins = new();
 
         public void PlayHit() {
             _animator.SetTrigger(Hit);
@@ -23,6 +27,10 @@ namespace Dindio.Runtime.Player.Anim {
         
         public void SetSpeed(float speed) {
             _animator.SetFloat(Speed, speed);
+        }
+        
+        public void SetSkin(int index) {
+            _animator.runtimeAnimatorController = _skins[index];
         }
     }
 
