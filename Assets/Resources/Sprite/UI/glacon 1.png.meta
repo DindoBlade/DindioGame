@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      glacon 1_0: -6796724777904518451
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gravier4_0: 267642859247489409
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bordure coin terre 3_0: 6805898131959490163
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
