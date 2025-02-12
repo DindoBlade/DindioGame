@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7143464878581512241}
   - component: {fileID: 3866719347900488384}
   - component: {fileID: 8003555717971525542}
-  - component: {fileID: 3075134579031893524}
+  - component: {fileID: 4687222607803304344}
   m_Layer: 5
   m_Name: HotBar
   m_TagString: Untagged
@@ -78,7 +78,7 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &3075134579031893524
+--- !u!114 &4687222607803304344
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,7 +87,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 685878357628986443}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 808cc9786ffd5944bb47a6c9d7688b55, type: 3}
+  m_Script: {fileID: 11500000, guid: 1fa2164ffcbcb0c438e6407df6a69219, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _slotPrefab: {fileID: 1360985752521984157, guid: 158062ea7a5441c47a1c3fbafc508a08, type: 3}
