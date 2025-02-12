@@ -18,8 +18,15 @@ namespace Dindio.Runtime.SpawnManager {
 
                 // desactive timer
                 ScStormTimerControler timer = other.transform.parent.GetComponentInChildren<ScStormTimerControler>();
-                timer.ActiveTimer(false);
-                timer.ResetTimer();
+                if (timer != null)
+                {
+                    timer.ActiveTimer(false);
+                    timer.ResetTimer();
+                }
+                else
+                {
+                    Debug.LogWarning($"Pas de timer trouvé sur {other.transform.parent.name}");
+                }
             }
         }
 
@@ -36,8 +43,16 @@ namespace Dindio.Runtime.SpawnManager {
 
                 // reactive timer
                 ScStormTimerControler timer = other.transform.parent.GetComponentInChildren<ScStormTimerControler>();
-                timer.ResetTimer();
-                timer.ActiveTimer(true);
+                if (timer != null)
+                {
+                    timer.ResetTimer();
+                    timer.ActiveTimer(true);
+                }
+                else
+                {
+                    Debug.LogWarning($"Pas de timer trouvé sur {other.transform.parent.name}");
+                }
+                
             }
         }
 
