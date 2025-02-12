@@ -8,7 +8,9 @@ namespace Dindio.Runtime.Interactable.Collectible {
         
         public EAttackType WeaponType;
         public int Damage;
-
-
+        
+        [Header("Durability")]
+        public bool HasDurability;
+        public int Durability;
     }
 }
