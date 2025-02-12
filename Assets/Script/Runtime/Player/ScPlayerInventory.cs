@@ -14,7 +14,7 @@ namespace Dindio.Runtime.Player {
         [SerializeField] public SoInventoryDatabase InventoryDatabase;
         ScInputManager _inputManager => ScInputManager.Instance;
         
-        public const int inventorySlots = 5;
+        private const int _inventorySlots = 5;
 
         [SerializeField] private GameObject _hotBar;
         ScInventoryHotBar _hotBarComponent => _hotBar.GetComponent<ScInventoryHotBar>();
@@ -22,6 +22,8 @@ namespace Dindio.Runtime.Player {
 
         void Start() {
             _inputManager.OnScrollEvent.Performed.AddListener(Scroll);
+            _inputManager.CanAttack = true;
+            _hotBarComponent.SlotCount = _inventorySlots;
         }
 
         public override void OnNetworkSpawn() {
@@ -32,7 +34,7 @@ namespace Dindio.Runtime.Player {
             }
             
             if (!IsServer) return;
-            for(int i = 0 ; i < inventorySlots; i++) {
+            for(int i = 0 ; i < _inventorySlots; i++) {
                 _itemsID.Add(-1);
             }
         }
@@ -71,9 +73,9 @@ namespace Dindio.Runtime.Player {
             _currentSlot += direction;
 
             if (_currentSlot < 0) {
-                _currentSlot = inventorySlots - 1;   
+                _currentSlot = _inventorySlots - 1;   
             }
-            else if (_currentSlot > inventorySlots - 1) {
+            else if (_currentSlot > _inventorySlots - 1) {
                 _currentSlot = 0;
             }
             

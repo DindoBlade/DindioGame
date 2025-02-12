@@ -13,6 +13,7 @@ namespace Dindio.Runtime.Input {
         public StInputEvent OnInteractEvent;
         
         public StInputEvent OnAttackEvent;
+        public bool CanAttack = true;
 
         public StInputEvent OnScrollEvent;
         public float ScrollValue;
@@ -37,6 +38,7 @@ namespace Dindio.Runtime.Input {
         }
         
         public void OnAttack(InputAction.CallbackContext ctx) {
+            if(!CanAttack)return;
             InvokeInputEvent(ctx, OnAttackEvent);
         }
         
