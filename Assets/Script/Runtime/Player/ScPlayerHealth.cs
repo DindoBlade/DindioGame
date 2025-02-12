@@ -9,6 +9,7 @@ namespace Dindio.Runtime.Player {
         [field: SerializeField] public int MaxHp { get; set; }
         public NetworkVariable<int> CurrentHp { get; set; } = new ();
         [SerializeField] Slider _hpBar;
+        private bool _canTakeDamage = false;
 
         private void Start() {
             if (!IsOwner) return;
@@ -18,6 +19,11 @@ namespace Dindio.Runtime.Player {
             CurrentHp.OnValueChanged += OnHpChanged;
                     
         }
+
+        public void ActiveDamage(bool value)
+        {
+            _canTakeDamage = value;
+        }
         
         private void OnHpChanged(int previousValue, int newValue) {
             if (IsOwner) {
@@ -26,6 +32,7 @@ namespace Dindio.Runtime.Player {
         }
         
         public void TakeDamage(int amount) {
+            if (!_canTakeDamage) return;
             TakeDamageServerRpc(amount);
         }
 

@@ -49,10 +49,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eff700200bac5844b61b36ff8e838d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCountdown: 1
-  timeCounter: 0
-  countdownTimer: 120
-  timerText: {fileID: 8259080513309995611}
+  _isCountdown: 1
+  _timeCounter: 0
+  _countdownTimer: 120
+  _timerText: {fileID: 8259080513309995611}
 --- !u!1 &6729187955060329402
 GameObject:
   m_ObjectHideFlags: 0
