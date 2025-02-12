@@ -13,7 +13,6 @@ namespace Dindio.Runtime.SpawnManager {
         [SerializeField] private int _delayBeforeSpawn = 5;
         private static List<NetworkObject> _waitingPlayers = new(); // Liste des joueurs en attente
         private static bool _teleportationTriggered = false; // Empêche de re-téléporter sans condition
-
         public static ScOnSpawnPlayerManager Instance;
 
         private void Awake() {

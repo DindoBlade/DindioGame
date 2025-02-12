@@ -2,15 +2,29 @@ using UnityEngine;
 using Unity.Netcode;
 using Dindio.Runtime.SpawnManager;
 using Unity.Services.Lobbies.Models;
+using UnityEngine.SceneManagement;
 
 namespace Dindio.Runtime.Player {
     public class ScOnPlayerSpawn : NetworkBehaviour
     {
         ScOnSpawnPlayerManager _spawnManager => ScOnSpawnPlayerManager.Instance;
+        [SerializeField] private GameObject _gameOverScreen;
         private void Start() {
             if (!IsServer) return;
 
             _spawnManager.AddPlayerToWaitingList(GetComponent<NetworkObject>());
+        }
+
+        private void OnDestroy() {
+
+            if (!IsServer && IsOwner)
+            {
+                GameObject gameOver = Instantiate(_gameOverScreen);
+            }
+            else
+            {
+                _spawnManager.RemovePlayerFromWaitingList(GetComponent<NetworkObject>());
+            }
         }
 
         [ClientRpc]
@@ -22,11 +36,5 @@ namespace Dindio.Runtime.Player {
 
             Debug.Log($" {gameObject} est entrer dans la TeleportClientRpc");
         }
-
-        private void OnDestroy() {
-            if (!IsServer) return;
-            _spawnManager.RemovePlayerFromWaitingList(GetComponent<NetworkObject>());
-        }
     }
-        
 }

@@ -690,6 +690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
+  _gameOverScreen: {fileID: 250039146112307753, guid: f73d681bdc8d16f49b7f33e38c5c3ca6, type: 3}
 --- !u!114 &7785467642611282981
 MonoBehaviour:
   m_ObjectHideFlags: 0

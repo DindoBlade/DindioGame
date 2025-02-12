@@ -13,7 +13,7 @@ public class ScStormTimerControler : MonoBehaviour
     private int _seconds;
     private float _initialTimer;
 
-    private bool _isTimerActive = true;
+    private bool _isTimerActive = false;
 
     private void Awake() {
         _initialTimer = _countdownTimer;
