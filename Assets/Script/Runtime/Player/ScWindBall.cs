@@ -13,7 +13,7 @@ namespace Dindio.Runtime.Player {
         private NetworkVariable<ulong> _ownerClientId = new NetworkVariable<ulong>(0, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Server);
         private Coroutine _coDamaging;
         
-        public void Initialize(ulong ownerClientId, int damage) {
+        public void  Initialize(ulong ownerClientId, int damage) {
             _ownerClientId.Value = ownerClientId;
             _damage.Value = damage;
         }
