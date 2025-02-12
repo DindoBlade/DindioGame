@@ -48,7 +48,9 @@ namespace Dindio.Runtime.Player {
         }
 
         private void OnTriggerExit2D(Collider2D other) {
-            StopCoroutine(_coDamaging);
+            if (_coDamaging != null) {
+                StopCoroutine(_coDamaging);
+            }
         }
     }
 }
