@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: ab7c6e9b461e92b419f5b43d37ba79e0
+guid: 9889ea9f4508b2b4c85f43b7cbe5f9d8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4514254678772179899
-    second: barriere 90_0
+      213: -4048664010280451472
+    second: barriere demicercle_0
   - first:
-      213: -451998801853758187
-    second: barriere 90_1
+      213: 6958752444104151352
+    second: barriere demicercle_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: barriere 90_0
+      name: barriere demicercle_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1151
-        height: 1151
+        y: 897
+        width: 117
+        height: 254
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 54c932689452a51c0800000000000000
-      internalID: -4514254678772179899
+      spriteID: 072435c888140d7c0800000000000000
+      internalID: -4048664010280451472
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 8be2f33ae9ac17e4981cd60c489147c0
     internalID: 0
     vertices: []
     indices: 
@@ -151,8 +151,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      barriere 90_0: -4514254678772179899
-      barriere 90_1: -451998801853758187
+      barriere demicercle_0: -4048664010280451472
+      barriere demicercle_1: 6958752444104151352
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

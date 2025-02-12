@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: ab7c6e9b461e92b419f5b43d37ba79e0
+guid: 990237c972d7dc84aa4409f122cc4d15
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4514254678772179899
-    second: barriere 90_0
-  - first:
-      213: -451998801853758187
-    second: barriere 90_1
+      213: -2253136161890282222
+    second: fleur4_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: barriere 90_0
+      name: fleur4_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1151
-        height: 1151
+        x: 355
+        y: 328
+        width: 316
+        height: 368
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 54c932689452a51c0800000000000000
-      internalID: -4514254678772179899
+      spriteID: 21551ff29904bb0e0800000000000000
+      internalID: -2253136161890282222
       vertices: []
       indices: 
       edges: []
@@ -141,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -151,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      barriere 90_0: -4514254678772179899
-      barriere 90_1: -451998801853758187
+      fleur4_0: -2253136161890282222
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
