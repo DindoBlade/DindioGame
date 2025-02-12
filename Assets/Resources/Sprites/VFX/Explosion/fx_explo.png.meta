@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: 22da92dc66144fe47b16748f430c9d8a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7327971108711838813
+    second: fx_explo_0
+  - first:
+      213: 811523283575610399
+    second: fx_explo_1
+  - first:
+      213: -4560037806148228890
+    second: fx_explo_2
+  - first:
+      213: -743718988221296812
+    second: fx_explo_3
+  - first:
+      213: -6755525357011981680
+    second: fx_explo_4
+  - first:
+      213: 5760992588470028672
+    second: fx_explo_5
+  - first:
+      213: 8057936392744775489
+    second: fx_explo_6
+  - first:
+      213: 7224372742127587498
+    second: fx_explo_7
+  - first:
+      213: 6481565940930776327
+    second: fx_explo_8
+  - first:
+      213: -4447822033286740522
+    second: fx_explo_9
+  - first:
+      213: -3399900438336177196
+    second: fx_explo_10
+  - first:
+      213: 6820774407171676757
+    second: fx_explo_11
+  - first:
+      213: -4062872019456995815
+    second: fx_explo_12
+  - first:
+      213: -9179386554241350203
+    second: fx_explo_13
+  - first:
+      213: -4115738912086014043
+    second: fx_explo_14
+  - first:
+      213: 6547089672021716088
+    second: fx_explo_15
+  - first:
+      213: 497517581341244831
+    second: fx_explo_16
+  - first:
+      213: -1910092334076414990
+    second: fx_explo_17
+  - first:
+      213: 4863460984972133943
+    second: fx_explo_18
+  - first:
+      213: 7923342650638732850
+    second: fx_explo_19
+  - first:
+      213: -4851340493360144001
+    second: fx_explo_20
+  - first:
+      213: -4027618513030204161
+    second: fx_explo_21
+  - first:
+      213: -4894148868758481649
+    second: fx_explo_22
+  - first:
+      213: -7097296131768400336
+    second: fx_explo_23
+  - first:
+      213: -962337771972854881
+    second: fx_explo_24
+  - first:
+      213: -2244684870446537179
+    second: fx_explo_25
+  - first:
+      213: 5633114163522564543
+    second: fx_explo_26
+  - first:
+      213: 4734986798632374116
+    second: fx_explo_27
+  - first:
+      213: -90009479828529394
+    second: fx_explo_28
+  - first:
+      213: -4923277108584900358
+    second: fx_explo_29
+  - first:
+      213: 9112627031803327622
+    second: fx_explo_30
+  - first:
+      213: -3413502356205122194
+    second: fx_explo_31
+  - first:
+      213: -8211101744309264247
+    second: fx_explo_32
+  - first:
+      213: -2042872370854743007
+    second: fx_explo_33
+  - first:
+      213: -5357799049005696307
+    second: fx_explo_34
+  - first:
+      213: -3532067332546079425
+    second: fx_explo_35
+  - first:
+      213: -6766073502557713572
+    second: fx_explo_36
+  - first:
+      213: -2285335160586540808
+    second: fx_explo_37
+  - first:
+      213: 1218671396047209519
+    second: fx_explo_38
+  - first:
+      213: 182357715439633931
+    second: fx_explo_39
+  - first:
+      213: 9186208870234634795
+    second: fx_explo_40
+  - first:
+      213: 5036895525519287233
+    second: fx_explo_41
+  - first:
+      213: -2147995771618529345
+    second: fx_explo_42
+  - first:
+      213: 5274590545299434889
+    second: fx_explo_43
+  - first:
+      213: -5772417090817358425
+    second: fx_explo_44
+  - first:
+      213: 5409888216015420994
+    second: fx_explo_45
+  - first:
+      213: 7242654519637445221
+    second: fx_explo_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fx_explo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0a4010f25e0c04fb448595fe1ad4e4
+      internalID: 920115611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_explo_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca44708413f0add439f5ca4f5a9431c7
+      internalID: 1946175575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_explo_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7359bf1064e1f4478c9c51daa2480c4
+      internalID: 1934325584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_explo_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe1402c18fc5cb4e8944614c7900fe5
+      internalID: -695887224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_explo_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8e2fcafcc69974f8345a0f252e2df8
+      internalID: -178615000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_explo_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc4e7e105e190c4d84862cb4279c567
+      internalID: -246682404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_explo_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7be69e38bbd18c4e98adf727a99efdb
+      internalID: -1496967147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bf4005cfec9faff4ca001e3846e5ca59
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fx_explo_0: 920115611
+      fx_explo_1: 1946175575
+      fx_explo_2: 1934325584
+      fx_explo_3: -695887224
+      fx_explo_4: -178615000
+      fx_explo_5: -246682404
+      fx_explo_6: -1496967147
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

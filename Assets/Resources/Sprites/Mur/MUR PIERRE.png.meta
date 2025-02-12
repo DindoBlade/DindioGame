@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 65652345355c3874cb7ea9bb7bebfe88
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7544163108375294661
+    second: MUR PIERRE_0
+  - first:
+      213: -5646030351114671698
+    second: MUR PIERRE_1
+  - first:
+      213: -2913802389658647258
+    second: MUR PIERRE_2
+  - first:
+      213: -7582013659404603353
+    second: MUR PIERRE_3
+  - first:
+      213: 6121004689319368720
+    second: MUR PIERRE_4
+  - first:
+      213: -3022811389020270136
+    second: MUR PIERRE_5
+  - first:
+      213: 3687455039160578028
+    second: MUR PIERRE_6
+  - first:
+      213: 7559856624686667221
+    second: MUR PIERRE_7
+  - first:
+      213: 1653449945181792514
+    second: MUR PIERRE_8
+  - first:
+      213: -7550206912052763963
+    second: MUR PIERRE_9
+  - first:
+      213: 6333423674805517619
+    second: MUR PIERRE_10
+  - first:
+      213: 5956589399022345017
+    second: MUR PIERRE_11
+  - first:
+      213: 7603280047921220726
+    second: MUR PIERRE_12
+  - first:
+      213: -714739733501977335
+    second: MUR PIERRE_13
+  - first:
+      213: 3241403120718628883
+    second: MUR PIERRE_14
+  - first:
+      213: -4809668170259825233
+    second: MUR PIERRE_15
+  - first:
+      213: 5758934498669993703
+    second: MUR PIERRE_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MUR PIERRE_0
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1572
+        width: 219
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2f05a506042b860800000000000000
+      internalID: 7544163108375294661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUR PIERRE_1
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1656
+        width: 800
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea96cb24f4545a1b0800000000000000
+      internalID: -5646030351114671698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUR PIERRE_2
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1505
+        width: 377
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62546b22a281097d0800000000000000
+      internalID: -2913802389658647258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUR PIERRE_3
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1210
+        width: 456
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720770d7fb647c690800000000000000
+      internalID: -7582013659404603353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUR PIERRE_4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1458
+        width: 140
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018916f955d22f450800000000000000
+      internalID: 6121004689319368720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUR PIERRE_5
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1156
+        width: 196
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c11176ae01dc06d0800000000000000
+      internalID: -3022811389020270136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUR PIERRE_6
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1406
+        width: 91
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefe36632d87c2330800000000000000
+      internalID: 3687455039160578028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUR PIERRE_7
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1412
+        width: 73
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5155bdb810ae860800000000000000
+      internalID: 7559856624686667221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUR PIERRE_8
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 338
+        width: 540
+        height: 897
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209237cf6fb32f610800000000000000
+      internalID: 1653449945181792514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUR PIERRE_9
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1210
+        width: 165
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c26562f0d6483790800000000000000
+      internalID: -7550206912052763963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUR PIERRE_10
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 670
+        width: 347
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33df4dcb647d4e750800000000000000
+      internalID: 6333423674805517619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUR PIERRE_11
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 0
+        width: 376
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b9591cf7e0aa250800000000000000
+      internalID: 5956589399022345017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUR PIERRE_12
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 617
+        width: 178
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cc8207be6448960800000000000000
+      internalID: 7603280047921220726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUR PIERRE_13
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 7
+        width: 333
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90dd1cdcffbb416f0800000000000000
+      internalID: -714739733501977335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUR PIERRE_14
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 300
+        width: 223
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318c640f6f6cbfc20800000000000000
+      internalID: 3241403120718628883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUR PIERRE_15
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 211
+        width: 136
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fadf8282840a04db0800000000000000
+      internalID: -4809668170259825233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUR PIERRE_16
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 13
+        width: 162
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee97f51a68dbef40800000000000000
+      internalID: 5758934498669993703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MUR PIERRE_0: 7544163108375294661
+      MUR PIERRE_1: -5646030351114671698
+      MUR PIERRE_10: 6333423674805517619
+      MUR PIERRE_11: 5956589399022345017
+      MUR PIERRE_12: 7603280047921220726
+      MUR PIERRE_13: -714739733501977335
+      MUR PIERRE_14: 3241403120718628883
+      MUR PIERRE_15: -4809668170259825233
+      MUR PIERRE_16: 5758934498669993703
+      MUR PIERRE_2: -2913802389658647258
+      MUR PIERRE_3: -7582013659404603353
+      MUR PIERRE_4: 6121004689319368720
+      MUR PIERRE_5: -3022811389020270136
+      MUR PIERRE_6: 3687455039160578028
+      MUR PIERRE_7: 7559856624686667221
+      MUR PIERRE_8: 1653449945181792514
+      MUR PIERRE_9: -7550206912052763963
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
