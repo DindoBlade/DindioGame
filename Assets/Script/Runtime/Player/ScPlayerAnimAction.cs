@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace Dindio.Runtime.Player.Anim {
     public class ScPlayerAnimAction : MonoBehaviour {
+        
         ScPlayerAction _playerAction;
         
         void Start() {
@@ -10,7 +11,7 @@ namespace Dindio.Runtime.Player.Anim {
         }
 
         public void Attack() {
-                _playerAction.AttackOnAnim();
+            _playerAction.AttackOnAnim();
         }
         
         public void AuthorizeAttackInput() {
