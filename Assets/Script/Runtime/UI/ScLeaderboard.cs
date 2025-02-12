@@ -21,7 +21,7 @@ public class ScLeaderboard: MonoBehaviour
         _transform = transform;
 
         StartCoroutine(UpdateLeaderboard());
-        PlayerSettings.insecureHttpOption = InsecureHttpOption.AlwaysAllowed;
+        // PlayerSettings.insecureHttpOption = InsecureHttpOption.AlwaysAllowed;
     }
 
     private IEnumerator UpdateLeaderboard()

@@ -13,7 +13,6 @@ namespace Dindio.Runtime.Interactable.Inventory {
         }
         
         public string GetNameByID(int id) {
-            Debug.Log("Searching name of id: " + id);
             return Items.TryGetValue(id, out SoInventoryItemData data) ? data.Name : null;
         }
         public GameObject GetPrefabByID(int id) {

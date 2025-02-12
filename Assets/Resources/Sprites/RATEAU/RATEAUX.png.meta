@@ -1,0 +1,324 @@
+fileFormatVersion: 2
+guid: 1b2ab7dc6c67a054a9782d075365eef5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7654993236204635174
+    second: RATEAUX_0
+  - first:
+      213: 5723510172894250267
+    second: RATEAUX_1
+  - first:
+      213: -1080221004178509128
+    second: RATEAUX_2
+  - first:
+      213: -4200669638616833810
+    second: RATEAUX_3
+  - first:
+      213: 3456407101043080284
+    second: RATEAUX_4
+  - first:
+      213: 7556275218595664440
+    second: RATEAUX_5
+  - first:
+      213: 1853282970316269163
+    second: RATEAUX_6
+  - first:
+      213: 7307373008874237324
+    second: RATEAUX_7
+  - first:
+      213: 10475721024801406
+    second: RATEAUX_8
+  - first:
+      213: -7549691360751853140
+    second: RATEAUX_9
+  - first:
+      213: 2184006087768178181
+    second: RATEAUX_10
+  - first:
+      213: -1275181408373437481
+    second: RATEAUX_11
+  - first:
+      213: 4881129499192396205
+    second: RATEAUX_12
+  - first:
+      213: 4461211927292159475
+    second: RATEAUX_13
+  - first:
+      213: -3989324897590034072
+    second: RATEAUX_14
+  - first:
+      213: 5953525067293589708
+    second: RATEAUX_15
+  - first:
+      213: -3494579096445191355
+    second: RATEAUX_16
+  - first:
+      213: 7357745611872562825
+    second: RATEAUX_17
+  - first:
+      213: -4572915891364323089
+    second: RATEAUX_18
+  - first:
+      213: -468259332734392221
+    second: RATEAUX_19
+  - first:
+      213: 6776188228705063030
+    second: RATEAUX_20
+  - first:
+      213: -4160240488347978857
+    second: RATEAUX_21
+  - first:
+      213: 7668954672264180970
+    second: RATEAUX_22
+  - first:
+      213: -250957358920405362
+    second: RATEAUX_23
+  - first:
+      213: 7685779502521290593
+    second: RATEAUX_24
+  - first:
+      213: 2471612836515754476
+    second: RATEAUX_25
+  - first:
+      213: -1950073814287975387
+    second: RATEAUX_26
+  - first:
+      213: 1767292468596384704
+    second: RATEAUX_27
+  - first:
+      213: 1211537079639525290
+    second: RATEAUX_28
+  - first:
+      213: -6110740862112496068
+    second: RATEAUX_29
+  - first:
+      213: -6775359831404407631
+    second: RATEAUX_30
+  - first:
+      213: 6723398142940364299
+    second: RATEAUX_31
+  - first:
+      213: -2557977011350969718
+    second: RATEAUX_32
+  - first:
+      213: -6906832468088236840
+    second: RATEAUX_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RATEAUX_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51367a345c0f9844ba9a185c90740cfa
+      internalID: -1082252886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RATEAUX_1
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c2b377faaecfa44bced68e7e6e57c9
+      internalID: 834104135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RATEAUX_2
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd824b338c48314f8d8c76b2962c047
+      internalID: -850076540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RATEAUX_3
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efb509acfff978429f475a22fb13d7a
+      internalID: -1461605538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 052721f76d06c0447a266ae09a84d232
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RATEAUX_0: -1082252886
+      RATEAUX_1: 834104135
+      RATEAUX_2: -850076540
+      RATEAUX_3: -1461605538
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
