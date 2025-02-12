@@ -400,7 +400,7 @@ GameObject:
   - component: {fileID: 1233900769326879057}
   - component: {fileID: 4365260301065634183}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: Player Info
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1837,33 +1837,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7031934924037291841}
     m_Modifications:
-    - target: {fileID: 974888608391078798, guid: 15d13075dacfa2d44abd81a85745c615, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 974888608391078798, guid: 15d13075dacfa2d44abd81a85745c615, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 974888608391078798, guid: 15d13075dacfa2d44abd81a85745c615, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2157864387557604542, guid: 15d13075dacfa2d44abd81a85745c615, type: 3}
       propertyPath: m_Name
       value: HP Bar
-      objectReference: {fileID: 0}
-    - target: {fileID: 5645107633558391838, guid: 15d13075dacfa2d44abd81a85745c615, type: 3}
-      propertyPath: m_Value
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6992291283308710244, guid: 15d13075dacfa2d44abd81a85745c615, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6992291283308710244, guid: 15d13075dacfa2d44abd81a85745c615, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8313036110881538882, guid: 15d13075dacfa2d44abd81a85745c615, type: 3}
       propertyPath: m_Pivot.x
