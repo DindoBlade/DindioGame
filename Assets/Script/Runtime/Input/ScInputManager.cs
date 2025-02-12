@@ -3,7 +3,7 @@ using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 
-namespace Dindio.Input {
+namespace Dindio.Runtime.Input {
     public class ScInputManager : MonoBehaviour {
         public static ScInputManager Instance { get; private set; }
     
@@ -13,16 +13,18 @@ namespace Dindio.Input {
         public StInputEvent OnInteractEvent;
         
         public StInputEvent OnAttackEvent;
+        public bool CanAttack = true;
 
         public StInputEvent OnScrollEvent;
         public float ScrollValue;
         
         private void Awake() {
-            if (Instance == null) {
-                Instance = this;
-            } else {
-                Destroy(this);
+            if (Instance != null)
+            {
+                Destroy(gameObject);
+                return;
             }
+            Instance = this;
             DontDestroyOnLoad(transform.root);
         }
 
@@ -36,6 +38,7 @@ namespace Dindio.Input {
         }
         
         public void OnAttack(InputAction.CallbackContext ctx) {
+            if(!CanAttack)return;
             InvokeInputEvent(ctx, OnAttackEvent);
         }
         
