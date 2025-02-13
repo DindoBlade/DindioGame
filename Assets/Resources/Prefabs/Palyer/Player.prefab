@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6430121356142680418}
   m_Layer: 0
   m_Name: RotatePoint
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -189,7 +189,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1032,7 +1032,7 @@ GameObject:
   - component: {fileID: 2412203061939690799}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1096,7 +1096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GlobalObjectIdHash: 2624098562
-  InScenePlacedSourceGlobalObjectIdHash: 0
+  InScenePlacedSourceGlobalObjectIdHash: 2624098562
   DeferredDespawnTick: 0
   Ownership: 1
   AlwaysReplicateAsRoot: 0
@@ -1342,33 +1342,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2206162540246585425, guid: 19d3167a795ed7043a8eb52f5a5e0342, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6986093048006736779, guid: 19d3167a795ed7043a8eb52f5a5e0342, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: ae50b0a0aef102e418f3173603cc8755, type: 2}
     - target: {fileID: 7212819727682877726, guid: 19d3167a795ed7043a8eb52f5a5e0342, type: 3}
       propertyPath: m_Name
       value: PlayerVisuals
-      objectReference: {fileID: 0}
-    - target: {fileID: 7797110337697156443, guid: 19d3167a795ed7043a8eb52f5a5e0342, type: 3}
-      propertyPath: m_Size.x
-      value: 3.870885
-      objectReference: {fileID: 0}
-    - target: {fileID: 7797110337697156443, guid: 19d3167a795ed7043a8eb52f5a5e0342, type: 3}
-      propertyPath: m_Size.y
-      value: 6.5800004
-      objectReference: {fileID: 0}
-    - target: {fileID: 7797110337697156443, guid: 19d3167a795ed7043a8eb52f5a5e0342, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 12373217, guid: eed5e327f807754499eb024f6ca43cfa, type: 3}
-    - target: {fileID: 7797110337697156443, guid: 19d3167a795ed7043a8eb52f5a5e0342, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1711,6 +1687,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6881958965527461781}
     m_Modifications:
+    - target: {fileID: 984380314790161429, guid: e64d7c78ab3309743ac0074dbdfc7fb4, type: 3}
+      propertyPath: orthographic size
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 1434702062940872141, guid: e64d7c78ab3309743ac0074dbdfc7fb4, type: 3}
       propertyPath: m_Name
       value: MiniMapGameObject
