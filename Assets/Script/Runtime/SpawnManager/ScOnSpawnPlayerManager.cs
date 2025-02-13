@@ -14,6 +14,7 @@ namespace Dindio.Runtime.SpawnManager {
         private static List<NetworkObject> _waitingPlayers = new(); // Liste des joueurs en attente
         private static bool _teleportationTriggered = false; // Empêche de re-téléporter sans condition
         public static ScOnSpawnPlayerManager Instance;
+        [SerializeField] private ScDeathZoneTimer _zone;
 
         private void Awake() {
             if (Instance != null)
@@ -61,6 +62,9 @@ namespace Dindio.Runtime.SpawnManager {
 
             _waitingPlayers.Clear();
             _teleportationTriggered = false;
+            
+            _zone.ResetZone();
+
         }
 
         private IEnumerator DelayBeforeSpawn()

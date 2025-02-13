@@ -8,20 +8,27 @@ public class ScDeathZoneTimer : NetworkBehaviour
 
     [SerializeField] private List<float> _deathZoneSizes = new List<float>();
     [SerializeField] private float _updateEvery = 180f;
+    private Coroutine _timerCoroutine = null;
     private int _index = -1;
 
-    private void Awake()
+
+    public void ResetZone()
     {
-        if (!IsServer)
-        {
-            Destroy(gameObject);
-            return;
-        }
+        if (!IsServer) return;
+        _index = -1;
+        StartTimer();
+    }
+
+    private void StartTimer()
+    {
+        if (_timerCoroutine != null) StopCoroutine(_timerCoroutine);
+        _timerCoroutine = StartCoroutine(DeathZoneTimer());
     }
 
     public override void OnNetworkSpawn()
     {
-        StartCoroutine(DeathZoneTimer());
+        if (!IsServer) return;
+        StartTimer();
     }
 
     private IEnumerator<WaitForSeconds> DeathZoneTimer()
