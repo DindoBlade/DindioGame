@@ -9,6 +9,7 @@ namespace Dindio.Runtime.Player {
     {
         ScOnSpawnPlayerManager _spawnManager => ScOnSpawnPlayerManager.Instance;
         [SerializeField] private GameObject _gameOverScreen;
+        
         private void Start() {
             if (!IsServer) return;
 
