@@ -6,12 +6,13 @@ public class ScMainMenu : MonoBehaviour
 {
     public void Play()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         // NetworkManager.Singleton.StartClient();
     }
 
     public void Options()
     {
-        SceneManager.LoadScene("Options");
+        //SceneManager.LoadScene("Options");
+        
     }
 }
