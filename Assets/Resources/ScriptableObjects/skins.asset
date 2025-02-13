@@ -34,6 +34,6 @@ MonoBehaviour:
   - Name: Robot
     Animator: {fileID: 9100000, guid: 8445dceafe204cb4c83ef6682d0008f9, type: 2}
   - Name: EnferJumper
-    Animator: {fileID: 9100000, guid: 8445dceafe204cb4c83ef6682d0008f9, type: 2}
+    Animator: {fileID: 9100000, guid: 994287b09a6d66e47933d2a9c2554304, type: 2}
   - Name: Necron
-    Animator: {fileID: 9100000, guid: 8445dceafe204cb4c83ef6682d0008f9, type: 2}
+    Animator: {fileID: 9100000, guid: 8ab86a96192f98048a345480249e4691, type: 2}
