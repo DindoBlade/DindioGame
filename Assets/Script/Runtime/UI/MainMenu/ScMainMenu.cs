@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 namespace Dindio.Runtime.UI.MainMenu {
     public class ScMainMenu : MonoBehaviour {
         public void StartGame() {
-            NetworkManager.Singleton.StartClient();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
