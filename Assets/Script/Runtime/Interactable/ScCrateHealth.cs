@@ -18,12 +18,9 @@ namespace Dindio.Runtime.Interactable {
         }
         public void TakeDamage(int amount)
         {
-
             _visuel.SetActive(false);
-
             _spawner.SpawnItemServerRpc();
             DestroyServerRpc();
-
         }
 
 
