@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Dindio.Runtime.Others {
     public static class ScUtils {
@@ -14,7 +15,7 @@ namespace Dindio.Runtime.Others {
 
         public static (string, string) SplitString(string input, string separator)
         {
-            int separatorIndex = input.IndexOf(separator);
+            int separatorIndex = input.IndexOf(separator, StringComparison.Ordinal);
             
             if (separatorIndex == -1)
                 return (input, string.Empty);
