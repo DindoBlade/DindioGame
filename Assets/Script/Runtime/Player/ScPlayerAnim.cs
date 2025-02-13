@@ -1,7 +1,5 @@
-using System.Collections.Generic;
 using Unity.Netcode;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace Dindio.Runtime.Player.Anim {
     public class ScPlayerAnim : NetworkBehaviour {
@@ -15,7 +13,7 @@ namespace Dindio.Runtime.Player.Anim {
 
         public override void OnNetworkSpawn()
         {
-            SetSkinServerRpc(ScSkinSelection.instance.skinUsedIndex);
+            SetSkinServerRpc(ScSkinSelectionManager.Instance.SkinUsedIndex);
         }
         
         public void PlayHit() {
@@ -36,7 +34,7 @@ namespace Dindio.Runtime.Player.Anim {
         
         [ServerRpc(RequireOwnership = false)]
         public void SetSkinServerRpc(int index) {
-            _animator.runtimeAnimatorController = _skins.skins[index];
+            _animator.runtimeAnimatorController = _skins.Skins[index].Animator;
         }
     }
 
