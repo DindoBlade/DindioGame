@@ -30,7 +30,6 @@ namespace Dindio.Runtime.UI.MainMenu {
 
         private void Update() {
             _image.sprite = _spriteRenderer.sprite;
-            _image.SetNativeSize();
         }
     }
 
