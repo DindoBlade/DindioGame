@@ -1,18 +1,21 @@
-using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace Dindio.Runtime.Player.Anim {
-    public class ScPlayerAnim : MonoBehaviour {
+    public class ScPlayerAnim : NetworkBehaviour {
         private static readonly int Hit = Animator.StringToHash("Hit");
         private static readonly int AtkBeak = Animator.StringToHash("AtkBeak");
         private static readonly int AtkWings = Animator.StringToHash("AtkWings");
         private static readonly int Speed = Animator.StringToHash("Speed");
         
         [SerializeField] private Animator _animator;
-        
-        [SerializeField] List<RuntimeAnimatorController> _skins = new();
+        [SerializeField] private SoPlayerSkins _skins;
 
+        public override void OnNetworkSpawn()
+        {
+            SetSkinServerRpc(ScSkinSelectionManager.Instance.SkinUsedIndex);
+        }
+        
         public void PlayHit() {
             _animator.SetTrigger(Hit);
         }
@@ -29,8 +32,9 @@ namespace Dindio.Runtime.Player.Anim {
             _animator.SetFloat(Speed, speed);
         }
         
-        public void SetSkin(int index) {
-            _animator.runtimeAnimatorController = _skins[index];
+        [ServerRpc(RequireOwnership = false)]
+        public void SetSkinServerRpc(int index) {
+            _animator.runtimeAnimatorController = _skins.Skins[index].Animator;
         }
     }
 

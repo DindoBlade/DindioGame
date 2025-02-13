@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c952b1934934b742904de104431082e, type: 3}
+  m_Name: Skins
+  m_EditorClassIdentifier: 
+  Skins:
+  - Name: Dindonneau
+    Animator: {fileID: 9100000, guid: 6b9d81fafb1d09e4091eb8a109e860de, type: 2}
+  - Name: Pirate
+    Animator: {fileID: 9100000, guid: 2c28f8f95a4763a4599f1839649e3353, type: 2}
+  - Name: "No\xEBl"
+    Animator: {fileID: 9100000, guid: 22ffec8abc0ba3743bcc7d1e0675d5f9, type: 2}
+  - Name: Froid
+    Animator: {fileID: 9100000, guid: 641fe6d0688c06f4b9ea71ef1b777927, type: 2}
+  - Name: Abysse
+    Animator: {fileID: 9100000, guid: ae50b0a0aef102e418f3173603cc8755, type: 2}
+  - Name: Canard
+    Animator: {fileID: 9100000, guid: 2c28f8f95a4763a4599f1839649e3353, type: 2}
+  - Name: Oie
+    Animator: {fileID: 9100000, guid: 2c28f8f95a4763a4599f1839649e3353, type: 2}
+  - Name: Pigeon
+    Animator: {fileID: 9100000, guid: 2c28f8f95a4763a4599f1839649e3353, type: 2}
+  - Name: Robot
+    Animator: {fileID: 9100000, guid: 2c28f8f95a4763a4599f1839649e3353, type: 2}
