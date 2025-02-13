@@ -16,9 +16,9 @@ namespace Dindio.Runtime.Interactable {
             Debug.Log($"the that should spawn is : {item}");
 
             GameObject newObject = Instantiate(item, transform.position, Quaternion.identity);
-                if (newObject.TryGetComponent(out NetworkObject obj)) {
-                    obj.Spawn();
-                }
+            if (newObject.TryGetComponent(out NetworkObject obj)) {
+                obj.Spawn();
+            }
         }
 
     }
