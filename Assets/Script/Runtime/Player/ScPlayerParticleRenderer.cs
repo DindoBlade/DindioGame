@@ -38,6 +38,7 @@ namespace Dindio.Runtime.Player {
         }
 
         void StopAnim() {
+            Debug.Log("stop anim");
             ChangeColorServerRpc(new Color(1, 1, 1, 0));
             foreach (Animator animator in _animators) {
                 animator.Play("Idle");

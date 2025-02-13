@@ -1,6 +1,4 @@
-using System;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace Dindio.Runtime.UI {
@@ -10,7 +8,7 @@ namespace Dindio.Runtime.UI {
 
         private float _maxIndicatorTimer;
         private float _indicatorTimer;
-        private bool _shouldUpdate;
+        [SerializeField] private bool _shouldUpdate;
 
         private void Start() {
             ToggleVisibility(false);
@@ -27,15 +25,17 @@ namespace Dindio.Runtime.UI {
         }
 
         private void Update() {
-            if (_shouldUpdate) {
-                _indicatorTimer -= Time.deltaTime;
-                _radialIndicatorUI.fillAmount = _indicatorTimer / _maxIndicatorTimer;
+            if (!_shouldUpdate) {
+                return;
             }
-            else if (_shouldUpdate && _indicatorTimer <= 0f) {
-                _shouldUpdate = false;
-                _radialIndicatorUI.sprite = null;
-                ToggleVisibility(false);
+            _indicatorTimer -= Time.deltaTime;
+            _radialIndicatorUI.fillAmount = _indicatorTimer / _maxIndicatorTimer;
+            if (!Mathf.Approximately(_indicatorTimer, 0f) && !(_indicatorTimer < 0f)) {
+                return;
             }
+            _radialIndicatorUI.sprite = null;
+            ToggleVisibility(false);
+            _shouldUpdate = false;
         }
 
         void ToggleVisibility(bool isVisible = true) {
