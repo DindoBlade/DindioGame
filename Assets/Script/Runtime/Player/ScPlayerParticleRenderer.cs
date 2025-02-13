@@ -1,20 +1,19 @@
-﻿using Unity.Netcode;
+﻿using System.Collections.Generic;
+using System.Linq;
+using Unity.Netcode;
 using UnityEngine;
 
 
 namespace Dindio.Runtime.Player {
-    using Unity.Netcode;
-    using UnityEngine;
-
     public class ScPlayerParticleRenderer : NetworkBehaviour {
-        private SpriteRenderer _spriteRenderer;
-        private Animator _animator;
+        private List<SpriteRenderer> _spriteRenderers = new();
+        private List<Animator> _animators = new();
 
         private NetworkVariable<Color> _color = new (new Color(1, 1, 1, 0), NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Server);
 
         private void Awake() {
-            _spriteRenderer = GetComponent<SpriteRenderer>();
-            _animator = GetComponent<Animator>();
+            _spriteRenderers = GetComponentsInChildren<SpriteRenderer>().ToList();
+            _animators = GetComponentsInChildren<Animator>().ToList();
             
             _color.OnValueChanged += OnColorChanged;
         }
@@ -25,18 +24,25 @@ namespace Dindio.Runtime.Player {
         }
 
         private void OnColorChanged(Color oldColor, Color newColor) {
-            _spriteRenderer.color = newColor;
+            foreach (SpriteRenderer renderer in _spriteRenderers) {
+                renderer.color = newColor;
+            }
         }
 
         public void StartAnim(Color color, float duration) {
             ChangeColorServerRpc(color);
-            _animator.Play("Show");
+            foreach (Animator animator in _animators) {
+                animator.Play("Show");
+            }
             Invoke(nameof(StopAnim), duration);
         }
 
         void StopAnim() {
+            Debug.Log("stop anim");
             ChangeColorServerRpc(new Color(1, 1, 1, 0));
-            _animator.Play("Idle");
+            foreach (Animator animator in _animators) {
+                animator.Play("Idle");
+            }
         }
 
         [ServerRpc(RequireOwnership = false)]

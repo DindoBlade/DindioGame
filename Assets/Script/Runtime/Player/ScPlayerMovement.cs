@@ -67,7 +67,7 @@ namespace Dindio.Runtime.Player {
             Speed = newSpeed;
 
             yield return new WaitForSeconds(time);
-
+            Debug.Log("stop boost");
             Speed = baseSpeed;
         }
     }

@@ -24,10 +24,16 @@ MonoBehaviour:
   - Name: Abysse
     Animator: {fileID: 9100000, guid: ae50b0a0aef102e418f3173603cc8755, type: 2}
   - Name: Canard
-    Animator: {fileID: 9100000, guid: 2c28f8f95a4763a4599f1839649e3353, type: 2}
+    Animator: {fileID: 9100000, guid: 6d8a6ebcbbb69ba4bacd4b5aa048ee4f, type: 2}
   - Name: Oie
-    Animator: {fileID: 9100000, guid: 2c28f8f95a4763a4599f1839649e3353, type: 2}
+    Animator: {fileID: 9100000, guid: 140e93293f10a1f4f9bb85f57b0433e0, type: 2}
   - Name: Pigeon
-    Animator: {fileID: 9100000, guid: 2c28f8f95a4763a4599f1839649e3353, type: 2}
+    Animator: {fileID: 9100000, guid: 02e487767708c5542932604a45a1db3e, type: 2}
+  - Name: Paradis
+    Animator: {fileID: 9100000, guid: 603898489be0b0b489b58fde623f52f4, type: 2}
   - Name: Robot
-    Animator: {fileID: 9100000, guid: 2c28f8f95a4763a4599f1839649e3353, type: 2}
+    Animator: {fileID: 9100000, guid: 8445dceafe204cb4c83ef6682d0008f9, type: 2}
+  - Name: EnferJumper
+    Animator: {fileID: 9100000, guid: 994287b09a6d66e47933d2a9c2554304, type: 2}
+  - Name: Necron
+    Animator: {fileID: 9100000, guid: 8ab86a96192f98048a345480249e4691, type: 2}
