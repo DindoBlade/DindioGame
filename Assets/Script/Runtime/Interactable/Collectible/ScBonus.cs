@@ -12,5 +12,7 @@ namespace Dindio.Runtime.Interactable.Collectible {
         
         [Header("Particle")]
         [field:SerializeField] public Color ParticleColor { get; set; }
+
+        public Sprite Icon;
     }
 }

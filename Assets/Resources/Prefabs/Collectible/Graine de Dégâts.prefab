@@ -86,8 +86,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 692795350
-  InScenePlacedSourceGlobalObjectIdHash: 466054036
+  GlobalObjectIdHash: 265010970
+  InScenePlacedSourceGlobalObjectIdHash: 692795350
   DeferredDespawnTick: 0
   Ownership: 1
   AlwaysReplicateAsRoot: 0
@@ -130,6 +130,8 @@ MonoBehaviour:
   BuffType: 0
   Amount: 5
   Time: 30
+  <ParticleColor>k__BackingField: {r: 0.65882355, g: 0.019607844, b: 0, a: 1}
+  Icon: {fileID: 72792458962333747, guid: a45d83031df37f24b9d3aa8188fc8969, type: 3}
 --- !u!1 &2330708598016881785
 GameObject:
   m_ObjectHideFlags: 0
@@ -205,7 +207,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: a095cf9d8f4801849b2f68d2c56dd7b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -379,7 +381,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: b6f1649c1a1ee264e9d1422f93d16e82, type: 3}
   m_Color: {r: 0.65882355, g: 0.022108328, b: 0, a: 1}
   m_FlipX: 0

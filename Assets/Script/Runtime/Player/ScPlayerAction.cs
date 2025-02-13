@@ -6,6 +6,7 @@ using Dindio.Runtime.Interactable;
 using Dindio.Runtime.Interfaces;
 using Dindio.Runtime.Interactable.Collectible;
 using Dindio.Runtime.Player.Anim;
+using Dindio.Runtime.UI;
 using static Dindio.Runtime.Others.ScEnums;
 using static Dindio.Runtime.Others.ScUtils;
 
@@ -16,6 +17,7 @@ namespace Dindio.Runtime.Player {
         ScPlayerHealth _playerHealth;
         ScPlayerParticle _playerParticle;
         ScPlayerAnim _playerAnim;
+        ScBonusUIController _bonusUI;
         
         ScInputManager _inputManager => ScInputManager.Instance;
         
@@ -48,6 +50,7 @@ namespace Dindio.Runtime.Player {
             _playerHealth = GetComponent<ScPlayerHealth>();
             _playerParticle = GetComponent<ScPlayerParticle>();
             _playerAnim = GetComponent<ScPlayerAnim>();
+            _bonusUI = GetComponent<ScBonusUIController>();
         }
         
         void Start() {
@@ -160,6 +163,7 @@ namespace Dindio.Runtime.Player {
                     break;
             }
             _playerParticle.StartParticle(bonus.ParticleColor, bonus.Time, isBoost: true);
+            _bonusUI.BeginTimer(bonus.Time, bonus.Icon, bonus.ParticleColor);
             _inventory.RemoveFromInventory(_inventory.GetCurrentSlot());
         }
         
