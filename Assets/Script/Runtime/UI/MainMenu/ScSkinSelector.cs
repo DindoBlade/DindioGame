@@ -1,27 +1,37 @@
+using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ScSkinSelector : MonoBehaviour
-{
-    [SerializeField] private Animator _animator;
-    [SerializeField] private SpriteRenderer _spriteRenderer;
-    [SerializeField] private Image _image;
+namespace Dindio.Runtime.UI.MainMenu {
+    public class ScSkinSelector : MonoBehaviour {
+        [SerializeField] private Animator _animator;
+        [SerializeField] private SpriteRenderer _spriteRenderer;
+        [SerializeField] private Image _image;
+        [SerializeField] TextMeshProUGUI _nameDisplay;
 
-    public void UsePrevious()
-    {
-        ScSkinSelection.instance.UsePrevious();
-        _animator.runtimeAnimatorController = ScSkinSelection.instance.skinUsed;
+        ScSkinSelectionManager SkinSelectionManager => ScSkinSelectionManager.Instance;
+
+        private void Start() {
+            _image.preserveAspect = true;
+        }
+
+        public void UsePrevious() {
+            SkinSelectionManager.UsePrevious();
+            _animator.runtimeAnimatorController = SkinSelectionManager.AnimatorUsed;
+            _nameDisplay.text = SkinSelectionManager.NameUsed;
+        }
+
+        public void UseNext() {
+            SkinSelectionManager.UseNext();
+            _animator.runtimeAnimatorController = SkinSelectionManager.AnimatorUsed;
+            _nameDisplay.text = SkinSelectionManager.NameUsed;
+        }
+
+        private void Update() {
+            _image.sprite = _spriteRenderer.sprite;
+            _image.SetNativeSize();
+        }
     }
 
-    public void UseNext()
-    {
-        ScSkinSelection.instance.UseNext();
-        _animator.runtimeAnimatorController = ScSkinSelection.instance.skinUsed;
-    }
-
-    private void Update()
-    {
-        _image.sprite = _spriteRenderer.sprite;
-        _image.SetNativeSize();
-    }
 }

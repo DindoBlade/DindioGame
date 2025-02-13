@@ -202,6 +202,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -211,9 +224,9 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 2556
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -231,11 +244,11 @@ TextureImporter:
       name: Armature_hit_1
       rect:
         serializedVersion: 2
-        x: 394
+        x: 387
         y: 2556
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -253,11 +266,11 @@ TextureImporter:
       name: Armature_hit_2
       rect:
         serializedVersion: 2
-        x: 788
+        x: 772
         y: 2556
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -275,11 +288,11 @@ TextureImporter:
       name: Armature_hit_3
       rect:
         serializedVersion: 2
-        x: 1182
+        x: 1161
         y: 2556
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -297,11 +310,11 @@ TextureImporter:
       name: Armature_hit_4
       rect:
         serializedVersion: 2
-        x: 1576
+        x: 1548
         y: 2556
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -319,11 +332,11 @@ TextureImporter:
       name: Armature_hit_5
       rect:
         serializedVersion: 2
-        x: 1970
+        x: 1935
         y: 2556
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -341,11 +354,11 @@ TextureImporter:
       name: Armature_hit_6
       rect:
         serializedVersion: 2
-        x: 2364
+        x: 2322
         y: 2556
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -365,9 +378,9 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 1917
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -385,11 +398,11 @@ TextureImporter:
       name: Armature_hit_8
       rect:
         serializedVersion: 2
-        x: 394
+        x: 387
         y: 1917
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -407,11 +420,11 @@ TextureImporter:
       name: Armature_hit_9
       rect:
         serializedVersion: 2
-        x: 788
+        x: 774
         y: 1917
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -429,11 +442,11 @@ TextureImporter:
       name: Armature_hit_10
       rect:
         serializedVersion: 2
-        x: 1182
+        x: 1157
         y: 1917
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -451,11 +464,11 @@ TextureImporter:
       name: Armature_hit_11
       rect:
         serializedVersion: 2
-        x: 1576
+        x: 1548
         y: 1917
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -473,11 +486,11 @@ TextureImporter:
       name: Armature_hit_12
       rect:
         serializedVersion: 2
-        x: 1970
+        x: 1935
         y: 1917
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -495,11 +508,11 @@ TextureImporter:
       name: Armature_hit_13
       rect:
         serializedVersion: 2
-        x: 2364
-        y: 1917
-        width: 394
+        x: 2320
+        y: 1912
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -517,11 +530,11 @@ TextureImporter:
       name: Armature_hit_14
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2
         y: 1278
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -539,11 +552,11 @@ TextureImporter:
       name: Armature_hit_15
       rect:
         serializedVersion: 2
-        x: 394
+        x: 387
         y: 1278
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -561,11 +574,11 @@ TextureImporter:
       name: Armature_hit_16
       rect:
         serializedVersion: 2
-        x: 788
+        x: 774
         y: 1278
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -583,11 +596,11 @@ TextureImporter:
       name: Armature_hit_17
       rect:
         serializedVersion: 2
-        x: 1182
+        x: 1161
         y: 1278
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -605,11 +618,11 @@ TextureImporter:
       name: Armature_hit_18
       rect:
         serializedVersion: 2
-        x: 1576
+        x: 1548
         y: 1278
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -627,11 +640,11 @@ TextureImporter:
       name: Armature_hit_19
       rect:
         serializedVersion: 2
-        x: 1970
+        x: 1935
         y: 1278
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -649,11 +662,11 @@ TextureImporter:
       name: Armature_hit_20
       rect:
         serializedVersion: 2
-        x: 2364
+        x: 2322
         y: 1278
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -673,9 +686,9 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 639
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -693,11 +706,11 @@ TextureImporter:
       name: Armature_hit_22
       rect:
         serializedVersion: 2
-        x: 394
+        x: 387
         y: 639
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -715,11 +728,11 @@ TextureImporter:
       name: Armature_hit_23
       rect:
         serializedVersion: 2
-        x: 788
+        x: 774
         y: 639
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -737,11 +750,11 @@ TextureImporter:
       name: Armature_hit_24
       rect:
         serializedVersion: 2
-        x: 1182
+        x: 1161
         y: 639
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -759,11 +772,11 @@ TextureImporter:
       name: Armature_hit_25
       rect:
         serializedVersion: 2
-        x: 1576
+        x: 1548
         y: 639
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -781,11 +794,11 @@ TextureImporter:
       name: Armature_hit_26
       rect:
         serializedVersion: 2
-        x: 1970
+        x: 1935
         y: 639
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -803,11 +816,11 @@ TextureImporter:
       name: Armature_hit_27
       rect:
         serializedVersion: 2
-        x: 2364
-        y: 639
-        width: 394
+        x: 2322
+        y: 641
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -827,9 +840,9 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -847,11 +860,11 @@ TextureImporter:
       name: Armature_hit_29
       rect:
         serializedVersion: 2
-        x: 394
+        x: 387
         y: 0
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -869,11 +882,11 @@ TextureImporter:
       name: Armature_hit_30
       rect:
         serializedVersion: 2
-        x: 788
+        x: 774
         y: 0
-        width: 394
+        width: 387
         height: 639
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -926,10 +939,6 @@ TextureImporter:
       Armature_hit_29: 1406496546
       Armature_hit_3: 1363767
       Armature_hit_30: -1208237954
-      Armature_hit_31: -1921352581
-      Armature_hit_32: -1336334540
-      Armature_hit_33: 1252475914
-      Armature_hit_34: -594077821
       Armature_hit_4: -309584356
       Armature_hit_5: 1706526702
       Armature_hit_6: 1305385025

@@ -1,0 +1,1222 @@
+fileFormatVersion: 2
+guid: ef3e155f27501d542889ef07fd375e44
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 880315967181499288
+    second: Armature_MARCHE_0
+  - first:
+      213: 3973991646604115916
+    second: Armature_MARCHE_1
+  - first:
+      213: -5157147740634351393
+    second: Armature_MARCHE_2
+  - first:
+      213: -7867124726835848958
+    second: Armature_MARCHE_3
+  - first:
+      213: 8384842302935294196
+    second: Armature_MARCHE_4
+  - first:
+      213: -5022235777756693790
+    second: Armature_MARCHE_5
+  - first:
+      213: 4395931296286441030
+    second: Armature_MARCHE_6
+  - first:
+      213: -4884061162434552162
+    second: Armature_MARCHE_7
+  - first:
+      213: 6580454243739753597
+    second: Armature_MARCHE_8
+  - first:
+      213: -3597122634539296750
+    second: Armature_MARCHE_9
+  - first:
+      213: 4889447160003225818
+    second: Armature_MARCHE_10
+  - first:
+      213: -6804529755956134071
+    second: Armature_MARCHE_11
+  - first:
+      213: 2706641420874907581
+    second: Armature_MARCHE_12
+  - first:
+      213: 1581850505228731028
+    second: Armature_MARCHE_13
+  - first:
+      213: -2884069982689729107
+    second: Armature_MARCHE_14
+  - first:
+      213: -6090174340609907255
+    second: Armature_MARCHE_15
+  - first:
+      213: 8118099668545329516
+    second: Armature_MARCHE_16
+  - first:
+      213: -8571667273703902237
+    second: Armature_MARCHE_17
+  - first:
+      213: -7247832268850685945
+    second: Armature_MARCHE_18
+  - first:
+      213: -5016120055458078998
+    second: Armature_MARCHE_19
+  - first:
+      213: -1324194040746045376
+    second: Armature_MARCHE_20
+  - first:
+      213: -1111065737040387633
+    second: Armature_MARCHE_21
+  - first:
+      213: 7314082744343988100
+    second: Armature_MARCHE_22
+  - first:
+      213: 8299699255759932868
+    second: Armature_MARCHE_23
+  - first:
+      213: 2203982292032881547
+    second: Armature_MARCHE_24
+  - first:
+      213: -6439425630221773321
+    second: Armature_MARCHE_25
+  - first:
+      213: -5507358467671067350
+    second: Armature_MARCHE_26
+  - first:
+      213: 8761057664824211457
+    second: Armature_MARCHE_27
+  - first:
+      213: -4124209251289396192
+    second: Armature_MARCHE_28
+  - first:
+      213: -6255962812842702265
+    second: Armature_MARCHE_29
+  - first:
+      213: 5527016598668543058
+    second: Armature_MARCHE_30
+  - first:
+      213: -3486509793615707596
+    second: Armature_MARCHE_31
+  - first:
+      213: -8592301925703140873
+    second: Armature_MARCHE_32
+  - first:
+      213: -5622379968616111680
+    second: Armature_MARCHE_33
+  - first:
+      213: 1457529272918979649
+    second: Armature_MARCHE_34
+  - first:
+      213: 115394746161555014
+    second: Armature_MARCHE_35
+  - first:
+      213: -44516619393236586
+    second: Armature_MARCHE_36
+  - first:
+      213: 3280201291430430474
+    second: Armature_MARCHE_37
+  - first:
+      213: -6595147160225385103
+    second: Armature_MARCHE_38
+  - first:
+      213: -4829895798200505377
+    second: Armature_MARCHE_39
+  - first:
+      213: 7023563248860952404
+    second: Armature_MARCHE_40
+  - first:
+      213: -7242610567050609938
+    second: Armature_MARCHE_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armature_MARCHE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3230
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8abece35f5923447aa7c904f13595d1
+      internalID: 1405774554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_1
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 3230
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c32c70b3b0c54d418ff2e1f7940219e
+      internalID: -1801929322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_2
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 3230
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4649fbc817ed7418ce55cdcedc0ec3
+      internalID: 497134524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_3
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 3230
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04571fb585320174ab6a70d007011162
+      internalID: -1671530518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_4
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 3230
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5aa493923b2ef4a825a4492d1058ef
+      internalID: -325146629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_5
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 3230
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6404f9f0289c04d926d0d08215b971
+      internalID: -1757578631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_6
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 3230
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0908af07ba0c9884d83f0d6c3e0826ff
+      internalID: -1570307095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2584
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887758b7c086d8d4aade4da5778c75ed
+      internalID: 336632657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_8
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 2584
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750e055a65f266b419d7fb24435f0a84
+      internalID: -1511442212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_9
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 2584
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ae46d65dfe66a4eae5b9c42a590ae0
+      internalID: 1057446802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_10
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 2584
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2ce6cf6fd6c2c45b54790a53922c0e
+      internalID: -952603709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_11
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 2584
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ea28e3dbe45174ab04468836015f64
+      internalID: -1661847611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_12
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 2584
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac312b2b8a94744fba3e570e81554dc
+      internalID: -1755494264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_13
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 2584
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8ea264713ed4b44938e57bfb69e106
+      internalID: -1899402653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1938
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79482b7f5246d994280aaafc5333481c
+      internalID: -1379452783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_15
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1938
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394260b3c1bcacb40aa8ce5e24e3ff75
+      internalID: -797641407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_16
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1938
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b475df27ad8cac4c97f375d1f534cea
+      internalID: -603470067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_17
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1938
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dd9d91d28e5b140b8081df4fe767e7
+      internalID: -1724370312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_18
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1938
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9bb5c1ce017f44fae388a2eac408b0
+      internalID: -1850028442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_19
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1938
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312423995d893e34e81c6f29d4223b96
+      internalID: 682838121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_20
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 1938
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bf44e2b712b794bb0832fc06d3884f
+      internalID: 1079420874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1292
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31401c20cdd828241abc0a733a1cdcda
+      internalID: 1577845653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_22
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1292
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62aceb718f2c5c4ea2f612b4144f414
+      internalID: -768807679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_23
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1292
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c059e7910c15c9f429781576b625b067
+      internalID: 1592156493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_24
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1292
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5547127244a1641b008337767f1200
+      internalID: -817607237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_25
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1292
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3844697ce7faa344e8a9f5dea904c242
+      internalID: 2131646229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_26
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1292
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fa58ef1c3a56744a5d51e58765c675
+      internalID: 1618548894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_27
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 1292
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c0246ff319c9945a62e692ce6d2c5b
+      internalID: 1027269055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 646
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a973e125dc979284196472ca2fcf5edd
+      internalID: -816940184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_29
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 646
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591c32ceffe7a714c9e4ab38250eeaf9
+      internalID: -111718576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_30
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 646
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85496e5289f8ba24aa6b23239b04e3ef
+      internalID: -1249600005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_31
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 646
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78ac63a904315844b90cce0064b3338
+      internalID: -360012881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_32
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 646
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c5b44bbb68a554187fe63f6734f42b
+      internalID: 352924635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_33
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 646
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03854057c7431bf4aa07828bd5fd1c79
+      internalID: 961572067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_34
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 646
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bb21883cc8de74881f17be88cc6d9d
+      internalID: -1249843582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4e414c822ea1d41a7960e8c4d1c805
+      internalID: 1501479158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_36
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 0
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa63e050a5a529438f90e1ef684b67a
+      internalID: -249146433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_37
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 0
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcca1d24f917434689699a9e55ca6fe
+      internalID: -1056978915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_38
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 0
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9ec7248502b4a4fb8378e55179b249
+      internalID: -1506462311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_39
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 0
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f173af69434aa41a3914c3e42eccc8
+      internalID: 1480273955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_40
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 0
+        width: 383
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afda2ea606333414db1e4f4db631c6aa
+      internalID: -16630848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2681
+        height: 3874
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6f10d39a773f543a4b19df7257b4b4
+      internalID: 2055289253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0df51f4e50e497843937f5ca447abf05
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Armature_MARCHE_0: 1405774554
+      Armature_MARCHE_1: -1801929322
+      Armature_MARCHE_10: -952603709
+      Armature_MARCHE_11: -1661847611
+      Armature_MARCHE_12: -1755494264
+      Armature_MARCHE_13: -1899402653
+      Armature_MARCHE_14: -1379452783
+      Armature_MARCHE_15: -797641407
+      Armature_MARCHE_16: -603470067
+      Armature_MARCHE_17: -1724370312
+      Armature_MARCHE_18: -1850028442
+      Armature_MARCHE_19: 682838121
+      Armature_MARCHE_2: 497134524
+      Armature_MARCHE_20: 1079420874
+      Armature_MARCHE_21: 1577845653
+      Armature_MARCHE_22: -768807679
+      Armature_MARCHE_23: 1592156493
+      Armature_MARCHE_24: -817607237
+      Armature_MARCHE_25: 2131646229
+      Armature_MARCHE_26: 1618548894
+      Armature_MARCHE_27: 1027269055
+      Armature_MARCHE_28: -816940184
+      Armature_MARCHE_29: -111718576
+      Armature_MARCHE_3: -1671530518
+      Armature_MARCHE_30: -1249600005
+      Armature_MARCHE_31: -360012881
+      Armature_MARCHE_32: 352924635
+      Armature_MARCHE_33: 961572067
+      Armature_MARCHE_34: -1249843582
+      Armature_MARCHE_35: 1501479158
+      Armature_MARCHE_36: -249146433
+      Armature_MARCHE_37: -1056978915
+      Armature_MARCHE_38: -1506462311
+      Armature_MARCHE_39: 1480273955
+      Armature_MARCHE_4: -325146629
+      Armature_MARCHE_40: -16630848
+      Armature_MARCHE_41: 2055289253
+      Armature_MARCHE_5: -1757578631
+      Armature_MARCHE_6: -1570307095
+      Armature_MARCHE_7: 336632657
+      Armature_MARCHE_8: -1511442212
+      Armature_MARCHE_9: 1057446802
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
