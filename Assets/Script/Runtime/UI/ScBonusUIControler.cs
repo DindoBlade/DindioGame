@@ -1,31 +1,46 @@
+using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-public class ScBonusUIController : MonoBehaviour
-{ 
-    [SerializeField] private Image radialIndicatorUI;
-    
-    private float maxIndicatorTimer;
-    private float indicatorTimer;
-    private bool shouldUpdate = false;
+namespace Dindio.Runtime.UI {
+    public class ScBonusUIController : MonoBehaviour {
+        [SerializeField] private Image _radialIndicatorUI;
+        [SerializeField] private Image _radialIndicatorUIBackground;
 
-    public void BeginTimerUpdate(float maxBonusTimer)
-    {
-        maxIndicatorTimer = maxBonusTimer;
-        indicatorTimer = maxBonusTimer;
-        shouldUpdate = true;
-    }
+        private float _maxIndicatorTimer;
+        private float _indicatorTimer;
+        private bool _shouldUpdate;
 
-    private void Update()
-    {
-        if (shouldUpdate)
-        {
-            indicatorTimer -= Time.deltaTime;
-            radialIndicatorUI.fillAmount = indicatorTimer / maxIndicatorTimer;
+        private void Start() {
+            ToggleVisibility(false);
         }
-        else if (shouldUpdate && indicatorTimer <= 0f)
-        {
-            shouldUpdate = false;
+
+        public void BeginTimer(float maxBonusTimer, Sprite bonusIcon, Color color) {
+            ToggleVisibility();
+            _radialIndicatorUIBackground.sprite = bonusIcon;
+            _radialIndicatorUI.sprite = bonusIcon;
+            _radialIndicatorUI.color = color;
+            _maxIndicatorTimer = maxBonusTimer;
+            _indicatorTimer = maxBonusTimer;
+            _shouldUpdate = true;
+        }
+
+        private void Update() {
+            if (_shouldUpdate) {
+                _indicatorTimer -= Time.deltaTime;
+                _radialIndicatorUI.fillAmount = _indicatorTimer / _maxIndicatorTimer;
+            }
+            else if (_shouldUpdate && _indicatorTimer <= 0f) {
+                _shouldUpdate = false;
+                _radialIndicatorUI.sprite = null;
+                ToggleVisibility(false);
+            }
+        }
+
+        void ToggleVisibility(bool isVisible = true) {
+            _radialIndicatorUI.enabled = isVisible;
+            _radialIndicatorUIBackground.enabled = isVisible;
         }
     }
 }
