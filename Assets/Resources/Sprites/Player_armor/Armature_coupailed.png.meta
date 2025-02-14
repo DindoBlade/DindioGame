@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: b049aa3d192d66d4fa905d0697f451cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -901080090749273165
+    second: Armature_coupailed_0
+  - first:
+      213: 6089545624734532565
+    second: Armature_coupailed_1
+  - first:
+      213: 2162914628271329931
+    second: Armature_coupailed_2
+  - first:
+      213: -4913270943809385074
+    second: Armature_coupailed_3
+  - first:
+      213: 4910742688702514772
+    second: Armature_coupailed_4
+  - first:
+      213: 5893276760213321819
+    second: Armature_coupailed_5
+  - first:
+      213: 2752645523161663202
+    second: Armature_coupailed_6
+  - first:
+      213: 7013737089325192823
+    second: Armature_coupailed_7
+  - first:
+      213: 3241339741460887172
+    second: Armature_coupailed_8
+  - first:
+      213: 745686633825457242
+    second: Armature_coupailed_9
+  - first:
+      213: 7382702610202217816
+    second: Armature_coupailed_10
+  - first:
+      213: -1734544240038338334
+    second: Armature_coupailed_11
+  - first:
+      213: -4095140319265773909
+    second: Armature_coupailed_12
+  - first:
+      213: 38178877493985631
+    second: Armature_coupailed_13
+  - first:
+      213: -8354033606762199796
+    second: Armature_coupailed_14
+  - first:
+      213: -1983720893902685271
+    second: Armature_coupailed_15
+  - first:
+      213: -1556421060010223303
+    second: Armature_coupailed_16
+  - first:
+      213: -4497409566912376526
+    second: Armature_coupailed_17
+  - first:
+      213: 5340005785188689129
+    second: Armature_coupailed_18
+  - first:
+      213: 2877924374406544581
+    second: Armature_coupailed_19
+  - first:
+      213: -1122360937771721264
+    second: Armature_coupailed_20
+  - first:
+      213: 4088090311124428860
+    second: Armature_coupailed_21
+  - first:
+      213: 1869544183763448305
+    second: Armature_coupailed_22
+  - first:
+      213: 2160628429434955253
+    second: Armature_coupailed_23
+  - first:
+      213: 291532021565546753
+    second: Armature_coupailed_24
+  - first:
+      213: 2677522797399088927
+    second: Armature_coupailed_25
+  - first:
+      213: 6484918838182502491
+    second: Armature_coupailed_26
+  - first:
+      213: 8467539071743419794
+    second: Armature_coupailed_27
+  - first:
+      213: -5637123372776149249
+    second: Armature_coupailed_28
+  - first:
+      213: 2274171789294200388
+    second: Armature_coupailed_29
+  - first:
+      213: 5817889627446208006
+    second: Armature_coupailed_30
+  - first:
+      213: -694008679976040211
+    second: Armature_coupailed_31
+  - first:
+      213: -371710692344194644
+    second: Armature_coupailed_32
+  - first:
+      213: -5048769628118134869
+    second: Armature_coupailed_33
+  - first:
+      213: -1330608805225526531
+    second: Armature_coupailed_34
+  - first:
+      213: 7933946321677655123
+    second: Armature_coupailed_35
+  - first:
+      213: 566967500090569086
+    second: Armature_coupailed_36
+  - first:
+      213: -1464177609971636239
+    second: Armature_coupailed_37
+  - first:
+      213: 3143831083369207639
+    second: Armature_coupailed_38
+  - first:
+      213: 8041756650168342156
+    second: Armature_coupailed_39
+  - first:
+      213: -472108808857328545
+    second: Armature_coupailed_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armature_coupailed_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4380
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb76bc7e68be73f0800000000000000
+      internalID: -901080090749273165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_1
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 4380
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d306dd5b79628450800000000000000
+      internalID: 6089545624734532565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_2
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 4380
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82db911567340e10800000000000000
+      internalID: 2162914628271329931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_3
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 4380
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d4ef4bb1e80dbb0800000000000000
+      internalID: -4913270943809385074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_4
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 4380
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456c5770576762440800000000000000
+      internalID: 4910742688702514772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_5
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 4380
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58749f4dff19c150800000000000000
+      internalID: 5893276760213321819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_6
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 4380
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6ce98e48c533620800000000000000
+      internalID: 2752645523161663202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3504
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776d53de8bcc55160800000000000000
+      internalID: 7013737089325192823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_8
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 3504
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486f12e425d8bfc20800000000000000
+      internalID: 3241339741460887172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_9
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 3504
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a545ceaea06395a00800000000000000
+      internalID: 745686633825457242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_10
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 3504
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85dc373a8e0a47660800000000000000
+      internalID: 7382702610202217816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_11
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 3504
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0a0552439ade7e0800000000000000
+      internalID: -1734544240038338334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_12
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 3504
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6a8cc93932b27c0800000000000000
+      internalID: -4095140319265773909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_13
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 3504
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51c3fe9c73a78000800000000000000
+      internalID: 38178877493985631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2628
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05834b32b2801c80800000000000000
+      internalID: -8354033606762199796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_15
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 2628
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abf8617b586874e0800000000000000
+      internalID: -1983720893902685271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_16
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 2628
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939572dca4b766ae0800000000000000
+      internalID: -1556421060010223303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_17
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 2628
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2319eb2c3ddf591c0800000000000000
+      internalID: -4497409566912376526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_18
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 2628
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4e3b418f28b1a40800000000000000
+      internalID: 5340005785188689129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_19
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 2628
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccb0fa78f070f720800000000000000
+      internalID: 2877924374406544581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_20
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 2628
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd97527ca29c60f0800000000000000
+      internalID: -1122360937771721264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1752
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38a9447a70dbb830800000000000000
+      internalID: 4088090311124428860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_22
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1752
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f13e15a784f1f910800000000000000
+      internalID: 1869544183763448305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_23
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1752
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5a41ceb181cfd10800000000000000
+      internalID: 2160628429434955253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_24
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 1752
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101e01a34dabb0400800000000000000
+      internalID: 291532021565546753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_25
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 1752
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f9bf05cc8782520800000000000000
+      internalID: 2677522797399088927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_26
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 1752
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b506b13235f0ff950800000000000000
+      internalID: 6484918838182502491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_27
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 1752
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295e10d3cedb28570800000000000000
+      internalID: 8467539071743419794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 876
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe20a2c82ae4c1b0800000000000000
+      internalID: -5637123372776149249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_29
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 876
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446681b713b7f8f10800000000000000
+      internalID: 2274171789294200388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_30
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 876
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6066c5aaacb4db050800000000000000
+      internalID: 5817889627446208006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_31
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 876
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de88df658c26e56f0800000000000000
+      internalID: -694008679976040211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_32
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 876
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca91c9f381b67daf0800000000000000
+      internalID: -371710692344194644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_33
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 876
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafcc33d5ca2fe9b0800000000000000
+      internalID: -5048769628118134869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_34
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 876
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa868d675ab88de0800000000000000
+      internalID: -1330608805225526531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c1d9ac42a0b1e60800000000000000
+      internalID: 7933946321677655123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_36
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 0
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71f61affe54ed700800000000000000
+      internalID: 566967500090569086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_37
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 0
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f76f85a8323eabe0800000000000000
+      internalID: -1464177609971636239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_38
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 0
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7579d0ea6b121ab20800000000000000
+      internalID: 3143831083369207639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_39
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 0
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c865b67f01f0a9f60800000000000000
+      internalID: 8041756650168342156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupailed_40
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 0
+        width: 599
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54e9b82a8bb279f0800000000000000
+      internalID: -472108808857328545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 53fa59793d6697d4c865b34bc814801a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Armature_coupailed_0: -901080090749273165
+      Armature_coupailed_1: 6089545624734532565
+      Armature_coupailed_10: 7382702610202217816
+      Armature_coupailed_11: -1734544240038338334
+      Armature_coupailed_12: -4095140319265773909
+      Armature_coupailed_13: 38178877493985631
+      Armature_coupailed_14: -8354033606762199796
+      Armature_coupailed_15: -1983720893902685271
+      Armature_coupailed_16: -1556421060010223303
+      Armature_coupailed_17: -4497409566912376526
+      Armature_coupailed_18: 5340005785188689129
+      Armature_coupailed_19: 2877924374406544581
+      Armature_coupailed_2: 2162914628271329931
+      Armature_coupailed_20: -1122360937771721264
+      Armature_coupailed_21: 4088090311124428860
+      Armature_coupailed_22: 1869544183763448305
+      Armature_coupailed_23: 2160628429434955253
+      Armature_coupailed_24: 291532021565546753
+      Armature_coupailed_25: 2677522797399088927
+      Armature_coupailed_26: 6484918838182502491
+      Armature_coupailed_27: 8467539071743419794
+      Armature_coupailed_28: -5637123372776149249
+      Armature_coupailed_29: 2274171789294200388
+      Armature_coupailed_3: -4913270943809385074
+      Armature_coupailed_30: 5817889627446208006
+      Armature_coupailed_31: -694008679976040211
+      Armature_coupailed_32: -371710692344194644
+      Armature_coupailed_33: -5048769628118134869
+      Armature_coupailed_34: -1330608805225526531
+      Armature_coupailed_35: 7933946321677655123
+      Armature_coupailed_36: 566967500090569086
+      Armature_coupailed_37: -1464177609971636239
+      Armature_coupailed_38: 3143831083369207639
+      Armature_coupailed_39: 8041756650168342156
+      Armature_coupailed_4: 4910742688702514772
+      Armature_coupailed_40: -472108808857328545
+      Armature_coupailed_5: 5893276760213321819
+      Armature_coupailed_6: 2752645523161663202
+      Armature_coupailed_7: 7013737089325192823
+      Armature_coupailed_8: 3241339741460887172
+      Armature_coupailed_9: 745686633825457242
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

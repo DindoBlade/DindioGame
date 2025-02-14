@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: a5aec5c65a7301c4aa55c9debf3c5886
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6506821700555953720
+    second: Armature_idle_aileg_0
+  - first:
+      213: 1473324043241976811
+    second: Armature_idle_aileg_1
+  - first:
+      213: 6210580250366483763
+    second: Armature_idle_aileg_2
+  - first:
+      213: 5634119642411013285
+    second: Armature_idle_aileg_3
+  - first:
+      213: 7748515117257880252
+    second: Armature_idle_aileg_4
+  - first:
+      213: -6356882435410344184
+    second: Armature_idle_aileg_5
+  - first:
+      213: -1047288778605591594
+    second: Armature_idle_aileg_6
+  - first:
+      213: 4609664333599787515
+    second: Armature_idle_aileg_7
+  - first:
+      213: -3509456608745889159
+    second: Armature_idle_aileg_8
+  - first:
+      213: 8437285093790447950
+    second: Armature_idle_aileg_9
+  - first:
+      213: 4616179980784847814
+    second: Armature_idle_aileg_10
+  - first:
+      213: -8153616113674808779
+    second: Armature_idle_aileg_11
+  - first:
+      213: -3893667878841119262
+    second: Armature_idle_aileg_12
+  - first:
+      213: -2359448880788112828
+    second: Armature_idle_aileg_13
+  - first:
+      213: -3158477150957732381
+    second: Armature_idle_aileg_14
+  - first:
+      213: 2372689819134660543
+    second: Armature_idle_aileg_15
+  - first:
+      213: -2280075989804520857
+    second: Armature_idle_aileg_16
+  - first:
+      213: 4848673292969158938
+    second: Armature_idle_aileg_17
+  - first:
+      213: 8096380887844970594
+    second: Armature_idle_aileg_18
+  - first:
+      213: 6797937810732459309
+    second: Armature_idle_aileg_19
+  - first:
+      213: -7787968003728135146
+    second: Armature_idle_aileg_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armature_idle_aileg_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836d07eacdfdc4a50800000000000000
+      internalID: 6506821700555953720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_idle_aileg_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 770
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3fa7c496c427410800000000000000
+      internalID: 1473324043241976811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_idle_aileg_2
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 770
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d962825d9603650800000000000000
+      internalID: 6210580250366483763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_idle_aileg_3
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 770
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a495f3c6f9603e40800000000000000
+      internalID: 5634119642411013285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_idle_aileg_4
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 770
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb276ec1271488b60800000000000000
+      internalID: 7748515117257880252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_idle_aileg_5
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 770
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807427eea11d7c7a0800000000000000
+      internalID: -6356882435410344184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_idle_aileg_6
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 770
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d306f597684771f0800000000000000
+      internalID: -1047288778605591594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_idle_aileg_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 385
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9c002d941d8ff30800000000000000
+      internalID: 4609664333599787515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_idle_aileg_8
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 385
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972ed09eec7eb4fc0800000000000000
+      internalID: -3509456608745889159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_idle_aileg_9
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 385
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49f3141712471570800000000000000
+      internalID: 8437285093790447950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_idle_aileg_10
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 385
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb43f52c37ff0040800000000000000
+      internalID: 4616179980784847814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_idle_aileg_11
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 385
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5321385285988de80800000000000000
+      internalID: -8153616113674808779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_idle_aileg_12
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 385
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed835891b9e6f9c0800000000000000
+      internalID: -3893667878841119262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_idle_aileg_13
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 385
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a7eea6ebd814fd0800000000000000
+      internalID: -2359448880788112828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_idle_aileg_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edf9f9f3c5da24d0800000000000000
+      internalID: -3158477150957732381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_idle_aileg_15
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf05b7c1dc7de020800000000000000
+      internalID: 2372689819134660543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_idle_aileg_16
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 0
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76aedc6b7fa8b50e0800000000000000
+      internalID: -2280075989804520857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_idle_aileg_17
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 0
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19a95baba2f94340800000000000000
+      internalID: 4848673292969158938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_idle_aileg_18
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260e242658f1c5070800000000000000
+      internalID: 8096380887844970594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_idle_aileg_19
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 0
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25a7edfb60275e50800000000000000
+      internalID: 6797937810732459309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_idle_aileg_20
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 0
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c2dafec549be390800000000000000
+      internalID: -7787968003728135146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 72df6ded24ff6664ea8d0290d2b4bad9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Armature_idle_aileg_0: 6506821700555953720
+      Armature_idle_aileg_1: 1473324043241976811
+      Armature_idle_aileg_10: 4616179980784847814
+      Armature_idle_aileg_11: -8153616113674808779
+      Armature_idle_aileg_12: -3893667878841119262
+      Armature_idle_aileg_13: -2359448880788112828
+      Armature_idle_aileg_14: -3158477150957732381
+      Armature_idle_aileg_15: 2372689819134660543
+      Armature_idle_aileg_16: -2280075989804520857
+      Armature_idle_aileg_17: 4848673292969158938
+      Armature_idle_aileg_18: 8096380887844970594
+      Armature_idle_aileg_19: 6797937810732459309
+      Armature_idle_aileg_2: 6210580250366483763
+      Armature_idle_aileg_20: -7787968003728135146
+      Armature_idle_aileg_3: 5634119642411013285
+      Armature_idle_aileg_4: 7748515117257880252
+      Armature_idle_aileg_5: -6356882435410344184
+      Armature_idle_aileg_6: -1047288778605591594
+      Armature_idle_aileg_7: 4609664333599787515
+      Armature_idle_aileg_8: -3509456608745889159
+      Armature_idle_aileg_9: 8437285093790447950
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

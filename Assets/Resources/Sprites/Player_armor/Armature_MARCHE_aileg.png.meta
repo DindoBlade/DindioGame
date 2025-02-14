@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: 37c8ec1e95a93a14fa5192bae5a15016
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1567046210119398143
+    second: Armature_MARCHE_aileg_0
+  - first:
+      213: 5634360752646385887
+    second: Armature_MARCHE_aileg_1
+  - first:
+      213: -7404794291862958927
+    second: Armature_MARCHE_aileg_2
+  - first:
+      213: -821030975351360450
+    second: Armature_MARCHE_aileg_3
+  - first:
+      213: -7653025970438556232
+    second: Armature_MARCHE_aileg_4
+  - first:
+      213: -2255563188474344460
+    second: Armature_MARCHE_aileg_5
+  - first:
+      213: 5250922215208288875
+    second: Armature_MARCHE_aileg_6
+  - first:
+      213: -2373578387925332930
+    second: Armature_MARCHE_aileg_7
+  - first:
+      213: -5883256186203313819
+    second: Armature_MARCHE_aileg_8
+  - first:
+      213: 262553525823914271
+    second: Armature_MARCHE_aileg_9
+  - first:
+      213: -2367462216407998730
+    second: Armature_MARCHE_aileg_10
+  - first:
+      213: 1910971908545980824
+    second: Armature_MARCHE_aileg_11
+  - first:
+      213: 3955841223610660663
+    second: Armature_MARCHE_aileg_12
+  - first:
+      213: -1300231451718290825
+    second: Armature_MARCHE_aileg_13
+  - first:
+      213: -5852499559844460571
+    second: Armature_MARCHE_aileg_14
+  - first:
+      213: -1371146145173029520
+    second: Armature_MARCHE_aileg_15
+  - first:
+      213: 1457245722344737644
+    second: Armature_MARCHE_aileg_16
+  - first:
+      213: -6260924667710116338
+    second: Armature_MARCHE_aileg_17
+  - first:
+      213: 3007710793239157316
+    second: Armature_MARCHE_aileg_18
+  - first:
+      213: 4440923720124398392
+    second: Armature_MARCHE_aileg_19
+  - first:
+      213: 1440725491266962057
+    second: Armature_MARCHE_aileg_20
+  - first:
+      213: 3901443265306902633
+    second: Armature_MARCHE_aileg_21
+  - first:
+      213: -2929445870263443594
+    second: Armature_MARCHE_aileg_22
+  - first:
+      213: -5770592897342150341
+    second: Armature_MARCHE_aileg_23
+  - first:
+      213: -6535862821150777356
+    second: Armature_MARCHE_aileg_24
+  - first:
+      213: 7502609973255289746
+    second: Armature_MARCHE_aileg_25
+  - first:
+      213: 2741552392413131224
+    second: Armature_MARCHE_aileg_26
+  - first:
+      213: -2016812474516386800
+    second: Armature_MARCHE_aileg_27
+  - first:
+      213: 1639444864813629623
+    second: Armature_MARCHE_aileg_28
+  - first:
+      213: 8377827149562060737
+    second: Armature_MARCHE_aileg_29
+  - first:
+      213: 4077655394095159639
+    second: Armature_MARCHE_aileg_30
+  - first:
+      213: -8802701121634067309
+    second: Armature_MARCHE_aileg_31
+  - first:
+      213: -8105071188678935700
+    second: Armature_MARCHE_aileg_32
+  - first:
+      213: 1438590808787137050
+    second: Armature_MARCHE_aileg_33
+  - first:
+      213: 6884187486911516286
+    second: Armature_MARCHE_aileg_34
+  - first:
+      213: 7790873463238942139
+    second: Armature_MARCHE_aileg_35
+  - first:
+      213: 4969515546379708779
+    second: Armature_MARCHE_aileg_36
+  - first:
+      213: -9027277103116963734
+    second: Armature_MARCHE_aileg_37
+  - first:
+      213: -2033193126619103893
+    second: Armature_MARCHE_aileg_38
+  - first:
+      213: 5008638212967092181
+    second: Armature_MARCHE_aileg_39
+  - first:
+      213: -3808137426480598312
+    second: Armature_MARCHE_aileg_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1855
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d063346cbb04ae0800000000000000
+      internalID: -1567046210119398143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1855
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0f3ed9045413e40800000000000000
+      internalID: 5634360752646385887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_2
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1855
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc0ba6e2d2ec3990800000000000000
+      internalID: -7404794291862958927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_3
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1855
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34f69c8dac1b94f0800000000000000
+      internalID: -821030975351360450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_4
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1855
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5bb276d6dfac590800000000000000
+      internalID: -7653025970438556232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_5
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1855
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb0a860b31a2b0e0800000000000000
+      internalID: -2255563188474344460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_6
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 1855
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6282b42fe50fd840800000000000000
+      internalID: 5250922215208288875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1484
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c8a2d280b5f0fd0800000000000000
+      internalID: -2373578387925332930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_8
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1484
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5696bb26ba97a5ea0800000000000000
+      internalID: -5883256186203313819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_9
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1484
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11c2496a07c4a300800000000000000
+      internalID: 262553525823914271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_10
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1484
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe97d358a5152fd0800000000000000
+      internalID: -2367462216407998730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_11
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1484
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89922a873d2258a10800000000000000
+      internalID: 1910971908545980824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_12
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1484
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737f82942a8f5e630800000000000000
+      internalID: 3955841223610660663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_13
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 1484
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7727a823266a4fde0800000000000000
+      internalID: -1300231451718290825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1113
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7475f78aeb7cea0800000000000000
+      internalID: -5852499559844460571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_15
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1113
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07db0d978d5b8fce0800000000000000
+      internalID: -1371146145173029520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_16
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1113
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bc0de734d293410800000000000000
+      internalID: 1457245722344737644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_17
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1113
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e68afbf2abc19a0800000000000000
+      internalID: -6260924667710116338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_18
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1113
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ad02ae7098db920800000000000000
+      internalID: 3007710793239157316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_19
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1113
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83bfe9c289451ad30800000000000000
+      internalID: 4440923720124398392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_20
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 1113
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98241d5733c7ef310800000000000000
+      internalID: 1440725491266962057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 742
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96045f3aaf5b42630800000000000000
+      internalID: 3901443265306902633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_22
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 742
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f563a70848857d0800000000000000
+      internalID: -2929445870263443594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_23
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 742
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b396782755cbaefa0800000000000000
+      internalID: -5770592897342150341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_24
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 742
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff10a48463fb45a0800000000000000
+      internalID: -6535862821150777356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_25
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 742
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b3f282500ae1860800000000000000
+      internalID: 7502609973255289746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_26
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 742
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d138e22063fb0620800000000000000
+      internalID: 2741552392413131224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_27
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 742
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ccfdd6db7d204e0800000000000000
+      internalID: -2016812474516386800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 371
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b00e0c1b6a70c610800000000000000
+      internalID: 1639444864813629623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_29
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 371
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf1547a765044470800000000000000
+      internalID: 8377827149562060737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_30
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 371
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7595f710afdb69830800000000000000
+      internalID: 4077655394095159639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_31
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 371
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c9115f7f586d580800000000000000
+      internalID: -8802701121634067309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_32
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 371
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bf98742b0058f80800000000000000
+      internalID: -8105071188678935700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_33
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 371
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1236e6f7b6e6f310800000000000000
+      internalID: 1438590808787137050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_34
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 371
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ecc8c9b0c898f50800000000000000
+      internalID: 6884187486911516286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbddf52132ebe1c60800000000000000
+      internalID: 7790873463238942139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_36
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b696ebf4f0447f440800000000000000
+      internalID: 4969515546379708779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_37
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 0
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6032b3ad4ba8b280800000000000000
+      internalID: -9027277103116963734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_38
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 0
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d3a18af95a8c3e0800000000000000
+      internalID: -2033193126619103893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_39
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 0
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfc954fae1428540800000000000000
+      internalID: 5008638212967092181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_MARCHE_aileg_40
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 0
+        width: 159
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2f0cedf27c62bc0800000000000000
+      internalID: -3808137426480598312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6e667514f16732a489439d86c1e47f46
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Armature_MARCHE_aileg_0: -1567046210119398143
+      Armature_MARCHE_aileg_1: 5634360752646385887
+      Armature_MARCHE_aileg_10: -2367462216407998730
+      Armature_MARCHE_aileg_11: 1910971908545980824
+      Armature_MARCHE_aileg_12: 3955841223610660663
+      Armature_MARCHE_aileg_13: -1300231451718290825
+      Armature_MARCHE_aileg_14: -5852499559844460571
+      Armature_MARCHE_aileg_15: -1371146145173029520
+      Armature_MARCHE_aileg_16: 1457245722344737644
+      Armature_MARCHE_aileg_17: -6260924667710116338
+      Armature_MARCHE_aileg_18: 3007710793239157316
+      Armature_MARCHE_aileg_19: 4440923720124398392
+      Armature_MARCHE_aileg_2: -7404794291862958927
+      Armature_MARCHE_aileg_20: 1440725491266962057
+      Armature_MARCHE_aileg_21: 3901443265306902633
+      Armature_MARCHE_aileg_22: -2929445870263443594
+      Armature_MARCHE_aileg_23: -5770592897342150341
+      Armature_MARCHE_aileg_24: -6535862821150777356
+      Armature_MARCHE_aileg_25: 7502609973255289746
+      Armature_MARCHE_aileg_26: 2741552392413131224
+      Armature_MARCHE_aileg_27: -2016812474516386800
+      Armature_MARCHE_aileg_28: 1639444864813629623
+      Armature_MARCHE_aileg_29: 8377827149562060737
+      Armature_MARCHE_aileg_3: -821030975351360450
+      Armature_MARCHE_aileg_30: 4077655394095159639
+      Armature_MARCHE_aileg_31: -8802701121634067309
+      Armature_MARCHE_aileg_32: -8105071188678935700
+      Armature_MARCHE_aileg_33: 1438590808787137050
+      Armature_MARCHE_aileg_34: 6884187486911516286
+      Armature_MARCHE_aileg_35: 7790873463238942139
+      Armature_MARCHE_aileg_36: 4969515546379708779
+      Armature_MARCHE_aileg_37: -9027277103116963734
+      Armature_MARCHE_aileg_38: -2033193126619103893
+      Armature_MARCHE_aileg_39: 5008638212967092181
+      Armature_MARCHE_aileg_4: -7653025970438556232
+      Armature_MARCHE_aileg_40: -3808137426480598312
+      Armature_MARCHE_aileg_5: -2255563188474344460
+      Armature_MARCHE_aileg_6: 5250922215208288875
+      Armature_MARCHE_aileg_7: -2373578387925332930
+      Armature_MARCHE_aileg_8: -5883256186203313819
+      Armature_MARCHE_aileg_9: 262553525823914271
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

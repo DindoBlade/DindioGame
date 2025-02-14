@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: f054e97a9057c584d8f6b1e418383536
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9034844344727946759
+    second: Armature_coupaileg_0
+  - first:
+      213: 7601305916148846886
+    second: Armature_coupaileg_1
+  - first:
+      213: -1965062125911235898
+    second: Armature_coupaileg_2
+  - first:
+      213: 3207313167647383002
+    second: Armature_coupaileg_3
+  - first:
+      213: -6202458650280821485
+    second: Armature_coupaileg_4
+  - first:
+      213: 339767099373034727
+    second: Armature_coupaileg_5
+  - first:
+      213: 6362687954189197537
+    second: Armature_coupaileg_6
+  - first:
+      213: -3451777671345622793
+    second: Armature_coupaileg_7
+  - first:
+      213: 1825929265614145767
+    second: Armature_coupaileg_8
+  - first:
+      213: -5688013437807356166
+    second: Armature_coupaileg_9
+  - first:
+      213: -518711685995962346
+    second: Armature_coupaileg_10
+  - first:
+      213: -3644541653075192178
+    second: Armature_coupaileg_11
+  - first:
+      213: -8118757185196678471
+    second: Armature_coupaileg_12
+  - first:
+      213: 2225454285049234222
+    second: Armature_coupaileg_13
+  - first:
+      213: 1300797484541950654
+    second: Armature_coupaileg_14
+  - first:
+      213: -2063985674867212064
+    second: Armature_coupaileg_15
+  - first:
+      213: -9042634293729484050
+    second: Armature_coupaileg_16
+  - first:
+      213: -1504076104759644889
+    second: Armature_coupaileg_17
+  - first:
+      213: -8400906095721619227
+    second: Armature_coupaileg_18
+  - first:
+      213: 1501144846494218218
+    second: Armature_coupaileg_19
+  - first:
+      213: -8348406459211386849
+    second: Armature_coupaileg_20
+  - first:
+      213: 3707961166097092191
+    second: Armature_coupaileg_21
+  - first:
+      213: 183081671504828214
+    second: Armature_coupaileg_22
+  - first:
+      213: 1070082760168293489
+    second: Armature_coupaileg_23
+  - first:
+      213: -9193869159442628868
+    second: Armature_coupaileg_24
+  - first:
+      213: -4997842291216215836
+    second: Armature_coupaileg_25
+  - first:
+      213: -256118085268638730
+    second: Armature_coupaileg_26
+  - first:
+      213: -3939762724072301839
+    second: Armature_coupaileg_27
+  - first:
+      213: -85902478688275751
+    second: Armature_coupaileg_28
+  - first:
+      213: -8739169545188936428
+    second: Armature_coupaileg_29
+  - first:
+      213: 8492942076435903445
+    second: Armature_coupaileg_30
+  - first:
+      213: 2529926167719792726
+    second: Armature_coupaileg_31
+  - first:
+      213: -5616077646099958862
+    second: Armature_coupaileg_32
+  - first:
+      213: 5264659278224428253
+    second: Armature_coupaileg_33
+  - first:
+      213: -8738455536590621620
+    second: Armature_coupaileg_34
+  - first:
+      213: 6810842140151287766
+    second: Armature_coupaileg_35
+  - first:
+      213: 5574973002819214651
+    second: Armature_coupaileg_36
+  - first:
+      213: -25875427060804890
+    second: Armature_coupaileg_37
+  - first:
+      213: 1230002555282691857
+    second: Armature_coupaileg_38
+  - first:
+      213: -6083556845427491538
+    second: Armature_coupaileg_39
+  - first:
+      213: 5672585928150302909
+    second: Armature_coupaileg_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armature_coupaileg_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4395
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f93b87efe8cd9280800000000000000
+      internalID: -9034844344727946759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_1
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 4395
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621902115734d7960800000000000000
+      internalID: 7601305916148846886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_2
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 4395
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2ac776862bab4e0800000000000000
+      internalID: -1965062125911235898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_3
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 4395
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add1e09355aa28c20800000000000000
+      internalID: 3207313167647383002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_4
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 4395
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d76f738b07ce9a0800000000000000
+      internalID: -6202458650280821485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_5
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 4395
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec9e70706817b400800000000000000
+      internalID: 339767099373034727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_6
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 4395
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0aa1ebbfecc4850800000000000000
+      internalID: 6362687954189197537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3516
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0b1d70f72d810d0800000000000000
+      internalID: -3451777671345622793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_8
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 3516
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8cbed2ef0075910800000000000000
+      internalID: 1825929265614145767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_9
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 3516
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af618d92aed1011b0800000000000000
+      internalID: -5688013437807356166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_10
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 3516
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610ed57487a2dc8f0800000000000000
+      internalID: -518711685995962346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_11
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 3516
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8696571dacfb6dc0800000000000000
+      internalID: -3644541653075192178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_12
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 3516
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2a3b6ea51645f80800000000000000
+      internalID: -8118757185196678471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_13
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 3516
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e230b3c91e662ee10800000000000000
+      internalID: 2225454285049234222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2637
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba38d69b6c5d0210800000000000000
+      internalID: 1300797484541950654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_15
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 2637
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e08b04d6ff3b53e0800000000000000
+      internalID: -2063985674867212064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_16
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 2637
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee22d70150c128280800000000000000
+      internalID: -9042634293729484050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_17
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 2637
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72de5ac60c2702be0800000000000000
+      internalID: -1504076104759644889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_18
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 2637
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e069157a6cf96b80800000000000000
+      internalID: -8400906095721619227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_19
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 2637
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae732b3d84325d410800000000000000
+      internalID: 1501144846494218218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_20
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 2637
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10f02e9e80842c80800000000000000
+      internalID: -8348406459211386849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1758
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e0922f803557330800000000000000
+      internalID: 3707961166097092191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_22
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1758
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6371eea6fcf6a8200800000000000000
+      internalID: 183081671504828214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_23
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1758
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174c910d992b9de00800000000000000
+      internalID: 1070082760168293489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_24
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 1758
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfeb000f5b0d86080800000000000000
+      internalID: -9193869159442628868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_25
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 1758
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e012a47ae814aab0800000000000000
+      internalID: -4997842291216215836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_26
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 1758
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3720b55f5127cf0800000000000000
+      internalID: -256118085268638730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_27
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 1758
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa585c1da62359c0800000000000000
+      internalID: -3939762724072301839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 879
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2b5789620decef0800000000000000
+      internalID: -85902478688275751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_29
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 879
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415f91bc99b38b680800000000000000
+      internalID: -8739169545188936428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_30
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 879
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d33eeb22ddfcd570800000000000000
+      internalID: 8492942076435903445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_31
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 879
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65057e6027a1c1320800000000000000
+      internalID: 2529926167719792726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_32
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 879
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b33339d22faf02b0800000000000000
+      internalID: -5616077646099958862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_33
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 879
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc080e58b3df0940800000000000000
+      internalID: 5264659278224428253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_34
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 879
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4478ffdcf4cab680800000000000000
+      internalID: -8738455536590621620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df8af057d8f48e50800000000000000
+      internalID: 6810842140151287766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_36
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 0
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d9e6998684e5d40800000000000000
+      internalID: 5574973002819214651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_37
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 0
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e211a9af6214aff0800000000000000
+      internalID: -25875427060804890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_38
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 0
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1179274aec8d11110800000000000000
+      internalID: 1230002555282691857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_39
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 0
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2df569f74dd29ba0800000000000000
+      internalID: -6083556845427491538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupaileg_40
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 0
+        width: 636
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db04745d8d219be40800000000000000
+      internalID: 5672585928150302909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3c08b6627d3a98042961b2c9cc4f9b41
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Armature_coupaileg_0: -9034844344727946759
+      Armature_coupaileg_1: 7601305916148846886
+      Armature_coupaileg_10: -518711685995962346
+      Armature_coupaileg_11: -3644541653075192178
+      Armature_coupaileg_12: -8118757185196678471
+      Armature_coupaileg_13: 2225454285049234222
+      Armature_coupaileg_14: 1300797484541950654
+      Armature_coupaileg_15: -2063985674867212064
+      Armature_coupaileg_16: -9042634293729484050
+      Armature_coupaileg_17: -1504076104759644889
+      Armature_coupaileg_18: -8400906095721619227
+      Armature_coupaileg_19: 1501144846494218218
+      Armature_coupaileg_2: -1965062125911235898
+      Armature_coupaileg_20: -8348406459211386849
+      Armature_coupaileg_21: 3707961166097092191
+      Armature_coupaileg_22: 183081671504828214
+      Armature_coupaileg_23: 1070082760168293489
+      Armature_coupaileg_24: -9193869159442628868
+      Armature_coupaileg_25: -4997842291216215836
+      Armature_coupaileg_26: -256118085268638730
+      Armature_coupaileg_27: -3939762724072301839
+      Armature_coupaileg_28: -85902478688275751
+      Armature_coupaileg_29: -8739169545188936428
+      Armature_coupaileg_3: 3207313167647383002
+      Armature_coupaileg_30: 8492942076435903445
+      Armature_coupaileg_31: 2529926167719792726
+      Armature_coupaileg_32: -5616077646099958862
+      Armature_coupaileg_33: 5264659278224428253
+      Armature_coupaileg_34: -8738455536590621620
+      Armature_coupaileg_35: 6810842140151287766
+      Armature_coupaileg_36: 5574973002819214651
+      Armature_coupaileg_37: -25875427060804890
+      Armature_coupaileg_38: 1230002555282691857
+      Armature_coupaileg_39: -6083556845427491538
+      Armature_coupaileg_4: -6202458650280821485
+      Armature_coupaileg_40: 5672585928150302909
+      Armature_coupaileg_5: 339767099373034727
+      Armature_coupaileg_6: 6362687954189197537
+      Armature_coupaileg_7: -3451777671345622793
+      Armature_coupaileg_8: 1825929265614145767
+      Armature_coupaileg_9: -5688013437807356166
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

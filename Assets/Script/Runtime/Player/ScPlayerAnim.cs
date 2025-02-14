@@ -11,8 +11,7 @@ namespace Dindio.Runtime.Player.Anim {
         [SerializeField] private Animator _animator;
         [SerializeField] private SoPlayerSkins _skins;
 
-        public override void OnNetworkSpawn()
-        {
+        public override void OnNetworkSpawn() {
             SetSkinServerRpc(ScSkinSelectionManager.Instance.SkinUsedIndex);
         }
         
