@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 29821c5727425c549ba8563e38955849
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2355939831001862813
+    second: Armature_coupbec_aileg_0
+  - first:
+      213: -6358934455838377862
+    second: Armature_coupbec_aileg_1
+  - first:
+      213: 3516637413664624006
+    second: Armature_coupbec_aileg_2
+  - first:
+      213: 3152230140109574317
+    second: Armature_coupbec_aileg_3
+  - first:
+      213: 3637676256785078290
+    second: Armature_coupbec_aileg_4
+  - first:
+      213: -7513161989726906474
+    second: Armature_coupbec_aileg_5
+  - first:
+      213: 7240680685776309090
+    second: Armature_coupbec_aileg_6
+  - first:
+      213: 7097516112177567451
+    second: Armature_coupbec_aileg_7
+  - first:
+      213: -1488296485172652432
+    second: Armature_coupbec_aileg_8
+  - first:
+      213: 6431710391082782197
+    second: Armature_coupbec_aileg_9
+  - first:
+      213: 1597413625608375593
+    second: Armature_coupbec_aileg_10
+  - first:
+      213: 3778920824398624977
+    second: Armature_coupbec_aileg_11
+  - first:
+      213: 6761338476554412904
+    second: Armature_coupbec_aileg_12
+  - first:
+      213: -6586416361897599800
+    second: Armature_coupbec_aileg_13
+  - first:
+      213: -6982476122801041583
+    second: Armature_coupbec_aileg_14
+  - first:
+      213: -2939699894698281144
+    second: Armature_coupbec_aileg_15
+  - first:
+      213: 2463321405260033173
+    second: Armature_coupbec_aileg_16
+  - first:
+      213: 5418602810100867594
+    second: Armature_coupbec_aileg_17
+  - first:
+      213: -7261753152141090407
+    second: Armature_coupbec_aileg_18
+  - first:
+      213: 8347430118966120443
+    second: Armature_coupbec_aileg_19
+  - first:
+      213: 4325627090427211674
+    second: Armature_coupbec_aileg_20
+  - first:
+      213: -716622458582407610
+    second: Armature_coupbec_aileg_21
+  - first:
+      213: -3535894976818892683
+    second: Armature_coupbec_aileg_22
+  - first:
+      213: -400948704457540894
+    second: Armature_coupbec_aileg_23
+  - first:
+      213: -4540283263882046112
+    second: Armature_coupbec_aileg_24
+  - first:
+      213: -4399082289265845047
+    second: Armature_coupbec_aileg_25
+  - first:
+      213: 257867679146398519
+    second: Armature_coupbec_aileg_26
+  - first:
+      213: 5350054797223354716
+    second: Armature_coupbec_aileg_27
+  - first:
+      213: 2313124069651146042
+    second: Armature_coupbec_aileg_28
+  - first:
+      213: -9075660779457996573
+    second: Armature_coupbec_aileg_29
+  - first:
+      213: 5514754016050342353
+    second: Armature_coupbec_aileg_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1496
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36da0fcb4350e4fd0800000000000000
+      internalID: -2355939831001862813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_1
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1496
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78f2c1bdc680c7a0800000000000000
+      internalID: -6358934455838377862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_2
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1496
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d0455881b9dc030800000000000000
+      internalID: 3516637413664624006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_3
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1496
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0d2877c98febb20800000000000000
+      internalID: 3152230140109574317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_4
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1496
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2181c85484f9b7230800000000000000
+      internalID: 3637676256785078290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_5
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1496
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6975c5e0af2ebb790800000000000000
+      internalID: -7513161989726906474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_6
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1496
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b8abf88b01c7460800000000000000
+      internalID: 7240680685776309090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1122
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd694fdbc417f7260800000000000000
+      internalID: 7097516112177567451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_8
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1122
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07652d86b32885be0800000000000000
+      internalID: -1488296485172652432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_9
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1122
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd8da62686024950800000000000000
+      internalID: 6431710391082782197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_10
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1122
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d81c1aa372b2610800000000000000
+      internalID: 1597413625608375593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_11
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1122
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d83b9cd77c617430800000000000000
+      internalID: 3778920824398624977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_12
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1122
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863e435758915dd50800000000000000
+      internalID: 6761338476554412904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_13
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1122
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ccd54617395894a0800000000000000
+      internalID: -6586416361897599800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 748
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f0cc706f2491f90800000000000000
+      internalID: -6982476122801041583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_15
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 748
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847714e55861437d0800000000000000
+      internalID: -2939699894698281144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_16
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 748
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ce32054c97f2220800000000000000
+      internalID: 2463321405260033173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_17
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 748
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02eefafb8eb23b40800000000000000
+      internalID: 5418602810100867594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_18
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 748
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991ae088bf1193b90800000000000000
+      internalID: -7261753152141090407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_19
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 748
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff4f54777708d370800000000000000
+      internalID: 8347430118966120443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_20
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 748
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f68bbabe6b70c30800000000000000
+      internalID: 4325627090427211674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646e026bbab0e06f0800000000000000
+      internalID: -716622458582407610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_22
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 374
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5703f97a04afdeec0800000000000000
+      internalID: -3535894976818892683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_23
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 374
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eab7a1174b8f6af0800000000000000
+      internalID: -400948704457540894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_24
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 374
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065d8ac4d6cadf0c0800000000000000
+      internalID: -4540283263882046112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_25
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 374
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ccd89a17f153f2c0800000000000000
+      internalID: -4399082289265845047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_26
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 374
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7335396b941249300800000000000000
+      internalID: 257867679146398519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_27
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 374
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c516f550e763f3a40800000000000000
+      internalID: 5350054797223354716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3566fcf51ed91020800000000000000
+      internalID: 2313124069651146042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_29
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 0
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e816722b96cc0280800000000000000
+      internalID: -9075660779457996573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_coupbec_aileg_30
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 275
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9e6562f87588c40800000000000000
+      internalID: 5514754016050342353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 82baa96da333558478699469c5f4b86d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Armature_coupbec_aileg_0: -2355939831001862813
+      Armature_coupbec_aileg_1: -6358934455838377862
+      Armature_coupbec_aileg_10: 1597413625608375593
+      Armature_coupbec_aileg_11: 3778920824398624977
+      Armature_coupbec_aileg_12: 6761338476554412904
+      Armature_coupbec_aileg_13: -6586416361897599800
+      Armature_coupbec_aileg_14: -6982476122801041583
+      Armature_coupbec_aileg_15: -2939699894698281144
+      Armature_coupbec_aileg_16: 2463321405260033173
+      Armature_coupbec_aileg_17: 5418602810100867594
+      Armature_coupbec_aileg_18: -7261753152141090407
+      Armature_coupbec_aileg_19: 8347430118966120443
+      Armature_coupbec_aileg_2: 3516637413664624006
+      Armature_coupbec_aileg_20: 4325627090427211674
+      Armature_coupbec_aileg_21: -716622458582407610
+      Armature_coupbec_aileg_22: -3535894976818892683
+      Armature_coupbec_aileg_23: -400948704457540894
+      Armature_coupbec_aileg_24: -4540283263882046112
+      Armature_coupbec_aileg_25: -4399082289265845047
+      Armature_coupbec_aileg_26: 257867679146398519
+      Armature_coupbec_aileg_27: 5350054797223354716
+      Armature_coupbec_aileg_28: 2313124069651146042
+      Armature_coupbec_aileg_29: -9075660779457996573
+      Armature_coupbec_aileg_3: 3152230140109574317
+      Armature_coupbec_aileg_30: 5514754016050342353
+      Armature_coupbec_aileg_4: 3637676256785078290
+      Armature_coupbec_aileg_5: -7513161989726906474
+      Armature_coupbec_aileg_6: 7240680685776309090
+      Armature_coupbec_aileg_7: 7097516112177567451
+      Armature_coupbec_aileg_8: -1488296485172652432
+      Armature_coupbec_aileg_9: 6431710391082782197
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
