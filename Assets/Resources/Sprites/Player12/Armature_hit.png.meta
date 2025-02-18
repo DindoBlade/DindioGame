@@ -1,0 +1,952 @@
+fileFormatVersion: 2
+guid: b561b948269b5ee45ac7c8f25b9ad8f1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2781280726687847098
+    second: Armature_hit_0
+  - first:
+      213: 5692871518680181284
+    second: Armature_hit_1
+  - first:
+      213: -9074673110461601018
+    second: Armature_hit_2
+  - first:
+      213: 2241343289355391170
+    second: Armature_hit_3
+  - first:
+      213: 7254964144921704807
+    second: Armature_hit_4
+  - first:
+      213: -9103037361126718648
+    second: Armature_hit_5
+  - first:
+      213: 4273720496008113802
+    second: Armature_hit_6
+  - first:
+      213: 8136973472917772810
+    second: Armature_hit_7
+  - first:
+      213: -7279691462498415288
+    second: Armature_hit_8
+  - first:
+      213: 3421638873012067253
+    second: Armature_hit_9
+  - first:
+      213: -8769982750900669874
+    second: Armature_hit_10
+  - first:
+      213: -4657545267900055701
+    second: Armature_hit_11
+  - first:
+      213: -8456391426605885130
+    second: Armature_hit_12
+  - first:
+      213: 6724933138418782412
+    second: Armature_hit_13
+  - first:
+      213: 2723089836098244868
+    second: Armature_hit_14
+  - first:
+      213: -7015066520203025633
+    second: Armature_hit_15
+  - first:
+      213: -6432708048080742075
+    second: Armature_hit_16
+  - first:
+      213: 2927959519984272327
+    second: Armature_hit_17
+  - first:
+      213: 3668267906390576377
+    second: Armature_hit_18
+  - first:
+      213: -4809023214949114765
+    second: Armature_hit_19
+  - first:
+      213: 7940307093538874078
+    second: Armature_hit_20
+  - first:
+      213: 6912122823248687716
+    second: Armature_hit_21
+  - first:
+      213: 988448251917424004
+    second: Armature_hit_22
+  - first:
+      213: -6270260343660708044
+    second: Armature_hit_23
+  - first:
+      213: 2897925185975163781
+    second: Armature_hit_24
+  - first:
+      213: -1703949898789380090
+    second: Armature_hit_25
+  - first:
+      213: 8097007671224780877
+    second: Armature_hit_26
+  - first:
+      213: 1965656679663535883
+    second: Armature_hit_27
+  - first:
+      213: -3239629823609971824
+    second: Armature_hit_28
+  - first:
+      213: 3514556583043366678
+    second: Armature_hit_29
+  - first:
+      213: 462117887333853454
+    second: Armature_hit_30
+  - first:
+      213: 4516249586529585642
+    second: Armature_hit_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armature_hit_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2556
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcb2e038ac77a34994e65bd274a4995
+      internalID: 1968081097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_1
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 2556
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b69e48244434fd4f84584ca42965cfe
+      internalID: -1779764217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_2
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 2556
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b0cbdec0e02c2468e9ac5d0fb090b9
+      internalID: -1771833769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_3
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 2556
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bb358be647c004ca544027fed6d166
+      internalID: 1363767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_4
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 2556
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2e3f695769e3748814a1f851c11faa
+      internalID: -309584356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_5
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 2556
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84dd53cf82a774a4c80893382754b1a9
+      internalID: 1706526702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_6
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 2556
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40768cd2a3294c24582af91f65d7ccc8
+      internalID: 1305385025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1917
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a068154ac1bb841a22335f5d9d8c4d
+      internalID: 623882276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_8
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1917
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546a52185f980a940a027284a7e12fb1
+      internalID: -968175730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_9
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1917
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4135c045bc1bf5f43aafe2e0e585adf5
+      internalID: -2084233602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_10
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1917
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfce8011aad26547a8a0eff3874fcdd
+      internalID: -1819613694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_11
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1917
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c94c517d8d6b04789449f2a1ab7836
+      internalID: 1893529070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_12
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1917
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91a633b50dd56d41951fa09e7157770
+      internalID: 272656189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_13
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 1912
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de2e68b1d523f740bfd9f2098233969
+      internalID: 1041190494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1278
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f760a3798ad56459859eef40a22740
+      internalID: -503985493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_15
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1278
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc368f2dd22c0648ba3fc22e7c099a1
+      internalID: -1524094689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_16
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1278
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510b1b13f9575a545a7ee785cce85d11
+      internalID: 1065039035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_17
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1278
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595f9132319378d478b32b06eb805831
+      internalID: -1783182649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_18
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1278
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e473e2d0cfde0747a26cb6be8fbf0b3
+      internalID: 1780495501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_19
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1278
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3e74b1ee181024d92e69f6e7988ab8
+      internalID: 12828070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_20
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 1278
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cbf9c1d928b74468db66f9ef356cef
+      internalID: 110260825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 639
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1fed4bb2a248243935774d064f92ea
+      internalID: -77717476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_22
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 639
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d73b7a8cdbadb4984cbf5eb6b5224d
+      internalID: -690440802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_23
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 639
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f323068d091dbc4395d2095e9cb197a
+      internalID: 594205956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_24
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 639
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616dc51bdb723974c9995a0fa63cbb4a
+      internalID: 844980341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_25
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 639
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee1260c32592d947930da21e1840dda
+      internalID: 1288291153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_26
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 639
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c93a009437b16e4c9e117b73f074748
+      internalID: 234568320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_27
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 641
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd155deb487a9a41ba42355f33e0dcc
+      internalID: 797528763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04720bef450d30a47a69c5114b3bed3f
+      internalID: 1566724211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_29
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 0
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1445b552a81a5b947a3cacf4eac24237
+      internalID: 1406496546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_hit_30
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 0
+        width: 387
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d96daf18c6d7264ea2f08b44f4021dd
+      internalID: -1208237954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3e312b808d8f49844938023fe64cfd46
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Armature_hit_0: 1968081097
+      Armature_hit_1: -1779764217
+      Armature_hit_10: -1819613694
+      Armature_hit_11: 1893529070
+      Armature_hit_12: 272656189
+      Armature_hit_13: 1041190494
+      Armature_hit_14: -503985493
+      Armature_hit_15: -1524094689
+      Armature_hit_16: 1065039035
+      Armature_hit_17: -1783182649
+      Armature_hit_18: 1780495501
+      Armature_hit_19: 12828070
+      Armature_hit_2: -1771833769
+      Armature_hit_20: 110260825
+      Armature_hit_21: -77717476
+      Armature_hit_22: -690440802
+      Armature_hit_23: 594205956
+      Armature_hit_24: 844980341
+      Armature_hit_25: 1288291153
+      Armature_hit_26: 234568320
+      Armature_hit_27: 797528763
+      Armature_hit_28: 1566724211
+      Armature_hit_29: 1406496546
+      Armature_hit_3: 1363767
+      Armature_hit_30: -1208237954
+      Armature_hit_4: -309584356
+      Armature_hit_5: 1706526702
+      Armature_hit_6: 1305385025
+      Armature_hit_7: 623882276
+      Armature_hit_8: -968175730
+      Armature_hit_9: -2084233602
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
